@@ -12,6 +12,7 @@
       "minecraft:forest": "2025-02-18 13:09:03 +0700",
       "minecraft:taiga": "2025-02-18 13:07:57 +0700",
       "minecraft:deep_ocean": "2025-02-19 17:41:30 +0700",
+      "minecraft:lush_caves": "2025-05-02 19:31:02 +0700",
       "minecraft:deep_cold_ocean": "2025-02-18 17:03:00 +0700",
       "minecraft:ice_spikes": "2025-02-18 19:35:19 +0700",
       "minecraft:frozen_ocean": "2025-02-18 13:06:51 +0700",
@@ -5704,15 +5705,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/lodestone": {
+    "criteria": {
+      "has_iron_ingot": "2025-05-02 17:08:22 +0700"
+    },
+    "done": true
+  },
   "minecraft:adventure/use_lodestone": {
     "criteria": {
       "use_lodestone": "2025-05-02 17:33:03 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/lodestone": {
+  "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
-      "has_iron_ingot": "2025-05-02 17:08:22 +0700"
+      "axolotl_bucket": "2025-05-02 19:36:07 +0700"
     },
     "done": true
   },
