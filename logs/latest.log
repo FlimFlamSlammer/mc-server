@@ -1,0 +1,251 @@
+[10:41:22] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[10:41:22] [main/INFO]: Loading 80 mods:
+	- alternate-current 1.9.0
+	- c2me 0.3.2.0.0+1.21.5
+	   |-- c2me-base 0.3.2.0.0+1.21.5
+	   |-- c2me-client-uncapvd 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-general-threading-issues 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.2.0.0+1.21.5
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.2.0.0+1.21.5
+	   |-- c2me-notickvd 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-allocs 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-chunkio 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-dfc 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-math 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-natives-math 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-scheduling 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-worldgen-general 0.3.2.0.0+1.21.5
+	   |-- c2me-opts-worldgen-vanilla 0.3.2.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-serializer 0.3.2.0.0+1.21.5
+	   |-- c2me-rewrites-chunk-system 0.3.2.0.0+1.21.5
+	   |-- c2me-rewrites-chunkio 0.3.2.0.0+1.21.5
+	   |-- c2me-server-utils 0.3.2.0.0+1.21.5
+	   |-- c2me-threading-lighting 0.3.2.0.0+1.21.5
+	   |-- com_electronwill_night-config_core 3.6.5
+	   |-- com_electronwill_night-config_toml 3.6.5
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- fabric-api 0.121.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.95+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.12+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.29+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.3+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.7.0+9c0dd47249
+	   |-- fabric-data-generation-api-v1 22.3.4+fd2b524049
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.3.2+2ccdb6ef49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67349
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+081cc04349
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679649
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.23+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
+	- java 23
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- lithium 0.16.2+mc1.21.5
+	- minecraft 1.21.5
+	- nochatreports 1.21.5-v2.12.0
+	- scalablelux 0.1.3+beta.1+fabric.4039a8d
+	- spark 1.10.128
+	   \-- fabric-permissions-api-v0 0.3.3
+	- vmp 0.2.0+beta.7.198+1.21.5
+	   \-- com_ibm_async_asyncutil 0.1.0
+[10:41:22] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[10:41:22] [main/INFO]: Compatibility level set to JAVA_16
+[10:41:22] [main/INFO]: Compatibility level set to JAVA_21
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[10:41:22] [main/INFO]: Global Executor Parallelism: 2 configured, 2 evaluated, 2 default evaluated
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[10:41:22] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[10:41:22] [main/INFO]: Detected maximum supported ISA target: AVX2
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[10:41:22] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[10:41:22] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[10:41:22] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[10:41:22] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[10:41:22] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[10:41:23] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[10:41:29] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[10:41:29] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[10:41:29] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[10:41:31] [main/INFO]: Loaded 1373 recipes
+[10:41:31] [main/INFO]: Loaded 1484 advancements
+[10:41:31] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.208 ms
+[10:41:32] [Server thread/INFO]: Starting background profiler...
+[10:41:32] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[10:41:32] [Server thread/INFO]: Loading properties
+[10:41:32] [Server thread/INFO]: Default game type: SURVIVAL
+[10:41:32] [Server thread/INFO]: Generating keypair
+[10:41:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[10:41:32] [Server thread/INFO]: Using epoll channel type
+[10:41:32] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[10:41:32] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[10:41:32] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[10:41:32] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[10:41:32] [Server thread/INFO]: Preparing level "world"
+[10:41:32] [Server thread/INFO]: Enforcing safe world random access
+[10:41:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 235.3 ms
+[10:41:33] [Server thread/INFO]: Changing watch distance to 16
+[10:41:33] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[10:41:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.474 ms
+[10:41:33] [Server thread/INFO]: Changing watch distance to 16
+[10:41:33] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.048 ms
+[10:41:33] [Server thread/INFO]: Changing watch distance to 16
+[10:41:33] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[10:41:33] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[10:41:35] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[10:41:35] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[10:41:35] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[10:41:35] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[10:41:35] [c2me-worker-1/INFO]: Preparing spawn area: 8%
+[10:41:36] [c2me-worker-1/INFO]: Preparing spawn area: 24%
+[10:41:36] [c2me-worker-0/INFO]: Preparing spawn area: 44%
+[10:41:37] [c2me-worker-1/INFO]: Preparing spawn area: 100%
+[10:41:37] [Server thread/INFO]: Time elapsed: 3613 ms
+[10:41:37] [Server thread/INFO]: Done (4.748s)! For help, type "help"
+[10:41:44] [Server thread/INFO]: Incorrect argument for command
+[10:41:44] [Server thread/INFO]: gamerule -h<--[HERE]
+[10:41:49] [Server thread/INFO]: Incorrect argument for command
+[10:41:49] [Server thread/INFO]: gamerule --help<--[HERE]
+[10:41:53] [Server thread/INFO]: Incorrect argument for command
+[10:41:53] [Server thread/INFO]: gamerule help<--[HERE]
+[10:41:55] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[10:41:55] [Server thread/INFO]: gamerule<--[HERE]
+[10:41:58] [Server thread/INFO]: Incorrect argument for command
+[10:41:58] [Server thread/INFO]: gamerule list<--[HERE]
+[10:42:01] [Server thread/INFO]: /gamerule allowFireTicksAwayFromPlayer [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule announceAdvancements [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule blockExplosionDropDecay [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule commandBlockOutput [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule commandModificationBlockLimit [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule disableElytraMovementCheck [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule disablePlayerMovementCheck [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule disableRaids [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doDaylightCycle [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doEntityDrops [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doFireTick [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doImmediateRespawn [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doInsomnia [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doLimitedCrafting [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doMobLoot [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doMobSpawning [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doPatrolSpawning [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doTileDrops [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doTraderSpawning [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doVinesSpread [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doWardenSpawning [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule doWeatherCycle [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule drowningDamage [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule enderPearlsVanishOnDeath [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule fallDamage [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule fireDamage [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule forgiveDeadPlayers [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule freezeDamage [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule globalSoundEvents [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule keepInventory [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule lavaSourceConversion [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule logAdminCommands [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule maxCommandChainLength [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule maxCommandForkCount [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule maxEntityCramming [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule mobExplosionDropDecay [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule mobGriefing [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule naturalRegeneration [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule playersNetherPortalCreativeDelay [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule playersNetherPortalDefaultDelay [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule playersSleepingPercentage [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule projectilesCanBreakBlocks [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule randomTickSpeed [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule reducedDebugInfo [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule sendCommandFeedback [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule showDeathMessages [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule snowAccumulationHeight [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule spawnChunkRadius [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule spawnRadius [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule spectatorsGenerateChunks [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule tntExplodes [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule tntExplosionDropDecay [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule universalAnger [<value>]
+[10:42:01] [Server thread/INFO]: /gamerule waterSourceConversion [<value>]
+[10:42:09] [Server thread/INFO]: Gamerule reducedDebugInfo is now set to: true
+[10:42:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[10:44:58] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[10:44:58] [Server thread/INFO]: gamerstop<--[HERE]
+[10:45:02] [Server thread/INFO]: Stopping the server
+[10:45:02] [Server thread/INFO]: Stopping server
+[10:45:02] [Server thread/INFO]: Saving players
+[10:45:02] [Server thread/INFO]: Saving worlds
+[10:45:02] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[10:45:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[10:45:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[10:45:02] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[10:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[10:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[10:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[10:45:02] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[10:45:02] [C2ME Storage #3/INFO]: Storage thread Thread[#87,C2ME Storage #3,8,main] stopped
+[10:45:02] [C2ME Storage #2/INFO]: Storage thread Thread[#86,C2ME Storage #2,8,main] stopped
+[10:45:02] [C2ME Storage #1/INFO]: Storage thread Thread[#85,C2ME Storage #1,8,main] stopped
+[10:45:02] [C2ME Storage #7/INFO]: Storage thread Thread[#94,C2ME Storage #7,8,main] stopped
+[10:45:02] [C2ME Storage #8/INFO]: Storage thread Thread[#95,C2ME Storage #8,8,main] stopped
+[10:45:02] [C2ME Storage #6/INFO]: Storage thread Thread[#92,C2ME Storage #6,8,main] stopped
+[10:45:02] [C2ME Storage #9/INFO]: Storage thread Thread[#96,C2ME Storage #9,8,main] stopped
+[10:45:02] [C2ME Storage #5/INFO]: Storage thread Thread[#91,C2ME Storage #5,8,main] stopped
+[10:45:02] [C2ME Storage #4/INFO]: Storage thread Thread[#90,C2ME Storage #4,8,main] stopped
