@@ -1,5 +1,5 @@
-[18:09:29] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[18:09:29] [main/INFO]: Loading 80 mods:
+[22:23:29] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[22:23:29] [main/INFO]: Loading 80 mods:
 	- alternate-current 1.9.0
 	- c2me 0.3.2.0.0+1.21.5
 	   |-- c2me-base 0.3.2.0.0+1.21.5
@@ -92,102 +92,96 @@
 	   \-- fabric-permissions-api-v0 0.3.3
 	- vmp 0.2.0+beta.7.198+1.21.5
 	   \-- com_ibm_async_asyncutil 0.1.0
-[18:09:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:09:29] [main/INFO]: Compatibility level set to JAVA_16
-[18:09:29] [main/INFO]: Compatibility level set to JAVA_21
-[18:09:29] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[18:09:30] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[18:09:30] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[18:09:30] [main/INFO]: Detected maximum supported ISA target: AVX2
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:09:30] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[18:09:30] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[18:09:30] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[18:09:30] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
-[18:09:30] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[18:09:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[18:09:37] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
-[18:09:37] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[18:09:37] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[18:09:39] [main/INFO]: Loaded 1373 recipes
-[18:09:39] [main/INFO]: Loaded 1484 advancements
-[18:09:39] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.142 ms
-[18:09:40] [Server thread/INFO]: Starting background profiler...
-[18:09:40] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[18:09:40] [Server thread/INFO]: Loading properties
-[18:09:40] [Server thread/INFO]: Default game type: SURVIVAL
-[18:09:40] [Server thread/INFO]: Generating keypair
-[18:09:40] [Server thread/INFO]: Starting Minecraft server on *:25565
-[18:09:40] [Server thread/INFO]: Using epoll channel type
-[18:09:40] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:09:40] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:09:40] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[18:09:40] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:09:40] [Server thread/INFO]: Preparing level "world"
-[18:09:40] [Server thread/INFO]: Enforcing safe world random access
-[18:09:41] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 239.9 ms
-[18:09:41] [Server thread/INFO]: Changing watch distance to 16
-[18:09:41] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[18:09:42] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.96 ms
-[18:09:42] [Server thread/INFO]: Changing watch distance to 16
-[18:09:42] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.592 ms
-[18:09:42] [Server thread/INFO]: Changing watch distance to 16
-[18:09:42] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:09:42] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[18:09:43] [c2me-worker-1/INFO]: Preparing spawn area: 0%
-[18:09:43] [c2me-worker-3/INFO]: Preparing spawn area: 0%
-[18:09:43] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[18:09:44] [c2me-worker-0/INFO]: Preparing spawn area: 83%
-[18:09:44] [Server thread/INFO]: Time elapsed: 1739 ms
-[18:09:44] [Server thread/INFO]: Done (3.386s)! For help, type "help"
-[18:10:44] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:37:56] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:47642] logged in with entity id 10 at (4000.626624831223, 64.0, 8193.419699661534)
-[18:37:56] [Server thread/INFO]: FlimFlamSlammer joined the game
-[18:46:16] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[18:46:16] [Server thread/INFO]: FlimFlamSlammer left the game
-[18:47:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:55:48] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:52390] logged in with entity id 2431 at (3964.55346396726, 77.0, 8170.280226963181)
-[18:55:48] [Server thread/INFO]: FlimFlamSlammer joined the game
-[19:10:53] [Server thread/INFO]: <FlimFlamSlammer> @helooimm it's 3
-[19:16:34] [Server thread/INFO]: <FlimFlamSlammer> wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww
-[19:36:07] [Server thread/INFO]: FlimFlamSlammer has made the advancement [The Cutest Predator]
-[19:45:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[20:08:46] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[20:08:46] [Server thread/INFO]: FlimFlamSlammer left the game
-[20:08:53] [Server thread/INFO]: Stopping the server
-[20:08:53] [Server thread/INFO]: Stopping server
-[20:08:53] [Server thread/INFO]: Saving players
-[20:08:53] [Server thread/INFO]: Saving worlds
-[20:08:53] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[20:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[20:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[20:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[20:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[20:08:54] [C2ME Storage #3/INFO]: Storage thread Thread[#96,C2ME Storage #3,8,main] stopped
-[20:08:54] [C2ME Storage #2/INFO]: Storage thread Thread[#95,C2ME Storage #2,8,main] stopped
-[20:08:54] [C2ME Storage #1/INFO]: Storage thread Thread[#94,C2ME Storage #1,8,main] stopped
-[20:08:54] [C2ME Storage #5/INFO]: Storage thread Thread[#100,C2ME Storage #5,8,main] stopped
-[20:08:54] [C2ME Storage #4/INFO]: Storage thread Thread[#99,C2ME Storage #4,8,main] stopped
-[20:08:54] [C2ME Storage #6/INFO]: Storage thread Thread[#101,C2ME Storage #6,8,main] stopped
-[20:08:54] [C2ME Storage #8/INFO]: Storage thread Thread[#104,C2ME Storage #8,8,main] stopped
-[20:08:54] [C2ME Storage #9/INFO]: Storage thread Thread[#105,C2ME Storage #9,8,main] stopped
-[20:08:54] [C2ME Storage #7/INFO]: Storage thread Thread[#103,C2ME Storage #7,8,main] stopped
+[22:23:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:23:29] [main/INFO]: Compatibility level set to JAVA_16
+[22:23:29] [main/INFO]: Compatibility level set to JAVA_21
+[22:23:29] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[22:23:30] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[22:23:30] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[22:23:30] [main/INFO]: Detected maximum supported ISA target: AVX2
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[22:23:30] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[22:23:30] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[22:23:30] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[22:23:30] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[22:23:30] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[22:23:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:23:38] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[22:23:38] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[22:23:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:23:41] [main/INFO]: Loaded 1373 recipes
+[22:23:41] [main/INFO]: Loaded 1484 advancements
+[22:23:41] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.164 ms
+[22:23:43] [Server thread/INFO]: Starting background profiler...
+[22:23:43] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[22:23:43] [Server thread/INFO]: Loading properties
+[22:23:43] [Server thread/INFO]: Default game type: SURVIVAL
+[22:23:43] [Server thread/INFO]: Generating keypair
+[22:23:43] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:23:43] [Server thread/INFO]: Using epoll channel type
+[22:23:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:23:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:23:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:23:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:23:43] [Server thread/INFO]: Preparing level "world"
+[22:23:43] [Server thread/INFO]: Enforcing safe world random access
+[22:23:44] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 341.6 ms
+[22:23:44] [Server thread/INFO]: Changing watch distance to 16
+[22:23:44] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[22:23:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 36.14 ms
+[22:23:45] [Server thread/INFO]: Changing watch distance to 16
+[22:23:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.70 ms
+[22:23:45] [Server thread/INFO]: Changing watch distance to 16
+[22:23:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:23:45] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[22:23:46] [c2me-worker-3/INFO]: Preparing spawn area: 0%
+[22:23:46] [c2me-worker-2/INFO]: Preparing spawn area: 0%
+[22:23:46] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[22:23:47] [c2me-worker-2/INFO]: Preparing spawn area: 22%
+[22:23:47] [c2me-worker-2/INFO]: Preparing spawn area: 67%
+[22:23:48] [c2me-worker-1/INFO]: Preparing spawn area: 89%
+[22:23:48] [Server thread/INFO]: Time elapsed: 2624 ms
+[22:23:48] [Server thread/INFO]: Done (4.721s)! For help, type "help"
+[22:24:46] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:42606] logged in with entity id 10 at (3965.3309630059025, 78.5, 8173.75895051328)
+[22:24:46] [Server thread/INFO]: FlimFlamSlammer joined the game
+[22:24:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2206ms or 44 ticks behind
+[22:39:44] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[22:39:44] [Server thread/INFO]: FlimFlamSlammer left the game
+[22:40:44] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:42:26] [Server thread/INFO]: Stopping the server
+[22:42:26] [Server thread/INFO]: Stopping server
+[22:42:26] [Server thread/INFO]: Saving players
+[22:42:26] [Server thread/INFO]: Saving worlds
+[22:42:26] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[22:42:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:42:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:42:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:42:27] [C2ME Storage #3/INFO]: Storage thread Thread[#96,C2ME Storage #3,8,main] stopped
+[22:42:27] [C2ME Storage #2/INFO]: Storage thread Thread[#95,C2ME Storage #2,8,main] stopped
+[22:42:27] [C2ME Storage #1/INFO]: Storage thread Thread[#94,C2ME Storage #1,8,main] stopped
+[22:42:27] [C2ME Storage #5/INFO]: Storage thread Thread[#100,C2ME Storage #5,8,main] stopped
+[22:42:27] [C2ME Storage #6/INFO]: Storage thread Thread[#101,C2ME Storage #6,8,main] stopped
+[22:42:27] [C2ME Storage #4/INFO]: Storage thread Thread[#99,C2ME Storage #4,8,main] stopped
+[22:42:27] [C2ME Storage #8/INFO]: Storage thread Thread[#104,C2ME Storage #8,8,main] stopped
+[22:42:27] [C2ME Storage #9/INFO]: Storage thread Thread[#105,C2ME Storage #9,8,main] stopped
+[22:42:27] [C2ME Storage #7/INFO]: Storage thread Thread[#103,C2ME Storage #7,8,main] stopped
