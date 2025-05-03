@@ -30,10 +30,13 @@
       "minecraft:old_growth_spruce_taiga": "2025-02-20 12:57:28 +0700",
       "minecraft:snowy_beach": "2025-02-17 11:10:01 +0700",
       "minecraft:bamboo_jungle": "2025-03-20 13:07:20 +0700",
+      "minecraft:wooded_badlands": "2025-05-03 16:30:56 +0700",
       "minecraft:windswept_savanna": "2025-03-25 10:18:13 +0700",
       "minecraft:warm_ocean": "2025-03-25 10:02:33 +0700",
+      "minecraft:deep_lukewarm_ocean": "2025-05-03 17:07:57 +0700",
       "minecraft:beach": "2025-02-20 11:10:38 +0700",
       "minecraft:dark_forest": "2025-02-20 12:56:29 +0700",
+      "minecraft:mangrove_swamp": "2025-05-03 17:23:18 +0700",
       "minecraft:sparse_jungle": "2025-02-20 10:58:46 +0700",
       "minecraft:river": "2025-02-18 08:31:25 +0700",
       "minecraft:lukewarm_ocean": "2025-02-20 11:14:24 +0700",
@@ -421,6 +424,7 @@
       "golden_apple": "2025-03-20 14:35:16 +0700",
       "rotten_flesh": "2025-02-18 08:19:12 +0700",
       "cookie": "2025-03-27 09:17:39 +0700",
+      "suspicious_stew": "2025-05-03 17:12:40 +0700",
       "cooked_mutton": "2025-02-20 10:57:04 +0700",
       "sweet_berries": "2025-02-22 16:16:55 +0700",
       "dried_kelp": "2025-03-18 06:44:22 +0700",
@@ -4388,6 +4392,24 @@
   "minecraft:recipes/misc/raw_copper": {
     "criteria": {
       "has_raw_copper_block": "2025-05-02 17:42:25 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_iron": {
+    "criteria": {
+      "has_raw_iron_block": "2025-05-03 15:36:58 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2025-05-03 16:46:51 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2025-05-03 16:46:51 +0700"
     },
     "done": true
   },

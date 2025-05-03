@@ -1,5 +1,5 @@
-[22:23:29] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[22:23:29] [main/INFO]: Loading 80 mods:
+[13:59:51] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[13:59:51] [main/INFO]: Loading 80 mods:
 	- alternate-current 1.9.0
 	- c2me 0.3.2.0.0+1.21.5
 	   |-- c2me-base 0.3.2.0.0+1.21.5
@@ -92,96 +92,375 @@
 	   \-- fabric-permissions-api-v0 0.3.3
 	- vmp 0.2.0+beta.7.198+1.21.5
 	   \-- com_ibm_async_asyncutil 0.1.0
-[22:23:29] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[22:23:29] [main/INFO]: Compatibility level set to JAVA_16
-[22:23:29] [main/INFO]: Compatibility level set to JAVA_21
-[22:23:29] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[22:23:30] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[22:23:30] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[22:23:30] [main/INFO]: Detected maximum supported ISA target: AVX2
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[22:23:30] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[22:23:30] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[22:23:30] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[22:23:30] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
-[22:23:30] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[22:23:31] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[22:23:38] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
-[22:23:38] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[22:23:38] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[22:23:41] [main/INFO]: Loaded 1373 recipes
-[22:23:41] [main/INFO]: Loaded 1484 advancements
-[22:23:41] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 2.164 ms
-[22:23:43] [Server thread/INFO]: Starting background profiler...
-[22:23:43] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[22:23:43] [Server thread/INFO]: Loading properties
-[22:23:43] [Server thread/INFO]: Default game type: SURVIVAL
-[22:23:43] [Server thread/INFO]: Generating keypair
-[22:23:43] [Server thread/INFO]: Starting Minecraft server on *:25565
-[22:23:43] [Server thread/INFO]: Using epoll channel type
-[22:23:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[22:23:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[22:23:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[22:23:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[22:23:43] [Server thread/INFO]: Preparing level "world"
-[22:23:43] [Server thread/INFO]: Enforcing safe world random access
-[22:23:44] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 341.6 ms
-[22:23:44] [Server thread/INFO]: Changing watch distance to 16
-[22:23:44] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[22:23:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 36.14 ms
-[22:23:45] [Server thread/INFO]: Changing watch distance to 16
-[22:23:45] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 10.70 ms
-[22:23:45] [Server thread/INFO]: Changing watch distance to 16
-[22:23:45] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[22:23:45] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[22:23:46] [c2me-worker-3/INFO]: Preparing spawn area: 0%
-[22:23:46] [c2me-worker-2/INFO]: Preparing spawn area: 0%
-[22:23:46] [c2me-worker-1/INFO]: Preparing spawn area: 0%
-[22:23:47] [c2me-worker-2/INFO]: Preparing spawn area: 22%
-[22:23:47] [c2me-worker-2/INFO]: Preparing spawn area: 67%
-[22:23:48] [c2me-worker-1/INFO]: Preparing spawn area: 89%
-[22:23:48] [Server thread/INFO]: Time elapsed: 2624 ms
-[22:23:48] [Server thread/INFO]: Done (4.721s)! For help, type "help"
-[22:24:46] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:42606] logged in with entity id 10 at (3965.3309630059025, 78.5, 8173.75895051328)
-[22:24:46] [Server thread/INFO]: FlimFlamSlammer joined the game
-[22:24:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2206ms or 44 ticks behind
-[22:39:44] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[22:39:44] [Server thread/INFO]: FlimFlamSlammer left the game
-[22:40:44] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:42:26] [Server thread/INFO]: Stopping the server
-[22:42:26] [Server thread/INFO]: Stopping server
-[22:42:26] [Server thread/INFO]: Saving players
-[22:42:26] [Server thread/INFO]: Saving worlds
-[22:42:26] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[22:42:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:42:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:42:27] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:42:27] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:42:27] [C2ME Storage #3/INFO]: Storage thread Thread[#96,C2ME Storage #3,8,main] stopped
-[22:42:27] [C2ME Storage #2/INFO]: Storage thread Thread[#95,C2ME Storage #2,8,main] stopped
-[22:42:27] [C2ME Storage #1/INFO]: Storage thread Thread[#94,C2ME Storage #1,8,main] stopped
-[22:42:27] [C2ME Storage #5/INFO]: Storage thread Thread[#100,C2ME Storage #5,8,main] stopped
-[22:42:27] [C2ME Storage #6/INFO]: Storage thread Thread[#101,C2ME Storage #6,8,main] stopped
-[22:42:27] [C2ME Storage #4/INFO]: Storage thread Thread[#99,C2ME Storage #4,8,main] stopped
-[22:42:27] [C2ME Storage #8/INFO]: Storage thread Thread[#104,C2ME Storage #8,8,main] stopped
-[22:42:27] [C2ME Storage #9/INFO]: Storage thread Thread[#105,C2ME Storage #9,8,main] stopped
-[22:42:27] [C2ME Storage #7/INFO]: Storage thread Thread[#103,C2ME Storage #7,8,main] stopped
+[13:59:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:59:51] [main/INFO]: Compatibility level set to JAVA_16
+[13:59:51] [main/INFO]: Compatibility level set to JAVA_21
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[13:59:52] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[13:59:52] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[13:59:52] [main/INFO]: Detected maximum supported ISA target: AVX2
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:59:52] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[13:59:52] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[13:59:52] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[13:59:52] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[13:59:52] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[13:59:53] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:59:59] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[13:59:59] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[14:00:00] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:00:02] [main/INFO]: Loaded 1373 recipes
+[14:00:02] [main/INFO]: Loaded 1484 advancements
+[14:00:02] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.640 ms
+[14:00:03] [Server thread/INFO]: Starting background profiler...
+[14:00:04] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[14:00:04] [Server thread/INFO]: Loading properties
+[14:00:04] [Server thread/INFO]: Default game type: SURVIVAL
+[14:00:04] [Server thread/INFO]: Generating keypair
+[14:00:04] [Server thread/INFO]: Starting Minecraft server on *:25565
+[14:00:04] [Server thread/INFO]: Using epoll channel type
+[14:00:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14:00:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[14:00:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14:00:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[14:00:04] [Server thread/INFO]: Preparing level "world"
+[14:00:04] [Server thread/INFO]: Enforcing safe world random access
+[14:00:04] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 217.0 ms
+[14:00:05] [Server thread/INFO]: Changing watch distance to 16
+[14:00:05] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[14:00:05] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.641 ms
+[14:00:05] [Server thread/INFO]: Changing watch distance to 16
+[14:00:05] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.963 ms
+[14:00:05] [Server thread/INFO]: Changing watch distance to 16
+[14:00:06] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[14:00:06] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[14:00:06] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[14:00:06] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[14:00:07] [c2me-worker-3/INFO]: Preparing spawn area: 0%
+[14:00:07] [c2me-worker-3/INFO]: Preparing spawn area: 24%
+[14:00:08] [c2me-worker-2/INFO]: Preparing spawn area: 61%
+[14:00:08] [c2me-worker-1/INFO]: Preparing spawn area: 89%
+[14:00:08] [Server thread/INFO]: Time elapsed: 2897 ms
+[14:00:08] [Server thread/INFO]: Done (4.561s)! For help, type "help"
+[14:01:08] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:12:02] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:34698] logged in with entity id 10 at (3928.8775321776875, 64.0, 8227.225469401365)
+[14:12:02] [Server thread/INFO]: FlimFlamSlammer joined the game
+[14:33:37] [Server thread/INFO]: Set FlimFlamSlammer's game mode to Spectator Mode
+[14:35:57] [Server thread/INFO]: Set FlimFlamSlammer's game mode to Survival Mode
+[14:42:37] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[14:42:37] [Server thread/INFO]: FlimFlamSlammer left the game
+[14:43:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:03:19] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:48958] logged in with entity id 7441 at (3963.8059604170394, 97.5, 8112.7041428721695)
+[15:03:19] [Server thread/INFO]: FlimFlamSlammer joined the game
+[15:05:23] [Server thread/INFO]: HeloOimM[/127.0.0.1:40456] logged in with entity id 8385 at (4001.738210744957, 64.0, 8186.516617157728)
+[15:05:23] [Server thread/INFO]: HeloOimM joined the game
+[15:06:08] [Server thread/INFO]: <HeloOimM> afk bibi
+[15:06:13] [Server thread/INFO]: <FlimFlamSlammer> afk bibi
+[15:06:47] [Server thread/INFO]: <HeloOimM> mix ambitions
+[15:07:23] [Server thread/INFO]: <HeloOimM> why u dont talk
+[15:07:32] [Server thread/INFO]: <FlimFlamSlammer> dank
+[15:07:49] [Server thread/INFO]: <FlimFlamSlammer> unga bunga
+[15:08:05] [Server thread/INFO]: <HeloOimM> this is my brain noting down my random thoughts
+[15:09:20] [Server thread/INFO]: <HeloOimM> methanne is good energy source
+[15:10:57] [Server thread/INFO]: <HeloOimM> 4th country methane uses
+[15:11:26] [Server thread/INFO]: <HeloOimM> takeeverytaskoutside
+[15:12:29] [Server thread/INFO]: <HeloOimM> wwwww
+[15:12:54] [Server thread/INFO]: <HeloOimM> Kevin The Doughboy
+[15:13:28] [Server thread/INFO]: <FlimFlamSlammer> I afk
+[15:13:34] [Server thread/INFO]: <HeloOimM> ko
+[15:13:52] [Server thread/INFO]: <HeloOimM> pure silence
+[15:13:59] [Server thread/INFO]: <HeloOimM> a condition i like
+[15:14:19] [Server thread/INFO]: <HeloOimM> like spying on a conversation
+[15:15:49] [Server thread/INFO]: <HeloOimM> kian
+[15:16:15] [Server thread/INFO]: <HeloOimM> dspddos
+[15:16:27] [Server thread/INFO]: <HeloOimM> hope he dont record this
+[15:17:11] [Server thread/INFO]: <HeloOimM> trinary > conspicious
+[15:18:39] [Server thread/INFO]: <HeloOimM> misplaced in time
+[15:19:33] [Server thread/INFO]: <HeloOimM> what is m?
+[15:21:17] [Server thread/INFO]: <HeloOimM> swwoop
+[15:21:40] [Server thread/INFO]: <HeloOimM> afk < mikae
+[15:21:53] [Server thread/INFO]: <HeloOimM> my mic is on mic mode
+[15:22:15] [Server thread/INFO]: <FlimFlamSlammer> wdym
+[15:22:19] [Server thread/INFO]: <FlimFlamSlammer> what is mic mode
+[15:22:22] [Server thread/INFO]: <HeloOimM> i thought u afk
+[15:22:27] [Server thread/INFO]: <FlimFlamSlammer> I was
+[15:22:38] [Server thread/INFO]: <FlimFlamSlammer> Internationalization
+[15:22:43] [Server thread/INFO]: <FlimFlamSlammer> Internationalization
+[15:22:46] [Server thread/INFO]: <HeloOimM> mikae is that u
+[15:22:50] [Server thread/INFO]: <FlimFlamSlammer> Internationalization
+[15:22:56] [Server thread/INFO]: <FlimFlamSlammer> who's mikae
+[15:23:09] [Server thread/INFO]: <FlimFlamSlammer> Question-Earn-Eight-Armed
+[15:23:13] [Server thread/INFO]: <HeloOimM> an ancestor of the mic
+[15:23:45] [Server thread/INFO]: <HeloOimM> a tulpa?
+[15:23:49] [Server thread/INFO]: <FlimFlamSlammer> where
+[15:25:35] [Server thread/INFO]: <FlimFlamSlammer> where you at
+[15:25:39] [Server thread/INFO]: <HeloOimM> mine
+[15:25:46] [Server thread/INFO]: <HeloOimM> mischievous
+[15:25:56] [Server thread/INFO]: <FlimFlamSlammer> inconspicuous
+[15:26:21] [Server thread/INFO]: <HeloOimM> tetris with no case?
+[15:27:32] [Server thread/INFO]: <HeloOimM> my full name is sunhat
+[15:27:59] [Server thread/INFO]: <FlimFlamSlammer> usnat
+[15:28:02] [Server thread/INFO]: <FlimFlamSlammer> sunat mike
+[15:28:39] [Server thread/INFO]: <HeloOimM> mike has a lot of variations
+[15:28:58] [Server thread/INFO]: <HeloOimM> put the e in the front to get emik
+[15:29:03] [Server thread/INFO]: <FlimFlamSlammer> how many diamonds have you
+[15:29:10] [Server thread/INFO]: <HeloOimM> 8?
+[15:29:22] [Server thread/INFO]: <HeloOimM> put the e in the middle u get meik
+[15:29:41] [Server thread/INFO]: <FlimFlamSlammer> in the middle of what
+[15:29:42] [Server thread/INFO]: <HeloOimM> replace the e with an ey u get mikey
+[15:30:18] [Server thread/INFO]: <HeloOimM> what other variations of mike u can think of?
+[15:30:23] [Server thread/INFO]: <FlimFlamSlammer> bro what
+[15:30:31] [Server thread/INFO]: <FlimFlamSlammer> mikaela
+[15:30:38] [Server thread/INFO]: <FlimFlamSlammer> michael
+[15:31:05] [Server thread/INFO]: <HeloOimM> - = and thats it
+[15:31:42] [Server thread/INFO]: <FlimFlamSlammer> twhat
+[15:31:50] [Server thread/INFO]: <FlimFlamSlammer> wsughons?
+[15:31:59] [Server thread/INFO]: <HeloOimM> im giving u hints but u missed i
+[15:32:08] [Server thread/INFO]: <HeloOimM> it
+[15:32:21] [Server thread/INFO]: <FlimFlamSlammer> stop playing games with me
+[15:32:24] [Server thread/INFO]: <FlimFlamSlammer> I will eat you
+[15:32:36] [Server thread/INFO]: <HeloOimM> this is me mind dumping my thought
+[15:32:51] [Server thread/INFO]: <HeloOimM> echeche
+[15:33:10] [Server thread/INFO]: <FlimFlamSlammer> if queue is pronounced q, then queueueueueueue is also a valid spelling
+[15:33:36] [Server thread/INFO]: <HeloOimM> nice alphabet
+[15:34:02] [Server thread/INFO]: <HeloOimM> what
+[15:34:12] [Server thread/INFO]: <HeloOimM> th
+[15:34:17] [Server thread/INFO]: <HeloOimM> i dont know where that is
+[15:35:06] [Server thread/INFO]: <HeloOimM> even though i love u, u still make me dj
+[15:36:46] [Server thread/INFO]: <HeloOimM> what?
+[15:37:02] [Server thread/INFO]: <HeloOimM> what u talking
+[15:37:11] [Server thread/INFO]: <HeloOimM> cobble thing?
+[15:37:15] [Server thread/INFO]: <HeloOimM> oh yeah
+[15:37:20] [Server thread/INFO]: <HeloOimM> tht ur loot
+[15:38:42] [Server thread/INFO]: <HeloOimM> besides chinese and german what should i immerse
+[15:39:15] [Server thread/INFO]: <HeloOimM> i found this large iron vein
+[15:39:22] [Server thread/INFO]: <HeloOimM> filled with tuff
+[15:39:40] [Server thread/INFO]: <HeloOimM> also found raw blocks too
+[15:40:46] [Server thread/INFO]: <HeloOimM> if i say 1 word u prob know what i mean
+[15:40:57] [Server thread/INFO]: <HeloOimM> or at least the gc will
+[15:41:05] [Server thread/INFO]: <HeloOimM> group chat
+[15:41:29] [Server thread/INFO]: <HeloOimM> the discord
+[15:41:49] [Server thread/INFO]: <HeloOimM> its something that i like
+[15:41:53] [Server thread/INFO]: <HeloOimM> that isnt a game
+[15:42:08] [Server thread/INFO]: <HeloOimM> or any entertainment
+[15:42:26] [Server thread/INFO]: <HeloOimM> its kevin the doughboy
+[15:42:57] [Server thread/INFO]: <HeloOimM> a tulpa
+[15:43:22] [Server thread/INFO]: <HeloOimM> Make It or break itw
+[15:43:42] [Server thread/INFO]: <HeloOimM> they say that if u have thoughts note it down
+[15:43:51] [Server thread/INFO]: <HeloOimM> so u can focus
+[15:44:12] [Server thread/INFO]: <HeloOimM> ask someone
+[15:44:28] [Server thread/INFO]: <HeloOimM> ask Robert
+[15:45:10] [Server thread/INFO]: <HeloOimM> guess my favorite food
+[15:45:30] [Server thread/INFO]: <HeloOimM> intrusive
+[15:46:03] [Server thread/INFO]: <HeloOimM> ye im noting it here
+[15:47:55] [Server thread/INFO]: <HeloOimM> the tetris effect
+[15:49:04] [Server thread/INFO]: <HeloOimM> closeee
+[15:49:10] [Server thread/INFO]: <HeloOimM> close to the hint
+[15:50:14] [Server thread/INFO]: <HeloOimM> im trying to test whether thoughts are infinite
+[15:51:29] [Server thread/INFO]: <HeloOimM> assk a question and i answer honestly
+[15:52:08] [Server thread/INFO]: <HeloOimM> i dont know its the first word that comes up
+[15:52:42] [Server thread/INFO]: <HeloOimM> and the word for u is methane
+[15:53:48] [Server thread/INFO]: <HeloOimM> one two three four
+[15:57:22] [Server thread/INFO]: <HeloOimM> how
+[15:57:31] [Server thread/INFO]: <HeloOimM> no
+[15:58:05] [Server thread/INFO]: <HeloOimM> im gonna fill my house with my thoughts
+[15:59:17] [Server thread/INFO]: <HeloOimM> u hve feathers for arrow?
+[15:59:27] [Server thread/INFO]: <HeloOimM> for shooting
+[15:59:40] [Server thread/INFO]: <HeloOimM> the target
+[16:00:22] [Server thread/INFO]: <HeloOimM> im mining
+[16:00:38] [Server thread/INFO]: <HeloOimM> umm iron
+[16:00:56] [Server thread/INFO]: <HeloOimM> also u remove crits?
+[16:01:23] [Server thread/INFO]: <HeloOimM> nice background noise
+[16:01:57] [Server thread/INFO]: <HeloOimM> im also studying ms right now
+[16:02:10] [Server thread/INFO]: <HeloOimM> i mean just looking
+[16:02:15] [Server thread/INFO]: <HeloOimM> after that civics
+[16:04:06] [Server thread/INFO]: <HeloOimM> the 4th methanious country is ... Monster
+[16:04:43] [Server thread/INFO]: <HeloOimM> also i dont give consent in u sharing this to the discord
+[16:05:15] [Server thread/INFO]: <HeloOimM> so its communist?
+[16:06:22] [Server thread/INFO]: <HeloOimM> ok but for now i dont give consent into u looking at my book
+[16:06:35] [Server thread/INFO]: <HeloOimM> why
+[16:06:42] [Server thread/INFO]: <HeloOimM> why u look
+[16:06:51] [Server thread/INFO]: <HeloOimM> control ur desire
+[16:07:22] [Server thread/INFO]: <HeloOimM> what if i die and u pick it up
+[16:07:58] [Server thread/INFO]: <HeloOimM> what
+[16:08:09] [Server thread/INFO]: <HeloOimM> cannot be removed?
+[16:08:57] [Server thread/INFO]: <HeloOimM> that kid in the background who says littering is bad needs to consider their choices
+[16:09:28] [Server thread/INFO]: <HeloOimM> cuz littering is not that bad
+[16:10:48] [Server thread/INFO]: <HeloOimM> did u watch the minecraft movie?
+[16:10:55] [Server thread/INFO]: <HeloOimM> ur brothers?
+[16:12:48] [Server thread/INFO]: <HeloOimM> wk
+[16:12:49] [Server thread/INFO]: <HeloOimM> k
+[16:13:06] [Server thread/INFO]: <HeloOimM> what
+[16:13:28] [Server thread/INFO]: <HeloOimM> whaat is a respectable sand source
+[16:14:17] [Server thread/INFO]: <HeloOimM> theres like a creeper near me
+[16:15:46] [Server thread/INFO]: <HeloOimM> hey
+[16:15:56] [Server thread/INFO]: <HeloOimM> whaat a troubling creature
+[16:16:58] [Server thread/INFO]: <HeloOimM> how much
+[16:19:26] [Server thread/INFO]: <HeloOimM> with?
+[16:19:47] [Server thread/INFO]: <HeloOimM> what
+[16:19:54] [Server thread/INFO]: <HeloOimM> the fast food?
+[16:20:30] [Server thread/INFO]: <HeloOimM> ?
+[16:21:09] [Server thread/INFO]: <HeloOimM> protest?
+[16:21:42] [Server thread/INFO]: <HeloOimM> how much
+[16:22:15] [Server thread/INFO]: <HeloOimM> this one?
+[16:22:58] [Server thread/INFO]: <HeloOimM> ok
+[16:23:33] [Server thread/INFO]: <HeloOimM> where is the village?
+[16:28:38] [Server thread/INFO]: <HeloOimM> i found an outpost
+[16:29:00] [Server thread/INFO]: <HeloOimM> wait
+[16:29:05] [Server thread/INFO]: <HeloOimM> no
+[16:29:13] [Server thread/INFO]: <HeloOimM> there only golem
+[16:29:26] [Server thread/INFO]: <HeloOimM> ye
+[16:29:28] [Server thread/INFO]: <HeloOimM> it not 100
+[16:30:10] [Server thread/INFO]: <HeloOimM> found temple?
+[16:30:29] [Server thread/INFO]: <HeloOimM> can u sleep?
+[16:30:41] [Server thread/INFO]: <HeloOimM> is it rain?
+[16:31:01] [Server thread/INFO]: <HeloOimM> i found the red sand biome
+[16:31:05] [Server thread/INFO]: <HeloOimM> badlads
+[16:31:33] [Server thread/INFO]: <HeloOimM> wait i afk
+[16:31:34] [Server thread/INFO]: HeloOimM lost connection: Disconnected
+[16:31:34] [Server thread/INFO]: HeloOimM left the game
+[16:35:34] [Server thread/INFO]: HeloOimM[/127.0.0.1:48016] logged in with entity id 36711 at (3594.324425901331, 50.0, 7370.670320160167)
+[16:35:34] [Server thread/INFO]: HeloOimM joined the game
+[16:37:01] [Server thread/INFO]: <HeloOimM> wow mesa
+[16:37:36] [Server thread/INFO]: <HeloOimM> i found well
+[16:39:08] [Server thread/INFO]: <HeloOimM> found it
+[16:39:20] [Server thread/INFO]: <HeloOimM> ye
+[16:39:31] [Server thread/INFO]: <HeloOimM> i leave?
+[16:39:36] [Server thread/INFO]: <HeloOimM> go back
+[16:40:15] [Server thread/INFO]: <HeloOimM> wow camels suckw
+[16:40:21] [Server thread/INFO]: <HeloOimM> yes\
+[16:40:31] [Server thread/INFO]: <HeloOimM> i ahve saddle
+[16:40:38] [Server thread/INFO]: <HeloOimM> temple
+[16:40:47] [Server thread/INFO]: <HeloOimM> but they so slow
+[16:42:26] [Server thread/INFO]: <HeloOimM> i spotted a shipwrekc
+[16:43:37] [Server thread/INFO]: <HeloOimM> i found ruins?
+[16:45:12] [Server thread/INFO]: <HeloOimM> can u sleep
+[16:45:27] [Server thread/INFO]: <FlimFlamSlammer> Wiedereinstiegspunkt gesetzt
+[16:46:29] [Server thread/INFO]: <HeloOimM> another ship
+[16:51:06] [Server thread/INFO]: <HeloOimM> another shi[
+[16:51:13] [Server thread/INFO]: <HeloOimM> boating
+[16:51:20] [Server thread/INFO]: <HeloOimM> already find it
+[16:55:52] [Server thread/INFO]: <HeloOimM> ssleep
+[16:56:25] [Server thread/INFO]: <HeloOimM> where is this buried treasure
+[16:56:47] [Server thread/INFO]: <FlimFlamSlammer> Ich kann jetzt nicht shlafen, weil das Bett ist zu weit.
+[16:59:36] [Server thread/INFO]: <HeloOimM> kevin the doughboy!
+[17:01:34] [Server thread/INFO]: <HeloOimM> flint and steel
+[17:04:59] [Server thread/INFO]: <HeloOimM> WHERE IS THE BURIED TREASURE
+[17:06:42] [Server thread/INFO]: <HeloOimM> ye i give upw
+[17:06:59] [Server thread/INFO]: <HeloOimM> but the chunk is not visible
+[17:07:07] [Server thread/INFO]: <HeloOimM> sleep
+[17:07:16] [Server thread/INFO]: <HeloOimM> wait can u divide it by 16?
+[17:07:20] [Server thread/INFO]: <HeloOimM> and find modulo?
+[17:07:24] [Server thread/INFO]: <HeloOimM> nvm
+[17:07:37] [Server thread/INFO]: <HeloOimM> zenbun
+[17:08:01] [Server thread/INFO]: <HeloOimM> i found monument lol
+[17:08:25] [Server thread/INFO]: <HeloOimM> loot?
+[17:08:31] [Server thread/INFO]: <HeloOimM> the monumet
+[17:08:36] [Server thread/INFO]: <HeloOimM> ok
+[17:09:48] [Server thread/INFO]: <HeloOimM> zenbun to lio
+[17:11:17] [Server thread/INFO]: <HeloOimM> ship again?
+[17:11:45] [Server thread/INFO]: <HeloOimM> and ruin?
+[17:11:48] [Server thread/INFO]: <HeloOimM> portal
+[17:12:53] [Server thread/INFO]: <HeloOimM> shoot i ate a poison sus stew
+[17:13:26] [Server thread/INFO]: <HeloOimM> this portal is huge
+[17:14:34] [Server thread/INFO]: <HeloOimM> say mike and i come back
+[17:14:41] [Server thread/INFO]: <HeloOimM> ok
+[17:15:06] [Server thread/INFO]: <HeloOimM> give me a character whose name is mike
+[17:15:28] [Server thread/INFO]: <HeloOimM> another ship
+[17:16:52] [Server thread/INFO]: <HeloOimM> my thoughts vs kevin at 3 am
+[17:17:27] [Server thread/INFO]: <HeloOimM> i found another village
+[17:17:54] [Server thread/INFO]: <HeloOimM> sleepw
+[17:18:54] [Server thread/INFO]: <HeloOimM> found another one
+[17:19:00] [Server thread/INFO]: HeloOimM lost connection: Disconnected
+[17:19:00] [Server thread/INFO]: HeloOimM left the game
+[17:19:43] [Server thread/INFO]: HeloOimM[/127.0.0.1:37970] logged in with entity id 67517 at (4598.6408450521285, 74.0, 8558.502659047119)
+[17:19:43] [Server thread/INFO]: HeloOimM joined the game
+[17:19:53] [Server thread/INFO]: <HeloOimM> sleep pls
+[17:20:36] [Server thread/INFO]: HeloOimM lost connection: Disconnected
+[17:20:36] [Server thread/INFO]: HeloOimM left the game
+[17:20:48] [Server thread/INFO]: HeloOimM[/127.0.0.1:37868] logged in with entity id 68733 at (4591.755259367198, 72.0, 8544.603278712613)
+[17:20:48] [Server thread/INFO]: HeloOimM joined the game
+[17:22:26] [Server thread/INFO]: <HeloOimM> robert got nice mic
+[17:23:33] [Server thread/INFO]: <HeloOimM> found another
+[17:23:48] [Server thread/INFO]: <HeloOimM> nvm its ur village
+[17:24:33] [Server thread/INFO]: FlimFlamSlammer fell from a high place
+[17:24:36] [Server thread/INFO]: <HeloOimM> hahah
+[17:26:07] [Server thread/INFO]: <HeloOimM> Shi Methane, the lodestone compass is in the chest
+[17:26:28] [Server thread/INFO]: <HeloOimM> good for exp farm
+[17:26:47] [Server thread/INFO]: <HeloOimM> u can make exp from armadillo
+[17:27:13] [Server thread/INFO]: <HeloOimM> anyways the compass is in my chest sir Shi Methane
+[17:30:12] [Server thread/INFO]: <HeloOimM> woah
+[17:30:20] [Server thread/INFO]: <HeloOimM> it made an infinite water source
+[17:30:42] [Server thread/INFO]: <HeloOimM> ur name is now Shi Methane
+[17:30:52] [Server thread/INFO]: <HeloOimM> wait
+[17:31:48] [Server thread/INFO]: <HeloOimM> that the compass
+[17:31:57] [Server thread/INFO]: <HeloOimM> there is a closer one though
+[17:32:08] [Server thread/INFO]: <HeloOimM> idk
+[17:32:12] [Server thread/INFO]: <HeloOimM> pretty far
+[17:32:18] [Server thread/INFO]: <HeloOimM> i found a closer one
+[17:32:21] [Server thread/INFO]: <HeloOimM> hey
+[17:32:24] [Server thread/INFO]: <HeloOimM> ye
+[17:33:35] [Server thread/INFO]: <HeloOimM> after this i go
+[17:33:45] [Server thread/INFO]: <HeloOimM> cuz i need to go to birthday party
+[17:34:11] [Server thread/INFO]: <HeloOimM> family member
+[17:34:52] [Server thread/INFO]: <HeloOimM> ok nvm its far
+[17:35:03] [Server thread/INFO]: <HeloOimM> farther
+[17:35:28] [Server thread/INFO]: <HeloOimM> u will not overtake the world fuel source with Methane
+[17:35:49] [Server thread/INFO]: <HeloOimM> who named u shi methane
+[17:36:01] [Server thread/INFO]: <HeloOimM> how about shiko methane?
+[17:36:19] [Server thread/INFO]: <HeloOimM> nvm shi sounds bettter
+[17:36:48] [Server thread/INFO]: <HeloOimM> good villain name
+[17:37:00] [Server thread/INFO]: <HeloOimM> robert is sune
+[17:37:05] [Server thread/INFO]: <HeloOimM> what
+[17:37:20] [Server thread/INFO]: <HeloOimM> i already put lodestone in the village
+[17:37:27] [Server thread/INFO]: <HeloOimM> no
+[17:37:37] [Server thread/INFO]: <HeloOimM> bruh
+[17:37:44] [Server thread/INFO]: <HeloOimM> i forgot
+[17:37:59] [Server thread/INFO]: <HeloOimM> i gtg
+[17:38:01] [Server thread/INFO]: <HeloOimM> though
+[17:38:05] [Server thread/INFO]: <HeloOimM> here
+[17:38:17] [Server thread/INFO]: <HeloOimM> go to where im facing
+[17:38:29] [Server thread/INFO]: <HeloOimM> where are u
+[17:38:46] [Server thread/INFO]: <HeloOimM> ok bye
+[17:38:50] [Server thread/INFO]: HeloOimM lost connection: Disconnected
+[17:38:50] [Server thread/INFO]: HeloOimM left the game
+[18:04:11] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[18:04:11] [Server thread/INFO]: FlimFlamSlammer left the game
+[18:05:11] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:33:46] [Server thread/INFO]: Stopping the server
+[18:33:46] [Server thread/INFO]: Stopping server
+[18:33:46] [Server thread/INFO]: Saving players
+[18:33:46] [Server thread/INFO]: Saving worlds
+[18:33:46] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[18:33:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[18:33:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[18:33:47] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[18:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[18:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18:33:47] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18:33:47] [C2ME Storage #3/INFO]: Storage thread Thread[#97,C2ME Storage #3,8,main] stopped
+[18:33:47] [C2ME Storage #2/INFO]: Storage thread Thread[#96,C2ME Storage #2,8,main] stopped
+[18:33:47] [C2ME Storage #1/INFO]: Storage thread Thread[#95,C2ME Storage #1,8,main] stopped
+[18:33:47] [C2ME Storage #6/INFO]: Storage thread Thread[#102,C2ME Storage #6,8,main] stopped
+[18:33:47] [C2ME Storage #5/INFO]: Storage thread Thread[#101,C2ME Storage #5,8,main] stopped
+[18:33:47] [C2ME Storage #4/INFO]: Storage thread Thread[#100,C2ME Storage #4,8,main] stopped
+[18:33:47] [C2ME Storage #8/INFO]: Storage thread Thread[#105,C2ME Storage #8,8,main] stopped
+[18:33:47] [C2ME Storage #9/INFO]: Storage thread Thread[#106,C2ME Storage #9,8,main] stopped
+[18:33:47] [C2ME Storage #7/INFO]: Storage thread Thread[#104,C2ME Storage #7,8,main] stopped
