@@ -173,25 +173,27 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_porkchop": "2025-02-22 14:13:53 +0700",
-      "pufferfish": "2025-03-18 10:24:35 +0700",
-      "bread": "2025-02-18 20:11:29 +0700",
       "honey_bottle": "2025-03-02 13:02:35 +0700",
-      "rotten_flesh": "2025-02-20 14:37:08 +0700",
-      "suspicious_stew": "2025-02-23 11:45:10 +0700",
-      "cookie": "2025-03-26 09:52:33 +0700",
       "cooked_mutton": "2025-02-21 18:17:46 +0700",
-      "glow_berries": "2025-03-17 13:04:29 +0700",
       "sweet_berries": "2025-02-18 13:08:17 +0700",
-      "dried_kelp": "2025-02-18 13:28:39 +0700",
       "cooked_beef": "2025-02-21 20:43:33 +0700",
       "baked_potato": "2025-02-19 22:16:42 +0700",
       "beef": "2025-03-19 13:05:40 +0700",
-      "melon_slice": "2025-03-02 19:17:56 +0700",
       "porkchop": "2025-02-22 14:50:55 +0700",
-      "golden_carrot": "2025-02-23 16:36:16 +0700",
       "apple": "2025-02-21 17:54:06 +0700",
-      "cooked_chicken": "2025-02-21 19:37:27 +0700",
       "cooked_cod": "2025-02-18 13:57:43 +0700",
+      "pufferfish": "2025-03-18 10:24:35 +0700",
+      "bread": "2025-02-18 20:11:29 +0700",
+      "rotten_flesh": "2025-02-20 14:37:08 +0700",
+      "suspicious_stew": "2025-02-23 11:45:10 +0700",
+      "cookie": "2025-03-26 09:52:33 +0700",
+      "glow_berries": "2025-03-17 13:04:29 +0700",
+      "dried_kelp": "2025-02-18 13:28:39 +0700",
+      "salmon": "2025-05-03 21:37:26 +0700",
+      "melon_slice": "2025-03-02 19:17:56 +0700",
+      "golden_carrot": "2025-02-23 16:36:16 +0700",
+      "cooked_rabbit": "2025-05-03 21:52:09 +0700",
+      "cooked_chicken": "2025-02-21 19:37:27 +0700",
       "cod": "2025-02-27 13:50:09 +0700",
       "rabbit_stew": "2025-02-26 18:01:51 +0700",
       "cooked_salmon": "2025-02-18 13:32:54 +0700",
@@ -5720,6 +5722,24 @@
   "minecraft:husbandry/axolotl_in_a_bucket": {
     "criteria": {
       "axolotl_bucket": "2025-05-02 19:36:07 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_brown_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-05-03 21:45:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/rabbit_stew_from_red_mushroom": {
+    "criteria": {
+      "has_cooked_rabbit": "2025-05-03 21:45:57 +0700"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tactical_fishing": {
+    "criteria": {
+      "tropical_fish_bucket": "2025-05-03 23:18:22 +0700"
     },
     "done": true
   },
