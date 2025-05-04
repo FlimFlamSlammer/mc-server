@@ -180,8 +180,10 @@
       "baked_potato": "2025-02-19 22:16:42 +0700",
       "beef": "2025-03-19 13:05:40 +0700",
       "porkchop": "2025-02-22 14:50:55 +0700",
+      "tropical_fish": "2025-05-04 17:01:49 +0700",
       "apple": "2025-02-21 17:54:06 +0700",
       "cooked_cod": "2025-02-18 13:57:43 +0700",
+      "rabbit": "2025-05-04 17:20:38 +0700",
       "pufferfish": "2025-03-18 10:24:35 +0700",
       "bread": "2025-02-18 20:11:29 +0700",
       "rotten_flesh": "2025-02-20 14:37:08 +0700",
@@ -235,6 +237,7 @@
       "minecraft:wither_skeleton": "2025-02-22 14:02:06 +0700",
       "minecraft:husk": "2025-03-02 12:50:43 +0700",
       "minecraft:shulker": "2025-03-21 10:28:13 +0700",
+      "minecraft:cave_spider": "2025-05-04 17:13:49 +0700",
       "minecraft:piglin": "2025-02-22 13:24:07 +0700",
       "minecraft:enderman": "2025-02-18 18:59:58 +0700",
       "minecraft:stray": "2025-02-19 22:39:16 +0700",
@@ -2105,7 +2108,8 @@
       "minecraft:wolf": "2025-02-18 20:31:33 +0700",
       "minecraft:turtle": "2025-02-19 17:23:52 +0700",
       "minecraft:sheep": "2025-02-21 12:42:12 +0700",
-      "minecraft:bee": "2025-02-19 22:13:50 +0700"
+      "minecraft:bee": "2025-02-19 22:13:50 +0700",
+      "minecraft:axolotl": "2025-05-04 21:35:54 +0700"
     },
     "done": false
   },
@@ -5740,6 +5744,24 @@
   "minecraft:husbandry/tactical_fishing": {
     "criteria": {
       "tropical_fish_bucket": "2025-05-03 23:18:22 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2025-05-04 21:43:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2025-05-04 21:43:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2025-05-04 21:43:14 +0700"
     },
     "done": true
   },
