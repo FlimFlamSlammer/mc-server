@@ -184,6 +184,7 @@
       "apple": "2025-02-21 17:54:06 +0700",
       "cooked_cod": "2025-02-18 13:57:43 +0700",
       "rabbit": "2025-05-04 17:20:38 +0700",
+      "pumpkin_pie": "2025-05-05 22:01:46 +0700",
       "pufferfish": "2025-03-18 10:24:35 +0700",
       "bread": "2025-02-18 20:11:29 +0700",
       "rotten_flesh": "2025-02-20 14:37:08 +0700",
@@ -221,6 +222,7 @@
       "minecraft:blaze": "2025-02-22 13:54:57 +0700",
       "minecraft:skeleton": "2025-02-18 13:11:40 +0700",
       "minecraft:elder_guardian": "2025-02-22 10:43:15 +0700",
+      "minecraft:ravager": "2025-05-05 21:08:45 +0700",
       "minecraft:ghast": "2025-02-22 14:35:22 +0700",
       "minecraft:hoglin": "2025-02-22 13:34:50 +0700",
       "minecraft:guardian": "2025-02-22 10:36:50 +0700",
@@ -5762,6 +5764,18 @@
   "minecraft:recipes/decorations/light_blue_banner": {
     "criteria": {
       "has_light_blue_wool": "2025-05-04 21:43:14 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/hero_of_the_village": {
+    "criteria": {
+      "hero_of_the_village": "2025-05-05 21:39:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pink_dye_from_cactus_flower": {
+    "criteria": {
+      "has_cactus_flower": "2025-05-05 20:46:50 +0700"
     },
     "done": true
   },
