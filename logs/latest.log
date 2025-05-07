@@ -1,5 +1,5 @@
-[17:15:16] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[17:15:17] [main/INFO]: Loading 80 mods:
+[15:45:46] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[15:45:46] [main/INFO]: Loading 80 mods:
 	- alternate-current 1.9.0
 	- c2me 0.3.2.0.0+1.21.5
 	   |-- c2me-base 0.3.2.0.0+1.21.5
@@ -92,470 +92,366 @@
 	   \-- fabric-permissions-api-v0 0.3.3
 	- vmp 0.2.0+beta.7.198+1.21.5
 	   \-- com_ibm_async_asyncutil 0.1.0
-[17:15:17] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[17:15:17] [main/INFO]: Compatibility level set to JAVA_16
-[17:15:17] [main/INFO]: Compatibility level set to JAVA_21
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[17:15:17] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[17:15:17] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[17:15:17] [main/INFO]: Detected maximum supported ISA target: AVX2
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:15:17] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[17:15:17] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[17:15:17] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[17:15:17] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
-[17:15:17] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[17:15:18] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[17:15:25] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
-[17:15:25] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[17:15:25] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:15:27] [main/INFO]: Loaded 1373 recipes
-[17:15:27] [main/INFO]: Loaded 1484 advancements
-[17:15:27] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.495 ms
-[17:15:28] [Server thread/INFO]: Starting background profiler...
-[17:15:28] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[17:15:28] [Server thread/INFO]: Loading properties
-[17:15:28] [Server thread/INFO]: Default game type: SURVIVAL
-[17:15:28] [Server thread/INFO]: Generating keypair
-[17:15:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:15:28] [Server thread/INFO]: Using epoll channel type
-[17:15:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:15:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:15:28] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:15:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:15:28] [Server thread/INFO]: Preparing level "world"
-[17:15:28] [Server thread/INFO]: Enforcing safe world random access
-[17:15:29] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 210.5 ms
-[17:15:29] [Server thread/INFO]: Changing watch distance to 16
-[17:15:29] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[17:15:30] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 5.819 ms
-[17:15:30] [Server thread/INFO]: Changing watch distance to 16
-[17:15:30] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 19.84 ms
-[17:15:30] [Server thread/INFO]: Changing watch distance to 16
-[17:15:30] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[17:15:30] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[17:15:30] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[17:15:30] [c2me-worker-3/INFO]: Preparing spawn area: 0%
-[17:15:30] [c2me-worker-1/INFO]: Preparing spawn area: 0%
-[17:15:30] [c2me-worker-2/INFO]: Preparing spawn area: 0%
-[17:15:31] [c2me-worker-2/INFO]: Preparing spawn area: 16%
-[17:15:31] [Server thread/INFO]: Time elapsed: 1437 ms
-[17:15:31] [Server thread/INFO]: Done (3.162s)! For help, type "help"
-[17:15:32] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:48526] logged in with entity id 24 at (3971.6309228418845, 66.0, 8230.275095134992)
-[17:15:32] [Server thread/INFO]: FlimFlamSlammer joined the game
-[17:15:35] [Server thread/INFO]: banggivealokbang[/127.0.0.1:48532] logged in with entity id 162 at (4516.300000011921, 90.0, 8812.300000011921)
-[17:15:35] [Server thread/INFO]: banggivealokbang joined the game
-[17:15:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3027ms or 60 ticks behind
-[17:15:44] [Server thread/INFO]: HeloOimM[/127.0.0.1:48736] logged in with entity id 879 at (3992.801338248152, 66.0, 8208.226877096406)
-[17:15:44] [Server thread/INFO]: HeloOimM joined the game
-[17:15:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6285ms or 125 ticks behind
-[17:16:23] [Server thread/INFO]: <HeloOimM> brooo tommorow we go at 10:30
-[17:16:40] [Server thread/INFO]: <HeloOimM> no because like we have bridging
-[17:16:42] [Server thread/INFO]: <HeloOimM> class
-[17:16:46] [Server thread/INFO]: <HeloOimM> selection
-[17:16:51] [Server thread/INFO]: <HeloOimM> no
-[17:16:55] [Server thread/INFO]: <HeloOimM> look at the group
-[17:18:32] [Server thread/INFO]: <HeloOimM> sune's fault
-[17:18:59] [Server thread/INFO]: <HeloOimM> ye
-[17:19:14] [Server thread/INFO]: <HeloOimM> sune the monst
-[17:19:28] [Server thread/INFO]: <HeloOimM> is sune better or zune?
-[17:19:45] [Server thread/INFO]: <HeloOimM> run?
-[17:20:51] [Server thread/INFO]: <HeloOimM> I REPEAT SUNE IS ON THE LOOSE
-[17:21:18] [Server thread/INFO]: <HeloOimM> whyyy goldddd
-[17:21:28] [Server thread/INFO]: <HeloOimM> why not carrot
-[17:21:42] [Server thread/INFO]: <HeloOimM> ok can i watch utube
-[17:22:29] [Server thread/INFO]: <HeloOimM> nunnunununununununununuuununu
-[17:23:25] [Server thread/INFO]: <HeloOimM> no restock
-[17:23:46] [Server thread/INFO]: <HeloOimM> seee
-[17:23:51] [Server thread/INFO]: <HeloOimM> not restockkk
-[17:24:31] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[17:24:31] [Server thread/INFO]: FlimFlamSlammer left the game
-[17:24:35] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:42030] logged in with entity id 5193 at (3992.097821543715, 66.0, 8207.196665934162)
-[17:24:35] [Server thread/INFO]: FlimFlamSlammer joined the game
-[17:24:36] [Server thread/INFO]: <HeloOimM> tttttttt
-[17:24:40] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:40] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:40] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:41] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:41] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:41] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:42] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:42] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:42] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:42] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:43] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:43] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:43] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:44] [Server thread/INFO]: <FlimFlamSlammer> z
-[17:24:44] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[17:24:44] [Server thread/INFO]: FlimFlamSlammer left the game
-[17:24:44] [Server thread/WARN]: handleDisconnection() called twice
-[17:24:46] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:43660] logged in with entity id 5234 at (3992.2860169137384, 65.0, 8204.537668688861)
-[17:24:46] [Server thread/INFO]: FlimFlamSlammer joined the game
-[17:24:52] [Server thread/INFO]: <HeloOimM> oooo
-[17:25:04] [Server thread/INFO]: <HeloOimM> u have torchers/
-[17:25:23] [Server thread/INFO]: <HeloOimM> i thought we go to badland
-[17:25:59] [Server thread/INFO]: <HeloOimM> what a mike
-[17:26:10] [Server thread/INFO]: <HeloOimM> ALSO THIS IS 2
-[17:26:13] [Server thread/INFO]: <HeloOimM> ye
-[17:26:28] [Server thread/INFO]: <HeloOimM> sunhat
-[17:26:40] [Server thread/INFO]: <HeloOimM> also where the bad
-[17:27:37] [Server thread/INFO]: <HeloOimM> sune if u can find the inspiration to sune imma crash outw
-[17:27:58] [Server thread/INFO]: <HeloOimM> hope i went correctly
-[17:29:05] [Server thread/INFO]: <HeloOimM> do iwent wron
-[17:29:31] [Server thread/WARN]: Oak Boat (vehicle of HeloOimM) moved wrongly! 0.46810077405825723
-[17:29:45] [Server thread/INFO]: <HeloOimM> sune u found the badland
-[17:30:13] [Server thread/INFO]: <HeloOimM> noo
-[17:30:27] [Server thread/INFO]: <HeloOimM> im a mike wearing a sunhat
-[17:31:15] [Server thread/INFO]: <HeloOimM> burnout
-[17:31:42] [Server thread/INFO]: <HeloOimM> the pillar
-[17:31:56] [Server thread/INFO]: <HeloOimM> where are u
-[17:32:03] [Server thread/INFO]: <HeloOimM> no
-[17:32:37] [Server thread/INFO]: <HeloOimM> hm
-[17:32:46] [Server thread/INFO]: <HeloOimM> what does hm stand for
-[17:33:14] [Server thread/INFO]: <HeloOimM> broo look at this
-[17:33:21] [Server thread/INFO]: <HeloOimM> exposed minecart
-[17:33:23] [Server thread/INFO]: <HeloOimM> with chest
-[17:33:35] [Server thread/INFO]: <HeloOimM> look at the plains
-[17:33:38] [Server thread/INFO]: <HeloOimM> i see u
-[17:34:24] [Server thread/INFO]: <HeloOimM> pumpkin u need right
-[17:34:44] [Server thread/INFO]: <HeloOimM> sleep
-[17:35:13] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[17:35:13] [Server thread/INFO]: FlimFlamSlammer left the game
-[17:35:17] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:38374] logged in with entity id 13323 at (2783.4904310153297, 57.0, 7492.65071012284)
-[17:35:17] [Server thread/INFO]: FlimFlamSlammer joined the game
-[17:35:31] [Server thread/INFO]: <HeloOimM> i am]s
-[17:35:49] [Server thread/INFO]: <HeloOimM> where areu
-[17:38:13] [Server thread/INFO]: <HeloOimM> why dont we mine in the nether
-[17:39:27] [Server thread/INFO]: <HeloOimM> 33
-[17:40:03] [Server thread/INFO]: <HeloOimM> redstone too?
-[17:40:20] [Server thread/INFO]: <HeloOimM> copper?
-[17:43:13] [Server thread/INFO]: <HeloOimM> gold\
-[17:44:26] [Server thread/INFO]: <HeloOimM> wjer\s
-[17:44:53] [Server thread/INFO]: <HeloOimM> spawner?
-[17:45:30] [Server thread/INFO]: <HeloOimM> 77
-[17:45:43] [Server thread/INFO]: <HeloOimM> wth
-[17:46:31] [Server thread/INFO]: <HeloOimM> 43
-[17:48:14] [Server thread/INFO]: <HeloOimM> sucks that the pick dont have mending
-[17:48:50] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[17:48:50] [Server thread/INFO]: FlimFlamSlammer left the game
-[17:48:51] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:55342] logged in with entity id 19816 at (2781.5864098771117, -21.0, 7378.486169436922)
-[17:48:51] [Server thread/INFO]: FlimFlamSlammer joined the game
-[17:52:18] [Server thread/INFO]: <HeloOimM> what u doing
-[17:53:01] [Server thread/INFO]: <HeloOimM> ukiiilinggg
-[17:53:10] [Server thread/WARN]: FlimFlamSlammer moved too quickly! -5.390080009426583,2.7491326388584127,8.013544205954531
-[17:53:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3315ms or 66 ticks behind
-[17:53:23] [Server thread/INFO]: <HeloOimM> like
-[17:57:02] [Server thread/INFO]: <HeloOimM> u put this sign?
-[17:57:29] [Server thread/INFO]: <HeloOimM> it said avoebnpo
-[17:57:39] [Server thread/INFO]: <HeloOimM> th
-[17:57:52] [Server thread/INFO]: <HeloOimM> is this an anomaly?
-[17:58:07] [Server thread/INFO]: <HeloOimM> also u burn the outpost
-[17:58:50] [Server thread/INFO]: <HeloOimM> i mean its a newer mob
-[17:59:31] [Server thread/INFO]: <HeloOimM> also u didnt hear the background noise right
-[17:59:47] [Server thread/INFO]: <HeloOimM> my background
-[17:59:50] [Server thread/INFO]: <HeloOimM> sleep
-[17:59:54] [Server thread/INFO]: HeloOimM lost connection: Disconnected
-[17:59:54] [Server thread/INFO]: HeloOimM left the game
-[17:59:59] [Server thread/INFO]: HeloOimM[/127.0.0.1:54596] logged in with entity id 31284 at (3856.938267742602, 70.0, 7702.392436012991)
-[17:59:59] [Server thread/INFO]: HeloOimM joined the game
-[18:00:57] [Server thread/INFO]: <HeloOimM> my brother always raging at that game man
-[18:01:04] [Server thread/INFO]: <HeloOimM> ml
-[18:01:16] [Server thread/INFO]: <HeloOimM> all
-[18:01:51] [Server thread/INFO]: <HeloOimM> >
-[18:01:55] [Server thread/INFO]: <HeloOimM> where
-[18:02:23] [Server thread/INFO]: <HeloOimM> haha i win
-[18:03:12] [Server thread/INFO]: <HeloOimM> wait
-[18:03:22] [Server thread/INFO]: <HeloOimM> u have coal?
-[18:03:50] [Server thread/INFO]: <HeloOimM> ok
-[18:04:23] [Server thread/INFO]: <HeloOimM> ok
-[18:05:13] [Server thread/INFO]: <HeloOimM> oh he died
-[18:05:19] [Server thread/INFO]: <HeloOimM> the zombie
-[18:05:29] [Server thread/INFO]: <HeloOimM> sune's zombie
-[18:05:49] [Server thread/INFO]: <HeloOimM> umm
-[18:06:10] [Server thread/INFO]: <HeloOimM> but like u get unique information from out of context stuff
-[18:06:57] [Server thread/INFO]: <HeloOimM> so what i do
-[18:07:23] [Server thread/INFO]: <HeloOimM> i want to renovate my house
-[18:07:44] [Server thread/INFO]: <HeloOimM> no
-[18:07:46] [Server thread/INFO]: <HeloOimM> just craft again
-[18:08:57] [Server thread/INFO]: <HeloOimM> getting wood
-[18:09:10] [Server thread/INFO]: <HeloOimM> bro i havent renovate ey
-[18:09:37] [Server thread/INFO]: <HeloOimM> i cant hear u
-[18:11:03] [Server thread/INFO]: <HeloOimM> it broke
-[18:11:06] [Server thread/INFO]: <HeloOimM> the iron
-[18:13:11] [Server thread/INFO]: <HeloOimM> zunzun
-[18:13:36] [Server thread/INFO]: <HeloOimM> zunzunzun
-[18:14:16] [Server thread/INFO]: <HeloOimM> shi what u picking for bridgin
-[18:14:25] [Server thread/INFO]: <HeloOimM> what
-[18:14:30] [Server thread/INFO]: <HeloOimM> why
-[18:14:38] [Server thread/INFO]: <HeloOimM> why not computer or math
-[18:14:53] [Server thread/INFO]: <HeloOimM> ok donew
-[18:16:44] [Server thread/INFO]: <HeloOimM> i ned smooth sand
-[18:16:50] [Server thread/INFO]: <HeloOimM> for house
-[18:17:45] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
-[18:17:45] [Server thread/INFO]: banggivealokbang left the game
-[18:17:48] [Server thread/INFO]: banggivealokbang[/127.0.0.1:44136] logged in with entity id 40241 at (3940.6984845443485, 85.0, 8170.699999988079)
-[18:17:48] [Server thread/INFO]: banggivealokbang joined the game
-[18:27:34] [Server thread/INFO]: <HeloOimM> does glass fit the build
-[18:27:53] [Server thread/INFO]: <HeloOimM> ye]
-[18:30:18] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[18:30:18] [Server thread/INFO]: FlimFlamSlammer left the game
-[18:31:00] [Server thread/INFO]: <HeloOimM> did u watch utube tutorial?\
-[18:31:05] [Server thread/INFO]: <banggivealokbang> yea
-[18:31:18] [Server thread/INFO]: <banggivealokbang> did u take out the music disc?
-[18:31:21] [Server thread/INFO]: <HeloOimM> NO
-[18:31:23] [Server thread/INFO]: <HeloOimM> no
-[18:31:24] [Server thread/INFO]: <banggivealokbang> o
-[18:32:48] [Server thread/INFO]: <banggivealokbang> huh where did the juke box go
-[18:32:55] [Server thread/INFO]: <HeloOimM> idk
-[18:33:09] [Server thread/INFO]: <banggivealokbang> oh i found it
-[18:33:12] [Server thread/INFO]: <HeloOimM> also where is liow
-[18:33:20] [Server thread/INFO]: <banggivealokbang> he eat
-[18:47:55] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:60770] logged in with entity id 46110 at (3948.1260076483077, 86.0, 8174.209119859185)
-[18:47:55] [Server thread/INFO]: FlimFlamSlammer joined the game
-[18:48:05] [Server thread/INFO]: <HeloOimM> i gtg
-[18:48:17] [Server thread/INFO]: <HeloOimM> what
-[18:48:28] [Server thread/INFO]: <HeloOimM> but the enchanted table is covered
-[18:49:05] [Server thread/INFO]: <HeloOimM> ok i gtg
-[18:49:09] [Server thread/INFO]: HeloOimM lost connection: Disconnected
-[18:49:09] [Server thread/INFO]: HeloOimM left the game
-[19:06:32] [Server thread/WARN]: Spruce Boat (vehicle of banggivealokbang) moved wrongly! 0.553939021541737
-[19:12:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=450, y=78, z=1112} class_2338{x=449, y=75, z=1123}
-[19:22:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5070ms or 101 ticks behind
-[19:43:06] [Server thread/INFO]: Villager class_1646['Mason'/33093, l='ServerLevel[world]', x=3939.53, y=70.00, z=8288.09] died, message: 'Mason was slain by Husk'
-[19:51:41] [Server thread/INFO]: FlimFlamSlammer fell from a high place
-[19:55:32] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
-[19:55:32] [Server thread/INFO]: banggivealokbang left the game
-[19:56:36] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[19:56:36] [Server thread/INFO]: FlimFlamSlammer left the game
-[19:57:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[20:03:31] [Server thread/INFO]: banggivealokbang[/127.0.0.1:42084] logged in with entity id 85846 at (4000.35762230654, 64.0, 8187.023939543934)
-[20:03:31] [Server thread/INFO]: banggivealokbang joined the game
-[20:09:42] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:42914] logged in with entity id 89153 at (3964.8715158854793, 78.5, 8179.821563489819)
-[20:09:42] [Server thread/INFO]: FlimFlamSlammer joined the game
-[20:17:30] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
-[20:17:30] [Server thread/INFO]: banggivealokbang left the game
-[20:20:44] [Server thread/INFO]: banggivealokbang[/127.0.0.1:44544] logged in with entity id 97935 at (4511.517560114346, 65.0, 8771.739045394288)
-[20:20:44] [Server thread/INFO]: banggivealokbang joined the game
-[20:38:20] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
-[20:38:20] [Server thread/INFO]: banggivealokbang left the game
-[20:38:57] [Server thread/INFO]: banggivealokbang[/127.0.0.1:59012] logged in with entity id 102573 at (4510.34162167036, 65.0, 8773.300000011921)
-[20:38:57] [Server thread/INFO]: banggivealokbang joined the game
-[21:13:59] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:13:59] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:15:15] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:15:15] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:18:22] [Server thread/INFO]: <FlimFlamSlammer> check out my door
-[21:19:03] [Server thread/INFO]: <FlimFlamSlammer> can't hear you btw
-[21:19:08] [Server thread/INFO]: <banggivealokbang> alamak
-[21:19:33] [Server thread/INFO]: <banggivealokbang> hey what should i learn in epp
-[21:19:38] [Server thread/INFO]: <banggivealokbang> also im still cyling trades
-[21:19:39] [Server thread/INFO]: <FlimFlamSlammer> read
-[21:19:44] [Server thread/INFO]: <FlimFlamSlammer> bro wth
-[21:19:47] [Server thread/INFO]: <FlimFlamSlammer> for english
-[21:19:51] [Server thread/INFO]: <FlimFlamSlammer> just read
-[21:19:59] [Server thread/INFO]: <banggivealokbang> wym by tht
-[21:20:05] [Server thread/INFO]: <FlimFlamSlammer> uhh
-[21:20:06] [Server thread/INFO]: <FlimFlamSlammer> idk
-[21:20:22] [Server thread/INFO]: <banggivealokbang> ok siap
-[21:20:29] [Server thread/INFO]: <FlimFlamSlammer> yw
-[21:22:12] [Server thread/INFO]: <banggivealokbang> should i keep 11 emerald for unb 3
-[21:22:18] [Server thread/INFO]: <FlimFlamSlammer> keep
-[21:22:21] [Server thread/INFO]: <banggivealokbang> ok
-[21:22:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4515, y=64, z=8770}
-[21:22:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8769} class_2338{x=4515, y=64, z=8770}
-[21:22:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4515, y=64, z=8770}
-[21:22:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8769} class_2338{x=4515, y=64, z=8770}
-[21:22:55] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4515, y=64, z=8770}
-[21:22:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4516, y=64, z=8770}
-[21:22:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8769} class_2338{x=4516, y=64, z=8770}
-[21:22:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4516, y=64, z=8770}
-[21:22:56] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4516, y=64, z=8770}
-[21:22:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8772} class_2338{x=4517, y=64, z=8773}
-[21:22:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:57] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8772} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:58] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:22:59] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:00] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:01] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:02] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4515, y=65, z=8770} class_2338{x=4517, y=64, z=8773}
-[21:23:03] [Server thread/WARN]: Mismatch in destroy block pos: class_2338{x=4516, y=65, z=8771} class_2338{x=4517, y=64, z=8773}
-[21:24:12] [Server thread/INFO]: <banggivealokbang> i still need mending
-[21:28:20] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:28:20] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:32:29] [Server thread/INFO]: Villager class_1646['Villager'/107187, l='ServerLevel[world]', x=4518.79, y=65.00, z=8763.65] died, message: 'Villager was slain by Husk'
-[21:32:49] [Server thread/INFO]: Villager class_1646['Villager'/104652, l='ServerLevel[world]', x=4515.53, y=65.00, z=8763.49] died, message: 'Villager was slain by Zombie Villager'
-[21:32:57] [Server thread/INFO]: Villager class_1646['Villager'/102608, l='ServerLevel[world]', x=4515.70, y=65.50, z=8773.70] died, message: 'Villager was slain by Zombie Villager'
-[21:33:10] [Server thread/INFO]: Villager class_1646['Villager'/102576, l='ServerLevel[world]', x=4515.70, y=65.12, z=8773.70] died, message: 'Villager was slain by Zombie Villager'
-[21:33:21] [Server thread/INFO]: Villager class_1646['Villager'/102620, l='ServerLevel[world]', x=4517.30, y=65.80, z=8773.50] died, message: 'Villager was slain by Zombie Villager'
-[21:35:10] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:35:10] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:35:10] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:36:48] [Server thread/INFO]: Villager class_1646['Fletcher'/102579, l='ServerLevel[world]', x=4520.30, y=65.00, z=8770.30] died, message: 'Fletcher was slain by Zombie Villager'
-[21:37:29] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:37:29] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:37:29] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:38:00] [Server thread/INFO]: Villager class_1646['Fletcher'/102612, l='ServerLevel[world]', x=4512.58, y=65.00, z=8765.55] died, message: 'Fletcher was slain by banggivealokbang'
-[21:39:55] [Server thread/INFO]: Villager class_1646['Fletcher'/102580, l='ServerLevel[world]', x=4521.70, y=65.00, z=8768.65] died, message: 'Fletcher was slain by Zombie Villager'
-[21:40:37] [Server thread/INFO]: Villager class_1646['Fletcher'/102578, l='ServerLevel[world]', x=4517.48, y=65.00, z=8768.47] died, message: 'Fletcher was slain by Zombie Villager'
-[21:42:05] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[21:42:05] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[22:06:30] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[22:06:30] [Server thread/INFO]: FlimFlamSlammer left the game
-[22:07:21] [Server thread/INFO]: Villager class_1646['Librarian'/121704, l='ServerLevel[world]', x=4519.12, y=65.19, z=8770.15] died, message: 'Librarian was slain by Zombie Villager'
-[22:12:16] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
-[22:12:16] [Server thread/INFO]: banggivealokbang left the game
-[22:13:05] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[22:13:05] [Server thread/INFO]: stopstop<--[HERE]
-[22:13:16] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:17:24] [Server thread/INFO]: Stopping the server
-[22:17:24] [Server thread/INFO]: Stopping server
-[22:17:24] [Server thread/INFO]: Saving players
-[22:17:24] [Server thread/INFO]: Saving worlds
-[22:17:24] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[22:17:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:17:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[22:17:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[22:17:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:17:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:17:24] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:17:24] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[22:17:24] [C2ME Storage #3/INFO]: Storage thread Thread[#90,C2ME Storage #3,8,main] stopped
-[22:17:24] [C2ME Storage #2/INFO]: Storage thread Thread[#88,C2ME Storage #2,8,main] stopped
-[22:17:24] [C2ME Storage #1/INFO]: Storage thread Thread[#87,C2ME Storage #1,8,main] stopped
-[22:17:24] [C2ME Storage #6/INFO]: Storage thread Thread[#95,C2ME Storage #6,8,main] stopped
-[22:17:24] [C2ME Storage #5/INFO]: Storage thread Thread[#94,C2ME Storage #5,8,main] stopped
-[22:17:24] [C2ME Storage #4/INFO]: Storage thread Thread[#93,C2ME Storage #4,8,main] stopped
-[22:17:24] [C2ME Storage #9/INFO]: Storage thread Thread[#99,C2ME Storage #9,8,main] stopped
-[22:17:24] [C2ME Storage #8/INFO]: Storage thread Thread[#98,C2ME Storage #8,8,main] stopped
-[22:17:24] [C2ME Storage #7/INFO]: Storage thread Thread[#97,C2ME Storage #7,8,main] stopped
+[15:45:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[15:45:47] [main/INFO]: Compatibility level set to JAVA_16
+[15:45:47] [main/INFO]: Compatibility level set to JAVA_21
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[15:45:47] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[15:45:47] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[15:45:47] [main/INFO]: Detected maximum supported ISA target: AVX2
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:45:47] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[15:45:47] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[15:45:47] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[15:45:47] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[15:45:47] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[15:45:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[15:45:54] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
+[15:45:54] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[15:45:54] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:45:56] [main/INFO]: Loaded 1373 recipes
+[15:45:56] [main/INFO]: Loaded 1484 advancements
+[15:45:56] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.413 ms
+[15:45:57] [Server thread/INFO]: Starting background profiler...
+[15:45:57] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[15:45:57] [Server thread/INFO]: Loading properties
+[15:45:57] [Server thread/INFO]: Default game type: SURVIVAL
+[15:45:57] [Server thread/INFO]: Generating keypair
+[15:45:57] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:45:57] [Server thread/INFO]: Using epoll channel type
+[15:45:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:45:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:45:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:45:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:45:57] [Server thread/INFO]: Preparing level "world"
+[15:45:57] [Server thread/INFO]: Enforcing safe world random access
+[15:45:58] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 276.4 ms
+[15:45:58] [Server thread/INFO]: Changing watch distance to 16
+[15:45:58] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[15:45:59] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.465 ms
+[15:45:59] [Server thread/INFO]: Changing watch distance to 16
+[15:45:59] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.969 ms
+[15:45:59] [Server thread/INFO]: Changing watch distance to 16
+[15:45:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:45:59] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[15:45:59] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[15:45:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[15:46:00] [c2me-worker-3/INFO]: Preparing spawn area: 28%
+[15:46:00] [Server thread/INFO]: Time elapsed: 1441 ms
+[15:46:00] [Server thread/INFO]: Done (3.256s)! For help, type "help"
+[15:47:00] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[15:47:24] [Server thread/INFO]: HeloOimM[/127.0.0.1:38344] logged in with entity id 24 at (3999.762499988079, 68.0, 8187.444095631928)
+[15:47:24] [Server thread/INFO]: HeloOimM joined the game
+[15:48:15] [Server thread/INFO]: <HeloOimM> HeloOimM
+[15:51:06] [Server thread/INFO]: <HeloOimM> yes he didnt join
+[15:53:07] [Server thread/INFO]: <HeloOimM> what should i do
+[15:54:09] [Server thread/INFO]: <HeloOimM> 1 wrong mention and im dead
+[15:54:28] [Server thread/INFO]: You whisper to HeloOimM: why
+[15:54:41] [Server thread/INFO]: <HeloOimM> mention sune and im also dead
+[15:54:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[15:54:48] [Server thread/INFO]: w wdym<--[HERE]
+[15:54:53] [Server thread/INFO]: You whisper to HeloOimM: wdym
+[15:54:58] [Server thread/INFO]: <HeloOimM> ghostss
+[15:55:02] [Server thread/INFO]: <HeloOimM> also why u not join
+[15:55:26] [Server thread/INFO]: You whisper to HeloOimM: I'm working
+[15:56:46] [Server thread/INFO]: <HeloOimM> when will u finish ur work
+[15:56:53] [Server thread/INFO]: You whisper to HeloOimM: tell sune to join
+[15:56:57] [Server thread/INFO]: You whisper to HeloOimM: if you want
+[15:58:25] [Server thread/INFO]: banggivealokbang[/127.0.0.1:46600] logged in with entity id 2724 at (4512.1025339644775, 65.0, 8768.688543490953)
+[15:58:25] [Server thread/INFO]: banggivealokbang joined the game
+[15:58:43] [Server thread/INFO]: <banggivealokbang> u kinda told me to join when in a few more mins i will have to go to les
+[15:58:51] [Server thread/INFO]: <HeloOimM> welp
+[15:59:00] [Server thread/INFO]: You whisper to HeloOimM: welp
+[15:59:00] [Server thread/INFO]: You whisper to banggivealokbang: welp
+[15:59:00] [Server thread/INFO]: <HeloOimM> i dont know that
+[16:01:19] [Server thread/INFO]: <HeloOimM> im gonna renovate my house
+[16:02:03] [Server thread/INFO]: <HeloOimM> what courses
+[16:02:12] [Server thread/INFO]: banggivealokbang was slain by Zombie Villager
+[16:02:17] [Server thread/INFO]: Villager class_1646['Villager'/4997, l='ServerLevel[world]', x=4515.77, y=65.19, z=8767.96] died, message: 'Villager was slain by Zombie Villager'
+[16:04:53] [Server thread/INFO]: Villager class_1646['Villager'/4971, l='ServerLevel[world]', x=4520.90, y=65.19, z=8769.30] died, message: 'Villager was slain by Zombie Villager'
+[16:05:07] [Server thread/INFO]: banggivealokbang has reached the goal [Zombie Doctor]
+[16:07:42] [Server thread/INFO]: HeloOimM fell from a high place
+[16:10:48] [Server thread/INFO]: <HeloOimM> i lost everything
+[16:10:59] [Server thread/INFO]: <HeloOimM> oh nvm
+[16:15:25] [Server thread/INFO]: <HeloOimM> im running out of coallll
+[16:18:50] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
+[16:18:50] [Server thread/INFO]: banggivealokbang left the game
+[16:32:12] [Server thread/INFO]: <HeloOimM> hello
+[16:33:19] [Server thread/INFO]: <HeloOimM> yes
+[16:42:45] [Server thread/INFO]: <HeloOimM> u have kelp?
+[16:48:01] [Server thread/INFO]: <HeloOimM> i want to explore ig
+[17:09:04] [Server thread/INFO]: <HeloOimM> eloo]
+[17:11:51] [Server thread/INFO]: <HeloOimM> can u sleep
+[17:14:25] [Server thread/INFO]: <HeloOimM> umm ghosts
+[17:15:14] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:33964] logged in with entity id 24239 at (3962.952997861384, 77.0, 8173.169202909327)
+[17:15:14] [Server thread/INFO]: FlimFlamSlammer joined the game
+[17:15:18] [Server thread/INFO]: <HeloOimM> aht
+[17:15:32] [Server thread/INFO]: <HeloOimM> what is illegal
+[17:15:42] [Server thread/INFO]: <HeloOimM> no what did u say was illegal
+[17:16:12] [Server thread/INFO]: <HeloOimM> do we need dark oak
+[17:16:25] [Server thread/INFO]: <HeloOimM> i dont know
+[17:16:33] [Server thread/INFO]: <HeloOimM> died?
+[17:16:37] [Server thread/INFO]: <HeloOimM> whow
+[17:16:39] [Server thread/INFO]: <HeloOimM> how
+[17:17:06] [Server thread/INFO]: <HeloOimM> bro what to do when i explore
+[17:17:36] [Server thread/INFO]: <HeloOimM> sleep
+[17:17:56] [Server thread/INFO]: <HeloOimM> got a silktouch hoe
+[17:18:14] [Server thread/INFO]: <HeloOimM> from chests
+[17:18:17] [Server thread/INFO]: <HeloOimM> sleep
+[17:19:05] [Server thread/INFO]: <HeloOimM> i need 7 more biomes
+[17:21:25] [Server thread/INFO]: <HeloOimM> whattt
+[17:21:33] [Server thread/INFO]: <HeloOimM> whyyy
+[17:21:48] [Server thread/INFO]: <HeloOimM> that not flying
+[17:22:26] [Server thread/INFO]: <HeloOimM> should we get every advancement?
+[17:22:46] [Server thread/INFO]: <HeloOimM> why its pointles
+[17:23:35] [Server thread/INFO]: <FlimFlamSlammer> a
+[17:23:38] [Server thread/INFO]: <HeloOimM> what
+[17:25:03] [Server thread/INFO]: <HeloOimM> candy candy candy cookie
+[17:25:14] [Server thread/INFO]: <HeloOimM> candy candy chocolato
+[17:25:19] [Server thread/INFO]: <FlimFlamSlammer> ima restart discord
+[17:26:20] [Server thread/INFO]: <FlimFlamSlammer> where are you
+[17:26:23] [Server thread/INFO]: <HeloOimM> exploring
+[17:26:31] [Server thread/INFO]: <FlimFlamSlammer> what you tryna get
+[17:26:38] [Server thread/INFO]: <HeloOimM> umm idk
+[17:26:43] [Server thread/INFO]: <HeloOimM> like smithing template
+[17:26:46] [Server thread/INFO]: <FlimFlamSlammer> go back
+[17:26:49] [Server thread/INFO]: <HeloOimM> why
+[17:26:50] [Server thread/INFO]: <FlimFlamSlammer> village needs developments
+[17:26:58] [Server thread/INFO]: <HeloOimM> like
+[17:27:00] [Server thread/INFO]: <FlimFlamSlammer> it's more important than whatever you're doing
+[17:27:10] [Server thread/INFO]: <HeloOimM> im gathering more resources
+[17:27:13] [Server thread/INFO]: <FlimFlamSlammer> we only have 3 villagers
+[17:27:32] [Server thread/INFO]: <HeloOimM> also join call
+[17:28:54] [Server thread/INFO]: <HeloOimM> i think im lost
+[17:29:58] [Server thread/INFO]: <HeloOimM> sleep
+[17:31:02] [Server thread/INFO]: <HeloOimM> sleep
+[17:31:26] [Server thread/INFO]: <HeloOimM> ur mic is broken
+[17:31:35] [Server thread/INFO]: <HeloOimM> y
+[17:31:46] [Server thread/INFO]: <HeloOimM> im lost
+[17:31:53] [Server thread/INFO]: <HeloOimM> no
+[17:32:05] [Server thread/INFO]: <HeloOimM> it is
+[17:32:11] [Server thread/INFO]: <FlimFlamSlammer> ok how are you gonna go back
+[17:32:18] [Server thread/INFO]: <HeloOimM> just gonna paddle
+[17:32:37] [Server thread/INFO]: <HeloOimM> wait nvm i had the compass
+[17:32:52] [Server thread/INFO]: <HeloOimM> thats why u trapped the villagers first
+[17:32:57] [Server thread/INFO]: <HeloOimM> then release them
+[17:33:05] [Server thread/INFO]: <HeloOimM> so they dont dide
+[17:33:17] [Server thread/INFO]: <HeloOimM> i mean just release the,
+[17:34:30] [Server thread/INFO]: <HeloOimM> u need lecterns?
+[17:34:39] [Server thread/INFO]: <HeloOimM> ye
+[17:34:49] [Server thread/INFO]: <HeloOimM> WE NEED MENDING
+[17:35:21] [Server thread/INFO]: <HeloOimM> but it could have the too expensive thing
+[17:35:41] [Server thread/INFO]: <HeloOimM> but what if i had the best enchants there
+[17:36:43] [Server thread/INFO]: <HeloOimM> wth
+[17:36:49] [Server thread/INFO]: <HeloOimM> an iron golem
+[17:37:04] [Server thread/INFO]: <HeloOimM> just store them
+[17:37:27] [Server thread/INFO]: <HeloOimM> what about hardcore players
+[17:38:03] [Server thread/INFO]: <HeloOimM> just realized the compass didnt lead anywhere
+[17:39:01] [Server thread/INFO]: <HeloOimM> im gonna play some music to chill
+[17:39:06] [Server thread/INFO]: <HeloOimM> im going insane
+[17:39:29] [Server thread/INFO]: <HeloOimM> i want too
+[17:39:43] [Server thread/INFO]: <HeloOimM> just walking around
+[17:39:49] [Server thread/INFO]: <HeloOimM> far
+[17:40:02] [Server thread/INFO]: <HeloOimM> but like i found the raid farm by accident soo
+[17:40:16] [Server thread/INFO]: <HeloOimM> so i can findmy base
+[17:41:27] [Server thread/INFO]: <HeloOimM> skepp
+[17:42:15] [Server thread/INFO]: <HeloOimM> im the rain
+[17:42:43] [Server thread/INFO]: <HeloOimM> i use kay kyu powers
+[17:44:53] [Server thread/INFO]: <FlimFlamSlammer> I will switch wifi
+[17:45:20] [Server thread/INFO]: HeloOimM lost connection: Timed out
+[17:45:20] [Server thread/INFO]: HeloOimM left the game
+[17:46:47] [Server thread/INFO]: HeloOimM[/127.0.0.1:38316] logged in with entity id 47876 at (4246.690813861334, 62.11076431274414, 12402.342521783647)
+[17:46:47] [Server thread/INFO]: HeloOimM joined the game
+[17:51:56] [Server thread/INFO]: <HeloOimM> A SIGN?
+[17:52:24] [Server thread/INFO]: <HeloOimM> avoebnpo
+[17:52:26] [Server thread/INFO]: <HeloOimM> it said
+[17:52:37] [Server thread/INFO]: <HeloOimM> desert mesa
+[17:52:42] [Server thread/INFO]: <HeloOimM> i think its a different mesa
+[17:53:31] [Server thread/INFO]: <HeloOimM> sunhat mike
+[17:55:05] [Server thread/INFO]: <HeloOimM> i see a weird looking guy looking at me
+[17:55:14] [Server thread/INFO]: <HeloOimM> he just stares at me
+[17:55:39] [Server thread/INFO]: <HeloOimM> no
+[17:55:44] [Server thread/INFO]: <HeloOimM> its like a player
+[17:55:52] [Server thread/INFO]: <HeloOimM> what u mean
+[17:56:15] [Server thread/INFO]: <HeloOimM> kinda unsettling tbh
+[17:56:22] [Server thread/INFO]: <HeloOimM> what
+[17:56:48] [Server thread/INFO]: <HeloOimM> oh cuz that mesa is not near a jungle
+[17:57:21] [Server thread/INFO]: <HeloOimM> im on the ocean
+[17:57:37] [Server thread/INFO]: <HeloOimM> peoplemania
+[17:57:53] [Server thread/INFO]: <HeloOimM> no
+[17:57:58] [Server thread/INFO]: <HeloOimM> desert
+[17:58:17] [Server thread/INFO]: <HeloOimM> acronyms
+[17:58:25] [Server thread/INFO]: <HeloOimM> Take Every Task Outside
+[17:58:42] [Server thread/INFO]: <HeloOimM> are u pissed?
+[17:58:59] [Server thread/INFO]: <HeloOimM> wait i think i might be near
+[17:59:14] [Server thread/INFO]: <HeloOimM> no im near a desert and savannah
+[17:59:27] [Server thread/INFO]: <HeloOimM> oh its the mangrove swamp
+[17:59:57] [Server thread/INFO]: <HeloOimM> can u help me
+[18:00:06] [Server thread/INFO]: <HeloOimM> im starving
+[18:00:35] [Server thread/INFO]: <HeloOimM> SHARPNESS 3 gold sword
+[18:00:55] [Server thread/INFO]: <HeloOimM> im near the mangrove
+[18:01:39] [Server thread/INFO]: <HeloOimM> use boats bruh
+[18:01:53] [Server thread/INFO]: <HeloOimM> no
+[18:02:16] [Server thread/INFO]: <HeloOimM> ruined
+[18:02:51] [Server thread/INFO]: <HeloOimM> ye
+[18:02:57] [Server thread/INFO]: <HeloOimM> u said immersing is good
+[18:03:03] [Server thread/INFO]: <HeloOimM> no
+[18:03:05] [Server thread/INFO]: <HeloOimM> just immersing
+[18:03:15] [Server thread/INFO]: <HeloOimM> i dont even know the language
+[18:03:49] [Server thread/INFO]: <HeloOimM> IM ON THE OCEAN
+[18:03:55] [Server thread/INFO]: <HeloOimM> nvm
+[18:04:00] [Server thread/INFO]: <HeloOimM> its different
+[18:04:07] [Server thread/INFO]: <HeloOimM> i swear
+[18:07:45] [Server thread/INFO]: <HeloOimM> helo
+[18:07:52] [Server thread/INFO]: <HeloOimM> desert
+[18:08:07] [Server thread/INFO]: <HeloOimM> no
+[18:08:36] [Server thread/INFO]: <HeloOimM> no
+[18:09:06] [Server thread/INFO]: <HeloOimM> no
+[18:09:19] [Server thread/INFO]: <HeloOimM> no
+[18:09:31] [Server thread/INFO]: <HeloOimM> no
+[18:09:38] [Server thread/INFO]: <HeloOimM> near the desert
+[18:09:59] [Server thread/INFO]: <HeloOimM> the desert
+[18:11:16] [Server thread/INFO]: <HeloOimM> ok i see land
+[18:11:24] [Server thread/INFO]: <HeloOimM> desert
+[18:11:33] [Server thread/INFO]: <HeloOimM> oh i see ur dockw
+[18:11:45] [Server thread/INFO]: <HeloOimM> i see ur base
+[18:12:04] [Server thread/INFO]: <HeloOimM> 2 brewing stand silk touch hoe
+[18:12:15] [Server thread/INFO]: <HeloOimM> and smithing template
+[18:12:21] [Server thread/INFO]: <HeloOimM> and lectern
+[18:12:31] [Server thread/INFO]: <HeloOimM> also why u put rail
+[18:12:40] [Server thread/INFO]: <HeloOimM> and putting rails?
+[18:12:50] [Server thread/INFO]: <HeloOimM> how does that help
+[18:14:17] [Server thread/INFO]: <HeloOimM> i got silk touch and mending
+[18:14:20] [Server thread/INFO]: <HeloOimM> hoe
+[18:14:33] [Server thread/INFO]: <HeloOimM> also i got kelp
+[18:14:42] [Server thread/INFO]: <HeloOimM> bubble elevator
+[18:16:46] [Server thread/INFO]: <HeloOimM> also dont tell everyone i was going into a mike
+[18:17:01] [Server thread/INFO]: <HeloOimM> also why this villager her
+[18:17:31] [Server thread/INFO]: <HeloOimM> why is the toolsmith using my smithing table
+[18:17:42] [Server thread/INFO]: <HeloOimM> also i got spruce
+[18:18:13] [Server thread/INFO]: <HeloOimM> also i sort the items now
+[18:18:36] [Server thread/INFO]: <HeloOimM> for u
+[18:18:44] [Server thread/INFO]: <HeloOimM> yee
+[18:19:49] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[18:19:49] [Server thread/INFO]: FlimFlamSlammer left the game
+[18:29:17] [Server thread/INFO]: HeloOimM lost connection: Disconnected
+[18:29:17] [Server thread/INFO]: HeloOimM left the game
+[18:30:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[18:32:31] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:60706] logged in with entity id 83637 at (4008.453620913347, 64.17675927506424, 8146.699999988079)
+[18:32:31] [Server thread/INFO]: FlimFlamSlammer joined the game
+[19:21:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4771ms or 95 ticks behind
+[19:33:51] [Server thread/INFO]: Villager class_1646['Toolsmith'/91236, l='ServerLevel[world]', x=3956.75, y=66.19, z=8247.62] died, message: 'Toolsmith was slain by Husk'
+[19:35:56] [Server thread/INFO]: Villager class_1646['Villager'/91271, l='ServerLevel[world]', x=3958.26, y=66.19, z=8246.59] died, message: 'Villager was slain by Zombie Villager'
+[20:09:59] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[20:09:59] [Server thread/INFO]: FlimFlamSlammer left the game
+[20:10:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[21:08:02] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:41688] logged in with entity id 99229 at (3973.303199399434, 66.0, 8226.355607441259)
+[21:08:02] [Server thread/INFO]: FlimFlamSlammer joined the game
+[21:29:25] [Server thread/INFO]: banggivealokbang[/127.0.0.1:37770] logged in with entity id 103524 at (4521.755115947566, 70.0, 8776.699999988079)
+[21:29:25] [Server thread/INFO]: banggivealokbang joined the game
+[21:36:03] [Server thread/INFO]: <banggivealokbang> uhh u have a flint and steel?
+[21:36:08] [Server thread/INFO]: <FlimFlamSlammer> yes
+[21:36:11] [Server thread/INFO]: <FlimFlamSlammer> but I'm stuck here
+[21:36:13] [Server thread/INFO]: <FlimFlamSlammer> wait
+[21:36:13] [Server thread/INFO]: <banggivealokbang> i forgot to bring mine
+[21:38:25] [Server thread/INFO]: banggivealokbang lost connection: Timed out
+[21:38:25] [Server thread/INFO]: banggivealokbang left the game
+[21:38:31] [Server thread/INFO]: banggivealokbang[/127.0.0.1:52420] logged in with entity id 108112 at (3941.723118832606, 84.0, 8169.300000011921)
+[21:38:31] [Server thread/INFO]: banggivealokbang joined the game
+[21:38:33] [Server thread/INFO]: <FlimFlamSlammer> ?
+[21:38:40] [Server thread/INFO]: <banggivealokbang> i got timed out lol
+[21:40:29] [Server thread/INFO]: <FlimFlamSlammer> terraria house
+[21:40:34] [Server thread/INFO]: <banggivealokbang> i relate
+[21:43:22] [Server thread/INFO]: <banggivealokbang> also for some reason one of the bookshelfs are not registered in the enchanting table
+[21:43:29] [Server thread/INFO]: <FlimFlamSlammer> probably grindstone
+[21:43:43] [Server thread/INFO]: <banggivealokbang> its either because of its in the corner or its because its 3 blocks high
+[21:43:52] [Server thread/INFO]: <banggivealokbang> its not even close to the grindstone
+[21:43:57] [Server thread/INFO]: <FlimFlamSlammer> oh
+[21:44:01] [Server thread/INFO]: <FlimFlamSlammer> 3 blocks high
+[21:44:04] [Server thread/INFO]: <FlimFlamSlammer> oim is dumb
+[21:44:07] [Server thread/INFO]: <banggivealokbang> lol
+[21:44:10] [Server thread/INFO]: <FlimFlamSlammer> certified
+[21:45:50] [Server thread/INFO]: <banggivealokbang> bro jeriko and dough boy is playing grow a garden
+[21:45:54] [Server thread/INFO]: <FlimFlamSlammer> wth
+[21:48:39] [Server thread/WARN]: banggivealokbang moved too quickly! -2.693050714093488,-2.227779252040037,-9.640876225009606
+[21:48:51] [Server thread/INFO]: <banggivealokbang> y my wifi so bad
+[21:48:56] [Server thread/INFO]: <FlimFlamSlammer> probably mine
+[21:49:08] [Server thread/INFO]: <banggivealokbang> hold tab
+[21:49:15] [Server thread/INFO]: <FlimFlamSlammer> it's mine
+[21:49:26] [Server thread/INFO]: <FlimFlamSlammer> the server is dependent on my internet
+[21:49:26] [Server thread/INFO]: <banggivealokbang> and look at my ping
+[21:49:26] [Server thread/WARN]: banggivealokbang moved too quickly! 7.380845208750088,7.5,-0.24831224622539594
+[21:49:26] [Server thread/INFO]: <banggivealokbang> oh
+[21:49:28] [Server thread/INFO]: <banggivealokbang> bruh my chat is so delayed
+[21:51:47] [Server thread/INFO]: banggivealokbang lost connection: Timed out
+[21:51:47] [Server thread/INFO]: banggivealokbang left the game
+[21:52:07] [Server thread/INFO]: banggivealokbang[/127.0.0.1:32908] logged in with entity id 114430 at (3941.3960408761636, 84.0, 8169.500131279705)
+[21:52:07] [Server thread/INFO]: banggivealokbang joined the game
+[21:52:37] [Server thread/INFO]: banggivealokbang lost connection: Timed out
+[21:52:37] [Server thread/INFO]: banggivealokbang left the game
+[21:53:11] [Server thread/INFO]: banggivealokbang[/127.0.0.1:35938] logged in with entity id 114819 at (3942.3756352195833, 84.0, 8169.300000011921)
+[21:53:11] [Server thread/INFO]: banggivealokbang joined the game
+[22:05:24] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[22:05:24] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[22:05:24] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[22:17:13] [Server thread/INFO]: banggivealokbang lost connection: Timed out
+[22:17:13] [Server thread/INFO]: banggivealokbang left the game
+[22:29:09] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[22:29:09] [Server thread/INFO]: FlimFlamSlammer left the game
+[22:30:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[22:30:10] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:54286] logged in with entity id 131103 at (3974.2407997817063, 67.0, 8211.635631989031)
+[22:30:10] [Server thread/INFO]: Connection closed during protocol change
+[22:30:10] [Netty Epoll Server Play IO #10/WARN]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
+[22:30:10] [Server thread/ERROR]: Couldn't place player in world
+io.netty.channel.StacklessClosedChannelException: null
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
+[22:30:10] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[22:30:10] [Server thread/INFO]: FlimFlamSlammer left the game
+[22:30:11] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:54298] logged in with entity id 131104 at (3974.2407997817063, 67.0, 8211.635631989031)
+[22:30:11] [Server thread/INFO]: FlimFlamSlammer joined the game
+[22:48:29] [Server thread/INFO]: Unknown selector type '@g'
+[22:48:29] [Server thread/INFO]: w @gamemode spectator FlimFlamSlammer<--[HERE]
+[22:48:38] [Server thread/INFO]: Set FlimFlamSlammer's game mode to Spectator Mode
+[22:51:06] [Server thread/INFO]: Set FlimFlamSlammer's game mode to Survival Mode
+[22:51:14] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[22:51:14] [Server thread/INFO]: FlimFlamSlammer left the game
+[22:52:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[23:08:54] [Server thread/INFO]: Stopping the server
+[23:08:54] [Server thread/INFO]: Stopping server
+[23:08:54] [Server thread/INFO]: Saving players
+[23:08:54] [Server thread/INFO]: Saving worlds
+[23:08:54] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
+[23:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[23:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[23:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23:08:54] [C2ME Storage #3/INFO]: Storage thread Thread[#90,C2ME Storage #3,8,main] stopped
+[23:08:55] [C2ME Storage #2/INFO]: Storage thread Thread[#89,C2ME Storage #2,8,main] stopped
+[23:08:55] [C2ME Storage #1/INFO]: Storage thread Thread[#88,C2ME Storage #1,8,main] stopped
+[23:08:55] [C2ME Storage #6/INFO]: Storage thread Thread[#95,C2ME Storage #6,8,main] stopped
+[23:08:55] [C2ME Storage #5/INFO]: Storage thread Thread[#94,C2ME Storage #5,8,main] stopped
+[23:08:55] [C2ME Storage #4/INFO]: Storage thread Thread[#93,C2ME Storage #4,8,main] stopped
+[23:08:55] [C2ME Storage #9/INFO]: Storage thread Thread[#99,C2ME Storage #9,8,main] stopped
+[23:08:55] [C2ME Storage #8/INFO]: Storage thread Thread[#98,C2ME Storage #8,8,main] stopped
+[23:08:55] [C2ME Storage #7/INFO]: Storage thread Thread[#97,C2ME Storage #7,8,main] stopped

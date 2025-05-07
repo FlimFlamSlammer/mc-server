@@ -1,1 +1,1 @@
-share/share-tool.exe share reserved minecrafters
+./share/share-tool.exe share reserved minecrafters

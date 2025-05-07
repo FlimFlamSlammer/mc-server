@@ -4368,5 +4368,11 @@
     },
     "done": true
   },
+  "minecraft:story/cure_zombie_villager": {
+    "criteria": {
+      "cured_zombie": "2025-05-07 16:05:07 +0700"
+    },
+    "done": true
+  },
   "DataVersion": 4325
 }
