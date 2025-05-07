@@ -35,6 +35,7 @@
       "minecraft:windswept_savanna": "2025-03-25 10:18:13 +0700",
       "minecraft:warm_ocean": "2025-03-25 10:02:33 +0700",
       "minecraft:deep_lukewarm_ocean": "2025-05-03 17:07:57 +0700",
+      "minecraft:badlands": "2025-05-06 17:32:20 +0700",
       "minecraft:beach": "2025-02-20 11:10:38 +0700",
       "minecraft:dark_forest": "2025-02-20 12:56:29 +0700",
       "minecraft:mangrove_swamp": "2025-05-03 17:23:18 +0700",
@@ -642,27 +643,28 @@
       "minecraft:blaze": "2025-02-19 18:01:49 +0700",
       "minecraft:pillager": "2025-03-19 09:52:08 +0700",
       "minecraft:skeleton": "2025-02-17 12:40:58 +0700",
-      "minecraft:phantom": "2025-02-24 13:04:58 +0700",
-      "minecraft:witch": "2025-03-17 12:40:09 +0700",
-      "minecraft:wither_skeleton": "2025-02-27 10:49:40 +0700",
       "minecraft:ravager": "2025-03-19 09:54:38 +0700",
-      "minecraft:husk": "2025-03-20 07:38:56 +0700",
       "minecraft:ghast": "2025-02-18 13:53:03 +0700",
       "minecraft:hoglin": "2025-02-18 13:21:19 +0700",
-      "minecraft:shulker": "2025-03-21 07:37:10 +0700",
-      "minecraft:piglin": "2025-02-18 13:20:49 +0700",
       "minecraft:vindicator": "2025-03-19 09:59:08 +0700",
-      "minecraft:enderman": "2025-02-18 13:19:57 +0700",
-      "minecraft:silverfish": "2025-02-22 16:32:15 +0700",
       "minecraft:magma_cube": "2025-02-18 13:53:32 +0700",
       "minecraft:spider": "2025-02-17 11:26:36 +0700",
       "minecraft:piglin_brute": "2025-03-05 08:48:17 +0700",
+      "minecraft:creeper": "2025-02-17 12:19:20 +0700",
+      "minecraft:evoker": "2025-03-19 09:59:08 +0700",
+      "minecraft:phantom": "2025-02-24 13:04:58 +0700",
+      "minecraft:witch": "2025-03-17 12:40:09 +0700",
+      "minecraft:wither_skeleton": "2025-02-27 10:49:40 +0700",
+      "minecraft:husk": "2025-03-20 07:38:56 +0700",
+      "minecraft:shulker": "2025-03-21 07:37:10 +0700",
+      "minecraft:cave_spider": "2025-05-06 17:35:20 +0700",
+      "minecraft:piglin": "2025-02-18 13:20:49 +0700",
+      "minecraft:enderman": "2025-02-18 13:19:57 +0700",
+      "minecraft:silverfish": "2025-02-22 16:32:15 +0700",
       "minecraft:vex": "2025-03-19 12:14:20 +0700",
       "minecraft:zombie": "2025-02-17 11:18:39 +0700",
-      "minecraft:creeper": "2025-02-17 12:19:20 +0700",
       "minecraft:drowned": "2025-02-18 13:08:39 +0700",
-      "minecraft:zombie_villager": "2025-03-19 12:25:38 +0700",
-      "minecraft:evoker": "2025-03-19 09:59:08 +0700"
+      "minecraft:zombie_villager": "2025-03-19 12:25:38 +0700"
     },
     "done": false
   },
@@ -4450,6 +4452,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/brick": {
+    "criteria": {
+      "has_clay_ball": "2025-05-05 18:35:50 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/clay": {
+    "criteria": {
+      "has_clay_ball": "2025-05-05 18:35:50 +0700"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/red_dye_from_beetroot": {
     "criteria": {
       "has_beetroot": "2025-05-05 18:45:03 +0700"
@@ -4462,15 +4476,81 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/brick": {
+  "minecraft:recipes/building_blocks/terracotta": {
     "criteria": {
-      "has_clay_ball": "2025-05-05 18:35:50 +0700"
+      "has_clay_block": "2025-05-06 17:05:41 +0700"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/clay": {
+  "minecraft:recipes/combat/wolf_armor": {
     "criteria": {
-      "has_clay_ball": "2025-05-05 18:35:50 +0700"
+      "has_armadillo_scute": "2025-05-06 17:07:33 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_bed": {
+    "criteria": {
+      "has_light_blue_wool": "2025-05-06 17:07:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_carpet": {
+    "criteria": {
+      "has_light_blue_wool": "2025-05-06 17:07:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/light_blue_banner": {
+    "criteria": {
+      "has_light_blue_wool": "2025-05-06 17:07:38 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_sandstone": {
+    "criteria": {
+      "has_sandstone_slab": "2025-05-06 17:11:03 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_sandstone": {
+    "criteria": {
+      "has_sand": "2025-05-06 17:34:41 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/orange_glazed_terracotta": {
+    "criteria": {
+      "has_orange_terracotta": "2025-05-06 17:35:34 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-05-06 17:53:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/blue_dye_from_cornflower": {
+    "criteria": {
+      "has_cornflower": "2025-05-06 17:53:28 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-05-06 17:53:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-05-06 17:53:48 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_oxeye_daisy": {
+    "criteria": {
+      "has_oxeye_daisy": "2025-05-06 17:53:48 +0700"
     },
     "done": true
   },
