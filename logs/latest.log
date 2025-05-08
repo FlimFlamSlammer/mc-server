@@ -1,5 +1,5 @@
-[15:45:46] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[15:45:46] [main/INFO]: Loading 80 mods:
+[12:46:38] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[12:46:38] [main/INFO]: Loading 80 mods:
 	- alternate-current 1.9.0
 	- c2me 0.3.2.0.0+1.21.5
 	   |-- c2me-base 0.3.2.0.0+1.21.5
@@ -81,7 +81,7 @@
 	- fabricloader 0.16.14
 	   \-- mixinextras 0.4.1
 	- ferritecore 8.0.0
-	- java 23
+	- java 22
 	- krypton 0.2.9
 	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
 	- lithium 0.16.2+mc1.21.5
@@ -92,366 +92,889 @@
 	   \-- fabric-permissions-api-v0 0.3.3
 	- vmp 0.2.0+beta.7.198+1.21.5
 	   \-- com_ibm_async_asyncutil 0.1.0
-[15:45:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/home/lionel/Documents/MinecraftServer/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[15:45:47] [main/INFO]: Compatibility level set to JAVA_16
-[15:45:47] [main/INFO]: Compatibility level set to JAVA_21
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.base.mixin
-[15:45:47] [main/INFO]: Global Executor Parallelism: 4 configured, 4 evaluated, 4 default evaluated
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
-[15:45:47] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
-[15:45:47] [main/INFO]: Detected maximum supported ISA target: AVX2
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
-[15:45:47] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
-[15:45:47] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
-[15:45:47] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[15:45:47] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
-[15:45:47] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
-[15:45:48] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[15:45:54] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.x.x (Linux x86_64)
-[15:45:54] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[15:45:54] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[15:45:56] [main/INFO]: Loaded 1373 recipes
-[15:45:56] [main/INFO]: Loaded 1484 advancements
-[15:45:56] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 1.413 ms
-[15:45:57] [Server thread/INFO]: Starting background profiler...
-[15:45:57] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[15:45:57] [Server thread/INFO]: Loading properties
-[15:45:57] [Server thread/INFO]: Default game type: SURVIVAL
-[15:45:57] [Server thread/INFO]: Generating keypair
-[15:45:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[15:45:57] [Server thread/INFO]: Using epoll channel type
-[15:45:57] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[15:45:57] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[15:45:57] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[15:45:57] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[15:45:57] [Server thread/INFO]: Preparing level "world"
-[15:45:57] [Server thread/INFO]: Enforcing safe world random access
-[15:45:58] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 276.4 ms
-[15:45:58] [Server thread/INFO]: Changing watch distance to 16
-[15:45:58] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
-[15:45:59] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 7.465 ms
-[15:45:59] [Server thread/INFO]: Changing watch distance to 16
-[15:45:59] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 6.969 ms
-[15:45:59] [Server thread/INFO]: Changing watch distance to 16
-[15:45:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[15:45:59] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
-[15:45:59] [c2me-worker-1/INFO]: Preparing spawn area: 0%
-[15:45:59] [c2me-worker-0/INFO]: Preparing spawn area: 0%
-[15:46:00] [c2me-worker-3/INFO]: Preparing spawn area: 28%
-[15:46:00] [Server thread/INFO]: Time elapsed: 1441 ms
-[15:46:00] [Server thread/INFO]: Done (3.256s)! For help, type "help"
-[15:47:00] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[15:47:24] [Server thread/INFO]: HeloOimM[/127.0.0.1:38344] logged in with entity id 24 at (3999.762499988079, 68.0, 8187.444095631928)
-[15:47:24] [Server thread/INFO]: HeloOimM joined the game
-[15:48:15] [Server thread/INFO]: <HeloOimM> HeloOimM
-[15:51:06] [Server thread/INFO]: <HeloOimM> yes he didnt join
-[15:53:07] [Server thread/INFO]: <HeloOimM> what should i do
-[15:54:09] [Server thread/INFO]: <HeloOimM> 1 wrong mention and im dead
-[15:54:28] [Server thread/INFO]: You whisper to HeloOimM: why
-[15:54:41] [Server thread/INFO]: <HeloOimM> mention sune and im also dead
-[15:54:48] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[15:54:48] [Server thread/INFO]: w wdym<--[HERE]
-[15:54:53] [Server thread/INFO]: You whisper to HeloOimM: wdym
-[15:54:58] [Server thread/INFO]: <HeloOimM> ghostss
-[15:55:02] [Server thread/INFO]: <HeloOimM> also why u not join
-[15:55:26] [Server thread/INFO]: You whisper to HeloOimM: I'm working
-[15:56:46] [Server thread/INFO]: <HeloOimM> when will u finish ur work
-[15:56:53] [Server thread/INFO]: You whisper to HeloOimM: tell sune to join
-[15:56:57] [Server thread/INFO]: You whisper to HeloOimM: if you want
-[15:58:25] [Server thread/INFO]: banggivealokbang[/127.0.0.1:46600] logged in with entity id 2724 at (4512.1025339644775, 65.0, 8768.688543490953)
-[15:58:25] [Server thread/INFO]: banggivealokbang joined the game
-[15:58:43] [Server thread/INFO]: <banggivealokbang> u kinda told me to join when in a few more mins i will have to go to les
-[15:58:51] [Server thread/INFO]: <HeloOimM> welp
-[15:59:00] [Server thread/INFO]: You whisper to HeloOimM: welp
-[15:59:00] [Server thread/INFO]: You whisper to banggivealokbang: welp
-[15:59:00] [Server thread/INFO]: <HeloOimM> i dont know that
-[16:01:19] [Server thread/INFO]: <HeloOimM> im gonna renovate my house
-[16:02:03] [Server thread/INFO]: <HeloOimM> what courses
-[16:02:12] [Server thread/INFO]: banggivealokbang was slain by Zombie Villager
-[16:02:17] [Server thread/INFO]: Villager class_1646['Villager'/4997, l='ServerLevel[world]', x=4515.77, y=65.19, z=8767.96] died, message: 'Villager was slain by Zombie Villager'
-[16:04:53] [Server thread/INFO]: Villager class_1646['Villager'/4971, l='ServerLevel[world]', x=4520.90, y=65.19, z=8769.30] died, message: 'Villager was slain by Zombie Villager'
-[16:05:07] [Server thread/INFO]: banggivealokbang has reached the goal [Zombie Doctor]
-[16:07:42] [Server thread/INFO]: HeloOimM fell from a high place
-[16:10:48] [Server thread/INFO]: <HeloOimM> i lost everything
-[16:10:59] [Server thread/INFO]: <HeloOimM> oh nvm
-[16:15:25] [Server thread/INFO]: <HeloOimM> im running out of coallll
-[16:18:50] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
-[16:18:50] [Server thread/INFO]: banggivealokbang left the game
-[16:32:12] [Server thread/INFO]: <HeloOimM> hello
-[16:33:19] [Server thread/INFO]: <HeloOimM> yes
-[16:42:45] [Server thread/INFO]: <HeloOimM> u have kelp?
-[16:48:01] [Server thread/INFO]: <HeloOimM> i want to explore ig
-[17:09:04] [Server thread/INFO]: <HeloOimM> eloo]
-[17:11:51] [Server thread/INFO]: <HeloOimM> can u sleep
-[17:14:25] [Server thread/INFO]: <HeloOimM> umm ghosts
-[17:15:14] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:33964] logged in with entity id 24239 at (3962.952997861384, 77.0, 8173.169202909327)
-[17:15:14] [Server thread/INFO]: FlimFlamSlammer joined the game
-[17:15:18] [Server thread/INFO]: <HeloOimM> aht
-[17:15:32] [Server thread/INFO]: <HeloOimM> what is illegal
-[17:15:42] [Server thread/INFO]: <HeloOimM> no what did u say was illegal
-[17:16:12] [Server thread/INFO]: <HeloOimM> do we need dark oak
-[17:16:25] [Server thread/INFO]: <HeloOimM> i dont know
-[17:16:33] [Server thread/INFO]: <HeloOimM> died?
-[17:16:37] [Server thread/INFO]: <HeloOimM> whow
-[17:16:39] [Server thread/INFO]: <HeloOimM> how
-[17:17:06] [Server thread/INFO]: <HeloOimM> bro what to do when i explore
-[17:17:36] [Server thread/INFO]: <HeloOimM> sleep
-[17:17:56] [Server thread/INFO]: <HeloOimM> got a silktouch hoe
-[17:18:14] [Server thread/INFO]: <HeloOimM> from chests
-[17:18:17] [Server thread/INFO]: <HeloOimM> sleep
-[17:19:05] [Server thread/INFO]: <HeloOimM> i need 7 more biomes
-[17:21:25] [Server thread/INFO]: <HeloOimM> whattt
-[17:21:33] [Server thread/INFO]: <HeloOimM> whyyy
-[17:21:48] [Server thread/INFO]: <HeloOimM> that not flying
-[17:22:26] [Server thread/INFO]: <HeloOimM> should we get every advancement?
-[17:22:46] [Server thread/INFO]: <HeloOimM> why its pointles
-[17:23:35] [Server thread/INFO]: <FlimFlamSlammer> a
-[17:23:38] [Server thread/INFO]: <HeloOimM> what
-[17:25:03] [Server thread/INFO]: <HeloOimM> candy candy candy cookie
-[17:25:14] [Server thread/INFO]: <HeloOimM> candy candy chocolato
-[17:25:19] [Server thread/INFO]: <FlimFlamSlammer> ima restart discord
-[17:26:20] [Server thread/INFO]: <FlimFlamSlammer> where are you
-[17:26:23] [Server thread/INFO]: <HeloOimM> exploring
-[17:26:31] [Server thread/INFO]: <FlimFlamSlammer> what you tryna get
-[17:26:38] [Server thread/INFO]: <HeloOimM> umm idk
-[17:26:43] [Server thread/INFO]: <HeloOimM> like smithing template
-[17:26:46] [Server thread/INFO]: <FlimFlamSlammer> go back
-[17:26:49] [Server thread/INFO]: <HeloOimM> why
-[17:26:50] [Server thread/INFO]: <FlimFlamSlammer> village needs developments
-[17:26:58] [Server thread/INFO]: <HeloOimM> like
-[17:27:00] [Server thread/INFO]: <FlimFlamSlammer> it's more important than whatever you're doing
-[17:27:10] [Server thread/INFO]: <HeloOimM> im gathering more resources
-[17:27:13] [Server thread/INFO]: <FlimFlamSlammer> we only have 3 villagers
-[17:27:32] [Server thread/INFO]: <HeloOimM> also join call
-[17:28:54] [Server thread/INFO]: <HeloOimM> i think im lost
-[17:29:58] [Server thread/INFO]: <HeloOimM> sleep
-[17:31:02] [Server thread/INFO]: <HeloOimM> sleep
-[17:31:26] [Server thread/INFO]: <HeloOimM> ur mic is broken
-[17:31:35] [Server thread/INFO]: <HeloOimM> y
-[17:31:46] [Server thread/INFO]: <HeloOimM> im lost
-[17:31:53] [Server thread/INFO]: <HeloOimM> no
-[17:32:05] [Server thread/INFO]: <HeloOimM> it is
-[17:32:11] [Server thread/INFO]: <FlimFlamSlammer> ok how are you gonna go back
-[17:32:18] [Server thread/INFO]: <HeloOimM> just gonna paddle
-[17:32:37] [Server thread/INFO]: <HeloOimM> wait nvm i had the compass
-[17:32:52] [Server thread/INFO]: <HeloOimM> thats why u trapped the villagers first
-[17:32:57] [Server thread/INFO]: <HeloOimM> then release them
-[17:33:05] [Server thread/INFO]: <HeloOimM> so they dont dide
-[17:33:17] [Server thread/INFO]: <HeloOimM> i mean just release the,
-[17:34:30] [Server thread/INFO]: <HeloOimM> u need lecterns?
-[17:34:39] [Server thread/INFO]: <HeloOimM> ye
-[17:34:49] [Server thread/INFO]: <HeloOimM> WE NEED MENDING
-[17:35:21] [Server thread/INFO]: <HeloOimM> but it could have the too expensive thing
-[17:35:41] [Server thread/INFO]: <HeloOimM> but what if i had the best enchants there
-[17:36:43] [Server thread/INFO]: <HeloOimM> wth
-[17:36:49] [Server thread/INFO]: <HeloOimM> an iron golem
-[17:37:04] [Server thread/INFO]: <HeloOimM> just store them
-[17:37:27] [Server thread/INFO]: <HeloOimM> what about hardcore players
-[17:38:03] [Server thread/INFO]: <HeloOimM> just realized the compass didnt lead anywhere
-[17:39:01] [Server thread/INFO]: <HeloOimM> im gonna play some music to chill
-[17:39:06] [Server thread/INFO]: <HeloOimM> im going insane
-[17:39:29] [Server thread/INFO]: <HeloOimM> i want too
-[17:39:43] [Server thread/INFO]: <HeloOimM> just walking around
-[17:39:49] [Server thread/INFO]: <HeloOimM> far
-[17:40:02] [Server thread/INFO]: <HeloOimM> but like i found the raid farm by accident soo
-[17:40:16] [Server thread/INFO]: <HeloOimM> so i can findmy base
-[17:41:27] [Server thread/INFO]: <HeloOimM> skepp
-[17:42:15] [Server thread/INFO]: <HeloOimM> im the rain
-[17:42:43] [Server thread/INFO]: <HeloOimM> i use kay kyu powers
-[17:44:53] [Server thread/INFO]: <FlimFlamSlammer> I will switch wifi
-[17:45:20] [Server thread/INFO]: HeloOimM lost connection: Timed out
-[17:45:20] [Server thread/INFO]: HeloOimM left the game
-[17:46:47] [Server thread/INFO]: HeloOimM[/127.0.0.1:38316] logged in with entity id 47876 at (4246.690813861334, 62.11076431274414, 12402.342521783647)
-[17:46:47] [Server thread/INFO]: HeloOimM joined the game
-[17:51:56] [Server thread/INFO]: <HeloOimM> A SIGN?
-[17:52:24] [Server thread/INFO]: <HeloOimM> avoebnpo
-[17:52:26] [Server thread/INFO]: <HeloOimM> it said
-[17:52:37] [Server thread/INFO]: <HeloOimM> desert mesa
-[17:52:42] [Server thread/INFO]: <HeloOimM> i think its a different mesa
-[17:53:31] [Server thread/INFO]: <HeloOimM> sunhat mike
-[17:55:05] [Server thread/INFO]: <HeloOimM> i see a weird looking guy looking at me
-[17:55:14] [Server thread/INFO]: <HeloOimM> he just stares at me
-[17:55:39] [Server thread/INFO]: <HeloOimM> no
-[17:55:44] [Server thread/INFO]: <HeloOimM> its like a player
-[17:55:52] [Server thread/INFO]: <HeloOimM> what u mean
-[17:56:15] [Server thread/INFO]: <HeloOimM> kinda unsettling tbh
-[17:56:22] [Server thread/INFO]: <HeloOimM> what
-[17:56:48] [Server thread/INFO]: <HeloOimM> oh cuz that mesa is not near a jungle
-[17:57:21] [Server thread/INFO]: <HeloOimM> im on the ocean
-[17:57:37] [Server thread/INFO]: <HeloOimM> peoplemania
-[17:57:53] [Server thread/INFO]: <HeloOimM> no
-[17:57:58] [Server thread/INFO]: <HeloOimM> desert
-[17:58:17] [Server thread/INFO]: <HeloOimM> acronyms
-[17:58:25] [Server thread/INFO]: <HeloOimM> Take Every Task Outside
-[17:58:42] [Server thread/INFO]: <HeloOimM> are u pissed?
-[17:58:59] [Server thread/INFO]: <HeloOimM> wait i think i might be near
-[17:59:14] [Server thread/INFO]: <HeloOimM> no im near a desert and savannah
-[17:59:27] [Server thread/INFO]: <HeloOimM> oh its the mangrove swamp
-[17:59:57] [Server thread/INFO]: <HeloOimM> can u help me
-[18:00:06] [Server thread/INFO]: <HeloOimM> im starving
-[18:00:35] [Server thread/INFO]: <HeloOimM> SHARPNESS 3 gold sword
-[18:00:55] [Server thread/INFO]: <HeloOimM> im near the mangrove
-[18:01:39] [Server thread/INFO]: <HeloOimM> use boats bruh
-[18:01:53] [Server thread/INFO]: <HeloOimM> no
-[18:02:16] [Server thread/INFO]: <HeloOimM> ruined
-[18:02:51] [Server thread/INFO]: <HeloOimM> ye
-[18:02:57] [Server thread/INFO]: <HeloOimM> u said immersing is good
-[18:03:03] [Server thread/INFO]: <HeloOimM> no
-[18:03:05] [Server thread/INFO]: <HeloOimM> just immersing
-[18:03:15] [Server thread/INFO]: <HeloOimM> i dont even know the language
-[18:03:49] [Server thread/INFO]: <HeloOimM> IM ON THE OCEAN
-[18:03:55] [Server thread/INFO]: <HeloOimM> nvm
-[18:04:00] [Server thread/INFO]: <HeloOimM> its different
-[18:04:07] [Server thread/INFO]: <HeloOimM> i swear
-[18:07:45] [Server thread/INFO]: <HeloOimM> helo
-[18:07:52] [Server thread/INFO]: <HeloOimM> desert
-[18:08:07] [Server thread/INFO]: <HeloOimM> no
-[18:08:36] [Server thread/INFO]: <HeloOimM> no
-[18:09:06] [Server thread/INFO]: <HeloOimM> no
-[18:09:19] [Server thread/INFO]: <HeloOimM> no
-[18:09:31] [Server thread/INFO]: <HeloOimM> no
-[18:09:38] [Server thread/INFO]: <HeloOimM> near the desert
-[18:09:59] [Server thread/INFO]: <HeloOimM> the desert
-[18:11:16] [Server thread/INFO]: <HeloOimM> ok i see land
-[18:11:24] [Server thread/INFO]: <HeloOimM> desert
-[18:11:33] [Server thread/INFO]: <HeloOimM> oh i see ur dockw
-[18:11:45] [Server thread/INFO]: <HeloOimM> i see ur base
-[18:12:04] [Server thread/INFO]: <HeloOimM> 2 brewing stand silk touch hoe
-[18:12:15] [Server thread/INFO]: <HeloOimM> and smithing template
-[18:12:21] [Server thread/INFO]: <HeloOimM> and lectern
-[18:12:31] [Server thread/INFO]: <HeloOimM> also why u put rail
-[18:12:40] [Server thread/INFO]: <HeloOimM> and putting rails?
-[18:12:50] [Server thread/INFO]: <HeloOimM> how does that help
-[18:14:17] [Server thread/INFO]: <HeloOimM> i got silk touch and mending
-[18:14:20] [Server thread/INFO]: <HeloOimM> hoe
-[18:14:33] [Server thread/INFO]: <HeloOimM> also i got kelp
-[18:14:42] [Server thread/INFO]: <HeloOimM> bubble elevator
-[18:16:46] [Server thread/INFO]: <HeloOimM> also dont tell everyone i was going into a mike
-[18:17:01] [Server thread/INFO]: <HeloOimM> also why this villager her
-[18:17:31] [Server thread/INFO]: <HeloOimM> why is the toolsmith using my smithing table
-[18:17:42] [Server thread/INFO]: <HeloOimM> also i got spruce
-[18:18:13] [Server thread/INFO]: <HeloOimM> also i sort the items now
-[18:18:36] [Server thread/INFO]: <HeloOimM> for u
-[18:18:44] [Server thread/INFO]: <HeloOimM> yee
-[18:19:49] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[18:19:49] [Server thread/INFO]: FlimFlamSlammer left the game
-[18:29:17] [Server thread/INFO]: HeloOimM lost connection: Disconnected
-[18:29:17] [Server thread/INFO]: HeloOimM left the game
-[18:30:17] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:32:31] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:60706] logged in with entity id 83637 at (4008.453620913347, 64.17675927506424, 8146.699999988079)
-[18:32:31] [Server thread/INFO]: FlimFlamSlammer joined the game
-[19:21:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4771ms or 95 ticks behind
-[19:33:51] [Server thread/INFO]: Villager class_1646['Toolsmith'/91236, l='ServerLevel[world]', x=3956.75, y=66.19, z=8247.62] died, message: 'Toolsmith was slain by Husk'
-[19:35:56] [Server thread/INFO]: Villager class_1646['Villager'/91271, l='ServerLevel[world]', x=3958.26, y=66.19, z=8246.59] died, message: 'Villager was slain by Zombie Villager'
-[20:09:59] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[20:09:59] [Server thread/INFO]: FlimFlamSlammer left the game
-[20:10:59] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[21:08:02] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:41688] logged in with entity id 99229 at (3973.303199399434, 66.0, 8226.355607441259)
-[21:08:02] [Server thread/INFO]: FlimFlamSlammer joined the game
-[21:29:25] [Server thread/INFO]: banggivealokbang[/127.0.0.1:37770] logged in with entity id 103524 at (4521.755115947566, 70.0, 8776.699999988079)
-[21:29:25] [Server thread/INFO]: banggivealokbang joined the game
-[21:36:03] [Server thread/INFO]: <banggivealokbang> uhh u have a flint and steel?
-[21:36:08] [Server thread/INFO]: <FlimFlamSlammer> yes
-[21:36:11] [Server thread/INFO]: <FlimFlamSlammer> but I'm stuck here
-[21:36:13] [Server thread/INFO]: <FlimFlamSlammer> wait
-[21:36:13] [Server thread/INFO]: <banggivealokbang> i forgot to bring mine
-[21:38:25] [Server thread/INFO]: banggivealokbang lost connection: Timed out
-[21:38:25] [Server thread/INFO]: banggivealokbang left the game
-[21:38:31] [Server thread/INFO]: banggivealokbang[/127.0.0.1:52420] logged in with entity id 108112 at (3941.723118832606, 84.0, 8169.300000011921)
-[21:38:31] [Server thread/INFO]: banggivealokbang joined the game
-[21:38:33] [Server thread/INFO]: <FlimFlamSlammer> ?
-[21:38:40] [Server thread/INFO]: <banggivealokbang> i got timed out lol
-[21:40:29] [Server thread/INFO]: <FlimFlamSlammer> terraria house
-[21:40:34] [Server thread/INFO]: <banggivealokbang> i relate
-[21:43:22] [Server thread/INFO]: <banggivealokbang> also for some reason one of the bookshelfs are not registered in the enchanting table
-[21:43:29] [Server thread/INFO]: <FlimFlamSlammer> probably grindstone
-[21:43:43] [Server thread/INFO]: <banggivealokbang> its either because of its in the corner or its because its 3 blocks high
-[21:43:52] [Server thread/INFO]: <banggivealokbang> its not even close to the grindstone
-[21:43:57] [Server thread/INFO]: <FlimFlamSlammer> oh
-[21:44:01] [Server thread/INFO]: <FlimFlamSlammer> 3 blocks high
-[21:44:04] [Server thread/INFO]: <FlimFlamSlammer> oim is dumb
-[21:44:07] [Server thread/INFO]: <banggivealokbang> lol
-[21:44:10] [Server thread/INFO]: <FlimFlamSlammer> certified
-[21:45:50] [Server thread/INFO]: <banggivealokbang> bro jeriko and dough boy is playing grow a garden
-[21:45:54] [Server thread/INFO]: <FlimFlamSlammer> wth
-[21:48:39] [Server thread/WARN]: banggivealokbang moved too quickly! -2.693050714093488,-2.227779252040037,-9.640876225009606
-[21:48:51] [Server thread/INFO]: <banggivealokbang> y my wifi so bad
-[21:48:56] [Server thread/INFO]: <FlimFlamSlammer> probably mine
-[21:49:08] [Server thread/INFO]: <banggivealokbang> hold tab
-[21:49:15] [Server thread/INFO]: <FlimFlamSlammer> it's mine
-[21:49:26] [Server thread/INFO]: <FlimFlamSlammer> the server is dependent on my internet
-[21:49:26] [Server thread/INFO]: <banggivealokbang> and look at my ping
-[21:49:26] [Server thread/WARN]: banggivealokbang moved too quickly! 7.380845208750088,7.5,-0.24831224622539594
-[21:49:26] [Server thread/INFO]: <banggivealokbang> oh
-[21:49:28] [Server thread/INFO]: <banggivealokbang> bruh my chat is so delayed
-[21:51:47] [Server thread/INFO]: banggivealokbang lost connection: Timed out
-[21:51:47] [Server thread/INFO]: banggivealokbang left the game
-[21:52:07] [Server thread/INFO]: banggivealokbang[/127.0.0.1:32908] logged in with entity id 114430 at (3941.3960408761636, 84.0, 8169.500131279705)
-[21:52:07] [Server thread/INFO]: banggivealokbang joined the game
-[21:52:37] [Server thread/INFO]: banggivealokbang lost connection: Timed out
-[21:52:37] [Server thread/INFO]: banggivealokbang left the game
-[21:53:11] [Server thread/INFO]: banggivealokbang[/127.0.0.1:35938] logged in with entity id 114819 at (3942.3756352195833, 84.0, 8169.300000011921)
-[21:53:11] [Server thread/INFO]: banggivealokbang joined the game
-[22:05:24] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[22:05:24] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[22:05:24] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
-[22:17:13] [Server thread/INFO]: banggivealokbang lost connection: Timed out
-[22:17:13] [Server thread/INFO]: banggivealokbang left the game
-[22:29:09] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[22:29:09] [Server thread/INFO]: FlimFlamSlammer left the game
-[22:30:09] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[22:30:10] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:54286] logged in with entity id 131103 at (3974.2407997817063, 67.0, 8211.635631989031)
-[22:30:10] [Server thread/INFO]: Connection closed during protocol change
-[22:30:10] [Netty Epoll Server Play IO #10/WARN]: An exceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception.
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
-[22:30:10] [Server thread/ERROR]: Couldn't place player in world
-io.netty.channel.StacklessClosedChannelException: null
-	at io.netty.channel.AbstractChannel$AbstractUnsafe.ensureOpen(ChannelPromise)(Unknown Source) ~[netty-transport-4.1.118.Final.jar:?]
-[22:30:10] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[22:30:10] [Server thread/INFO]: FlimFlamSlammer left the game
-[22:30:11] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:54298] logged in with entity id 131104 at (3974.2407997817063, 67.0, 8211.635631989031)
-[22:30:11] [Server thread/INFO]: FlimFlamSlammer joined the game
-[22:48:29] [Server thread/INFO]: Unknown selector type '@g'
-[22:48:29] [Server thread/INFO]: w @gamemode spectator FlimFlamSlammer<--[HERE]
-[22:48:38] [Server thread/INFO]: Set FlimFlamSlammer's game mode to Spectator Mode
-[22:51:06] [Server thread/INFO]: Set FlimFlamSlammer's game mode to Survival Mode
-[22:51:14] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
-[22:51:14] [Server thread/INFO]: FlimFlamSlammer left the game
-[22:52:14] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[23:08:54] [Server thread/INFO]: Stopping the server
-[23:08:54] [Server thread/INFO]: Stopping server
-[23:08:54] [Server thread/INFO]: Saving players
-[23:08:54] [Server thread/INFO]: Saving worlds
-[23:08:54] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 841 chunks to unload
-[23:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:08:54] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:08:54] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[23:08:54] [C2ME Storage #3/INFO]: Storage thread Thread[#90,C2ME Storage #3,8,main] stopped
-[23:08:55] [C2ME Storage #2/INFO]: Storage thread Thread[#89,C2ME Storage #2,8,main] stopped
-[23:08:55] [C2ME Storage #1/INFO]: Storage thread Thread[#88,C2ME Storage #1,8,main] stopped
-[23:08:55] [C2ME Storage #6/INFO]: Storage thread Thread[#95,C2ME Storage #6,8,main] stopped
-[23:08:55] [C2ME Storage #5/INFO]: Storage thread Thread[#94,C2ME Storage #5,8,main] stopped
-[23:08:55] [C2ME Storage #4/INFO]: Storage thread Thread[#93,C2ME Storage #4,8,main] stopped
-[23:08:55] [C2ME Storage #9/INFO]: Storage thread Thread[#99,C2ME Storage #9,8,main] stopped
-[23:08:55] [C2ME Storage #8/INFO]: Storage thread Thread[#98,C2ME Storage #8,8,main] stopped
-[23:08:55] [C2ME Storage #7/INFO]: Storage thread Thread[#97,C2ME Storage #7,8,main] stopped
+[12:46:39] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/ASUS/Documents/server/mc-server/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[12:46:39] [main/INFO]: Compatibility level set to JAVA_16
+[12:46:39] [main/INFO]: Compatibility level set to JAVA_21
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[12:46:39] [main/INFO]: Global Executor Parallelism: 2 configured, 2 evaluated, 2 default evaluated
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[12:46:39] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.opts.natives_math.mixin
+[12:46:40] [main/INFO]: Attempting to call native library. If your game crashes right after this point, native acceleration may not be available for your system.
+[12:46:40] [main/INFO]: Detected maximum supported ISA target: AVX2
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12:46:40] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[12:46:40] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[12:46:40] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[12:46:40] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 0 override(s) found.
+[12:46:40] [main/INFO]: Successfully started async appender with [SysOut, ServerGuiConsole, Tracy, File]
+[12:46:42] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[12:47:03] [main/INFO]: Compression will use Java, encryption will use Java
+[12:47:03] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[12:47:04] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[12:47:11] [main/INFO]: Loaded 1373 recipes
+[12:47:11] [main/INFO]: Loaded 1484 advancements
+[12:47:11] [main/INFO]: Applied 0 biome modifications to 0 of 65 new biomes in 7.294 ms
+[12:47:12] [Server thread/INFO]: Starting background profiler...
+[12:47:12] [Server thread/INFO]: The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[12:47:12] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[12:47:12] [Server thread/INFO]: Loading properties
+[12:47:12] [Server thread/INFO]: Default game type: SURVIVAL
+[12:47:12] [Server thread/INFO]: Generating keypair
+[12:47:12] [Server thread/INFO]: Starting Minecraft server on *:25565
+[12:47:13] [Server thread/INFO]: Using default channel type
+[12:47:13] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[12:47:13] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[12:47:13] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[12:47:13] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[12:47:13] [Server thread/INFO]: Preparing level "world"
+[12:47:14] [Server thread/INFO]: Enforcing safe world random access
+[12:47:15] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 548.2 ms
+[12:47:15] [Server thread/INFO]: Changing watch distance to 16
+[12:47:15] [Server thread/INFO]: Using TheSpeedyObjectFactory with Unsafe
+[12:47:16] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 12.70 ms
+[12:47:16] [Server thread/INFO]: Changing watch distance to 16
+[12:47:16] [Server thread/INFO]: [STDOUT]: Density function compilation finished in 11.89 ms
+[12:47:16] [Server thread/INFO]: Changing watch distance to 16
+[12:47:16] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[12:47:16] [Server thread/INFO]: [STDOUT]: [ScalableLux] Lighting scaling is enabled in externally managed mode
+[12:47:19] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[12:47:19] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[12:47:19] [c2me-worker-1/INFO]: Preparing spawn area: 0%
+[12:47:19] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[12:47:19] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[12:47:19] [c2me-worker-0/INFO]: Preparing spawn area: 0%
+[12:47:19] [c2me-worker-1/INFO]: Preparing spawn area: 2%
+[12:47:20] [Server thread/INFO]: Preparing spawn area: 32%
+[12:47:20] [Server thread/INFO]: Preparing spawn area: 53%
+[12:47:21] [Server thread/INFO]: Time elapsed: 4411 ms
+[12:47:21] [Server thread/INFO]: Done (7.272s)! For help, type "help"
+[12:47:51] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:52335] logged in with entity id 24 at (3992.6558628409957, 68.0, 8232.367696219133)
+[12:47:52] [Server thread/INFO]: FlimFlamSlammer joined the game
+[12:47:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3702ms or 74 ticks behind
+[12:48:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2270ms or 45 ticks behind
+[12:48:19] [Server thread/INFO]: HeloOimM[/127.0.0.1:52358] logged in with entity id 513 at (4003.699999988079, 68.0, 8186.472187254232)
+[12:48:19] [Server thread/INFO]: HeloOimM joined the game
+[12:48:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3018ms or 60 ticks behind
+[12:48:28] [Server thread/INFO]: <HeloOimM> time rewinded
+[12:48:37] [Server thread/INFO]: <HeloOimM> u moved my bed
+[12:48:45] [Server thread/INFO]: <HeloOimM> it is in a different position
+[12:48:49] [Server thread/INFO]: <HeloOimM> here
+[12:48:51] [Server thread/INFO]: <HeloOimM> not there
+[12:49:18] [Server thread/INFO]: <HeloOimM> with the allay stuff
+[12:49:28] [Server thread/INFO]: <HeloOimM> the one where u mention
+[12:49:58] [Server thread/INFO]: <HeloOimM> also u broke the lectern
+[12:50:08] [Server thread/INFO]: <HeloOimM> that's for my speech
+[12:50:11] [Server thread/INFO]: <HeloOimM> but like
+[12:50:12] [Server thread/INFO]: <HeloOimM> ehh
+[12:50:31] [Server thread/INFO]: <HeloOimM> im plannign to renovate
+[12:50:48] [Server thread/INFO]: <HeloOimM> adding a section here
+[12:51:03] [Server thread/INFO]: <HeloOimM> what
+[12:51:11] [Server thread/INFO]: <HeloOimM> whats wrong
+[12:51:23] [Server thread/INFO]: <HeloOimM> floor
+[12:51:40] [Server thread/INFO]: <HeloOimM> im gonna add like a floating section
+[12:52:16] [Server thread/INFO]: <HeloOimM> unique arch
+[12:52:58] [Server thread/INFO]: <HeloOimM> what is the reason behind that
+[12:53:38] [Server thread/INFO]: <HeloOimM> also i could just die in a far away place and just reset server
+[12:53:43] [Server thread/INFO]: <HeloOimM> likee
+[12:54:48] [Server thread/INFO]: <HeloOimM> u cant lead boat with players
+[12:56:16] [Server thread/INFO]: <HeloOimM> cant the horse be attacked by drowned?
+[12:57:34] [Server thread/INFO]: <HeloOimM> also what is this
+[12:57:50] [Server thread/INFO]: <HeloOimM> 5 hearts
+[13:01:50] [Server thread/INFO]: <HeloOimM> i add this pillar
+[13:02:08] [Server thread/INFO]: <HeloOimM> also where can i get sandstone
+[13:02:21] [Server thread/INFO]: <HeloOimM> i mined them?
+[13:02:54] [Server thread/INFO]: <HeloOimM> my minecraft is running smooth
+[13:03:11] [Server thread/INFO]: <HeloOimM> 200
+[13:03:44] [Server thread/INFO]: <HeloOimM> 12
+[13:03:57] [Server thread/INFO]: <HeloOimM> 12
+[13:05:40] [Server thread/INFO]: <HeloOimM> what video is that
+[13:05:55] [Server thread/INFO]: <HeloOimM> is that german
+[13:06:32] [Server thread/INFO]: <HeloOimM> why
+[13:09:20] [Server thread/INFO]: <HeloOimM> also what is the public propertu
+[13:09:40] [Server thread/INFO]: <HeloOimM> what is ur land
+[13:09:53] [Server thread/INFO]: <HeloOimM> can i build here
+[13:11:06] [Server thread/INFO]: <HeloOimM> Zune the Monster
+[13:11:36] [Server thread/INFO]: <HeloOimM> is this a land of democracy?
+[13:11:53] [Server thread/INFO]: <HeloOimM> so communist?
+[13:12:09] [Server thread/INFO]: <HeloOimM> so communist is this village?
+[13:12:58] [Server thread/INFO]: <HeloOimM> welcome to CCP
+[13:13:04] [Server thread/INFO]: banggivealokbang[/127.0.0.1:52504] logged in with entity id 7712 at (4000.629916863081, 72.0, 8188.699999988079)
+[13:13:04] [Server thread/INFO]: banggivealokbang joined the game
+[13:13:08] [Server thread/INFO]: <HeloOimM> BANGGG
+[13:13:22] [Server thread/INFO]: <HeloOimM> also what is the video in the backgroun
+[13:13:52] [Server thread/INFO]: <HeloOimM> i need acacia
+[13:14:18] [Server thread/INFO]: <HeloOimM> im on the mountain
+[13:14:27] [Server thread/INFO]: <HeloOimM> here
+[13:14:43] [Server thread/INFO]: <HeloOimM> here or there
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -5.467927119275828,-7.091317339598476,4.937664276488249
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -5.645319150874457,-7.60826528870345,4.987726897349603
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -5.822071897654496,-8.193274290212202,5.0323820972871545
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -5.998108799311922,-8.498712741963416,5.070803483700729
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -6.305173785101488,-8.498712741963416,5.061059873581144
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -6.612171165607833,-8.577112743489295,4.991285789263202
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -6.793227388572632,-8.7323447480059,4.945760605911346
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -6.9714241899578155,-8.96287211691886,4.896904158977122
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -7.147018917630703,-9.2671889443764,4.845016262095669
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -7.320245758156943,-9.498712741963416,4.790369745683165
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -7.612238524967779,-9.498712741963416,4.666356125418133
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -7.906022931553707,-9.498712741963416,4.5243593919922205
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -8.200785573570101,-9.498712741963416,4.372543877639146
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -8.49608233219351,-9.498712741963416,4.215367308277564
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -8.791670718518617,-9.577112743489295,4.055263602541345
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -8.966497629936839,-9.7323447480059,3.960418440165995
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.139025757651325,-9.96287211691886,3.9187317587648067
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.309461992135311,-10.2671889443764,3.911303229875557
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.477994603724255,-10.498712741963416,3.897114739501376
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.76571562207937,-10.498712741963416,3.8099179239925434
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.057167653737451,-10.498712741963416,3.6880231682980593
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.350656818895459,-10.498712741963416,3.5471833350620727
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.645258259073671,-10.577112743489295,3.3959994882861793
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.819546297833313,-10.7323447480059,3.3060245694687183
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.991584051414065,-10.96287211691886,3.2167188620960587
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.16157404542355,-11.2671889443764,3.1280221371553125
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.329700578169195,-11.498712741963416,3.0398795862429324
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.617052064766085,-11.498712741963416,2.8853845737048687
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.96409438751607,-11.498712741963416,2.7931503132576836
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -12.343727910591497,-11.498712741963416,2.7349104274007914
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -12.74115623111129,-11.498712741963416,2.6952314722257142
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -13.148300512164496,-11.498712741963416,2.66568678638032
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -13.560749708284675,-11.498712741963416,2.6416754122319617
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -13.97608541747104,-11.498712741963416,2.620448239149482
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -14.393024761601282,-11.498712741963416,2.6014157736417474
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -14.810936563622363,-11.498712741963416,2.5867183821646904
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -15.229390920725109,-11.498712741963416,2.582452015923991
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -15.647590810860947,-11.498712741963416,2.597398243588941
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -16.06462174223043,-11.498712741963416,2.6303211433332763
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -16.48013078954591,-11.498712741963416,2.6790518902134863
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -16.89365001797387,-11.577112743489295,2.742804727530711
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -17.13800427556589,-11.7323447480059,2.7817657270643394
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -17.378929384100502,-11.96287211691886,2.8214166880388802
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -17.61673396690321,-12.2671889443764,2.861695513943232
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -17.851787975184834,-12.498712741963416,2.902130019143442
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -18.254262479387307,-12.498712741963416,2.9645738490189615
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -18.66356757998483,-12.498712741963416,3.0156325670377555
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.07660218664705,-12.498712741963416,3.060475013260657
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.491673103857465,-12.498712741963416,3.10192337468834
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.90785584675632,-12.498712741963416,3.141518565603292
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.32464564655129,-12.498712741963416,3.1801019253007325
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.741340669111196,-12.498712741963416,3.222362609627453
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.154030578914444,-12.498712741963416,3.289356726812912
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.924388948164506,-11.795471870533973,3.552674319899779
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.362055943565338,-11.184695804645742,3.7048979019582475
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.777374462839816,-10.664535249951527,3.8518931368562335
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.172355868252907,-10.233177897955798,3.994130575702002
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.548830499518772,-9.888847686298377,4.132038420015306
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.908443611129314,-9.629804073832403,4.266047154883381
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -24.252641974398102,-9.454341330200762,4.396647751460478
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -24.582812916271905,-9.360787839620954,4.524146942102561
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -24.90021890430853,-9.347505418594224,4.648823853262911
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.206008784018195,-9.412888647260559,4.770932490020641
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.50122800484587,-9.555364214126541,4.890703997004493
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.786827925814123,-9.773390273898585,5.008348715833563
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.063674283657292,-10.065455818159577,5.1240580573849
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.33233570810353,-10.430080058631944,5.238422791697303
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.59270903248671,-10.865811822775399,5.352965986182426
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.844127042869786,-11.37122896147278,5.46955199651984
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.084401772151068,-11.94493776856217,5.590820747884209
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.311410634337335,-12.498712741963416,5.718272527064073
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.57558568417926,-12.498712741963416,6.015640232527403
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.773566378721625,-12.498712741963416,6.360569173540171
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.93540495107254,-11.561212741963416,6.731466552178972
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.07750992241472,-11.561212741963416,7.1165426994084555
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.208840346354464,-11.561212741963416,7.5093604551875615
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.334287866729483,-11.498712741963416,7.906405129725499
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.456523321384793,-11.561212741963416,8.30575770217365
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.57507667425716,-11.561212741963416,8.706926976356954
+[13:15:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7354ms or 147 ticks behind
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.38519580222919,-4.917393299348362,4.231189583838386
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.450551144345354,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.46478716387901,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.4360586237367,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.383656569224968,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.318328774366364,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.2459435244582,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.169704903645652,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.091362342074717,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.01187102871654,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.931537682957696,-4.917393299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.84526636772989,-4.854893299348362,4.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.73976585452374,-3.854893299348362,4.821574261100977
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.608626070980335,-3.854893299348362,5.095991888730168
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.46246194897003,-3.854893299348362,5.420914022658508
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.308094537203942,-3.93329330087424,5.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.21635374140169,-4.088525305390846,5.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.125806406388165,-4.319052674303805,5.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.037631243405485,-4.623369501761346,5.64044905393439
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.95241101599413,-3.917393299348362,5.658816386094259
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.82526369022844,-3.854893299348362,5.859261174141466
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.70624432571003,-3.854893299348362,6.15243455642667
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.59166282854858,-3.854893299348362,6.496237757047311
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.47950440724526,-3.854893299348362,6.867684841689879
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.368668985513978,-3.854893299348362,7.254225488761222
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.25855592163316,-3.854893299348362,7.649007221876673
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.148837265184284,-3.854893299348362,8.04828858849396
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.039333955218353,-3.917393299348362,8.4500267552894
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.92994822444598,-3.854893299348362,8.853106335137454
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.8204153406582,-3.854893299348362,9.25686113289521
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.709289370781335,-3.854893299348362,9.66056753484736
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.594925992461413,-3.854893299348362,10.063567710743882
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.474087211025108,-3.854893299348362,10.46473103950757
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.34123705751381,-3.854893299348362,10.8619356400568
+[13:15:10] [Server thread/INFO]: <HeloOimM> dont have the saplings
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.189018433414276,-3.854893299348362,11.25162886085036
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.01422182366241,-3.917393299348362,11.631162861400298
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.931099999753314,-3.854893299348362,12.000525971616298
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.82976206065905,-2.917393299348362,12.363275865272954
+[13:15:10] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.673093600392804,-2.917393299348362,12.722414942269097
+[13:16:05] [spark-java-sampler-0-4/WARN]: Timed out waiting for world statistics
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -7.949994605181473,0.0,-6.684727523601396
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -8.230702790801843,0.0,-6.99398248014586
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -8.512058585973136,0.0,-7.30358970267298
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -8.793767976000709,0.0,-7.613389262447527
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.075670428841931,0.0,-7.923293838372047
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.35767829399174,0.0,-8.23325575312083
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.639743714268661,0.0,-8.543248974870949
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -9.9218405596489,0.0,-8.85325929024657
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.203954563137358,1.0,-9.163278938742224
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.486077934953755,1.0,-9.47330368312214
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -10.769027393123906,1.0,-9.782579694587184
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.056335476689583,1.0,-10.087745460255974
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.348573866554034,1.0,-10.388134332783011
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.508136045953506,1.0,-10.552146676232951
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.595257006024895,1.0,-10.641697426159226
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.6428250557492,1.0,-10.690592141298112
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.66879721391524,1.0,-10.717288658865073
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.682978013921002,1.0,-10.73186495914888
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.690720731623514,1.0,-10.739823620027892
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.694948255980307,1.0,-10.744169049372431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.756379935772202,1.0,-10.671500105876476
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.834391101698202,1.0,-10.547697398938908
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.893693480739785,1.0,-10.386423687394199
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -11.918563091163378,1.0,-10.203509208247851
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -12.053830703919175,1.0,-10.010033596581707
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -12.248044383892648,1.0,-9.80908594338689
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -12.474442620305581,1.0,-9.604058555043594
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -12.718413626575057,1.0,-9.396803631050716
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -12.971979366301184,1.0,-9.188332472453112
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -13.230783831103054,1.0,-8.97919724968233
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -13.49244864012826,1.0,-8.769699447831954
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -13.755675197281107,1.0,-8.560003677781424
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -14.019754469010422,2.0,-8.350199817079556
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -14.284299322952847,2.0,-8.140336938877226
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -14.615023645448218,2.0,-7.986800324757496
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -14.981881961970885,2.0,-7.864017854397389
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -15.368469441524212,2.0,-7.758027148482142
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -15.765829045343253,2.0,-7.661204747018928
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -16.169070229694626,2.0,-7.569388240366607
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -16.575522757389535,2.0,-7.480304952599909
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -16.983728678753778,2.0,-7.392714002517096
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -17.392891953172693,2.0,-7.305937868904948
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -17.802577942420157,2.0,-7.219606625136294
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -18.21254933399723,2.0,-7.133518291251676
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -18.622676555264206,2.0,-7.047562586178174
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.032888859551804,2.0,-6.961679296444345
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.443147619173942,2.0,-6.87583554549019
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -19.853431743411875,2.0,-6.790013382713369
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.263729716731632,2.0,-6.704203007082469
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.608109991015226,2.0,-6.562040579590757
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -20.916499197444864,2.0,-6.3891099282100186
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.205237278543336,2.0,-6.199379824634889
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.48324584396505,2.0,-6.000477219095046
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -21.755396093146828,2.0,-5.796566426901336
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.024347701290026,2.0,-5.589921164477346
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.29155285122306,2.0,-5.381782881133404
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.557804434862646,2.0,-5.172829408273174
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -22.822625331816198,2.0,-4.962292775937385
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.076181081897175,2.0,-4.739187638962903
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.294104712216267,2.0,-4.486023392095376
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.44910789452524,2.0,-4.198555230173952
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.55108539652565,2.0,-3.889055617946724
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.62140270686541,2.0,-3.567243182525999
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.674433550550475,2.0,-3.238707944859925
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.80415426051377,2.0,-2.8978818863270135
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -23.974039454057674,2.0,-2.549291345243546
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -24.16585445818373,2.0,-2.1964613961954456
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -24.577844176135386,2.7032408714294434,-1.4997726682304346
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -24.81269635603303,3.3140169373176747,-1.1031306294262322
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.036317613666597,3.8341774920118894,-0.7259364145611471
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.249718731745816,4.265534844007618,-0.3664397199918312
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.4538195225623,4.60986505566504,-0.02304776935307018
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.649457015325424,4.868908668131013,0.3056888638839155
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -25.837392906638343,5.044371411762654,0.6210891579030431
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.01832034042991,5.137924902342462,0.924353382883055
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.192870077692987,5.151207323369192,1.216573784719003
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.36161611094758,5.085824094702858,1.498744307204106
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.525080773402806,4.943348527836875,1.7717694392158592
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.683739388291542,4.725322468064832,2.0364722656595404
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.83802449976929,4.433256923803839,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -26.988329723028073,4.068632683331472,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.13501324790286,3.6329009191880175,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.27840102715345,3.1274837804906355,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.41878967779985,2.5537749734012465,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.556449121337664,2.0,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -27.938084342247294,2.531337559223175,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.156362964834898,2.973648375870468,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.364902284881737,3.3287129830953432,2.291390567941562
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.564578839361275,3.5982763034221676,2.3076405170922953
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.756190276942107,3.7840483609580815,2.3386779203974584
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -28.940462457933336,3.88770497936072,2.383171907369615
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -29.1180559152358,3.9108884658465257,2.439911385832602
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -29.289571733806497,3.8552082815189266,2.5077942618718225
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -29.455556900971715,3.7222416982899773,2.585817629998928
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -29.61650917521274,3.513534442663598,2.673068846192109
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -29.772881516761117,3.2306013266430966,2.768717404367635
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -29.925086119438674,2.8749268660206013,2.8720075439669017
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -30.073498079634646,2.4479658863007216,2.982251522860679
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -30.219082077234816,1.9511441165057306,3.0984267141029704
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -30.363588740960495,1.3858587711046368,3.2188967044476158
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -30.508561055966766,2.0,3.341967261318132
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -31.003293311271136,2.5500906705856323,3.802646857624495
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -31.287138616343782,3.0107795367258205,4.067365308930675
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -31.559159313705095,3.3838546328042725,4.321446469068178
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -31.820419617738935,3.6710682325511215,4.565847693964315
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -32.07188796356286,3.8741375642553066,4.8014401775344595
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -32.31444562715842,3.9947455116727753,5.029016706268521
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -32.54889456969295,4.03454130091643,5.249298715893019
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -32.775964575848775,3.995141173608374,5.462942712934819
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -32.9963197497068,3.8781290465691,5.670546118351922
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -33.210564425997745,3.6850571583129152,5.872652585232572
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -33.419311607611235,3.417446702613418,6.069690910871941
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -33.62407500161726,3.0767884493977675,6.260955844043565
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -33.82765246814506,2.66454335322301,6.443061244228375
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -34.03179911486768,2.182143149582913,6.611081426064629
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -34.236591885285634,2.0,6.76330848627731
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -35.01287321400605,2.7032408714294434,6.880333613600669
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -35.45574140029794,3.3140169373176747,6.943536149847205
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -35.87776999301741,3.8341774920118894,7.000357268794687
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -36.28083455503929,4.265534844007618,7.051371297833612
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -36.6666418486293,4.60986505566504,7.097100874903845
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -37.03675733060527,4.868908668131013,7.138603491901449
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -37.392572421136265,5.044371411762654,7.177268239693149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -37.735356773499916,5.137924902342462,7.213663870601522
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -38.06628315379021,5.151207323369192,7.247994605088024
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -38.38641877918235,5.085824094702858,7.2804462837757455
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -38.69100930035438,4.943348527836875,7.3177028242807864
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -38.98145377627816,4.725322468064832,7.359331789164571
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -39.259025350655065,4.433256923803839,7.404939660347736
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -39.52488258428684,4.068632683331472,7.454168336367729
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -39.780070870683176,3.6329009191880175,7.506707203365295
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -40.02533553588546,3.1274837804906355,7.5626151761734945
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -40.26104945999077,2.5537749734012465,7.6223724216488336
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -40.48772877847023,2.0,7.686097939722458
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -40.81525469415692,1.9215999984741217,7.838263094474314
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -41.012747921429764,1.766367993957516,7.9250652315513435
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -41.21113081996418,1.5358406250445569,8.007775131502058
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -41.41032331936958,1.2315237975870161,8.086761095559268
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -41.61019827715472,1.0,8.16262094067315
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -41.97592397451399,1.0,8.280862667055771
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -42.356097774627415,1.0,8.405777882730035
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -42.741674797921405,1.0,8.541314767624499
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -43.1292353828876,1.0,8.685152980107887
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -43.5174675541798,1.0,8.834557872456571
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -43.906066411648226,1.0,8.987002172365465
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -44.294865479792406,1.0,9.14110598899424
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -44.68377386297834,1.0,9.296115901857775
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -45.07274193218382,1.0,9.45162054332286
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -45.46232090200601,1.0,9.605936623340313
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -45.855233052936,1.0,9.75139566973121
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -46.25295029873223,1.0,9.882400823795251
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -46.65440220674918,1.0,10.001391809566485
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -47.057893240575595,1.0,10.113823058687558
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -47.462497637222896,1.0,10.222672691183107
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -47.8677099300412,1.0,10.32956676077265
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -48.27325413420749,1.0,10.4353930928919
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -48.67897956199113,1.0,10.540636440284288
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -49.084803937881134,1.0,10.645561477978845
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -49.49068233944308,1.0,10.750312718559144
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -49.896590239025954,1.0,10.854969065903788
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.11821597794051,1.0,10.91211143819055
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.23922364544342,1.0,10.94331117708316
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.305293839574006,1.0,10.960346236497571
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.341368169759335,1.0,10.969647380017705
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.36106475632823,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.3718190938439,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.37769096280954,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.380897003637074,1.0,10.974725804970149
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.56519527022647,1.0,11.022187968314029
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -50.85012040206129,1.0,11.09556447585419
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -51.18998780870197,1.0,11.183090216969504
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -51.55985370087137,1.0,11.278341440513032
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -51.94609876804179,1.0,11.377810777952618
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -52.30708956356057,1.0,11.399877720397853
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -52.65429152515617,1.0,11.379682950268034
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -52.99396478255494,1.0,11.336413282389913
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -53.329527366985076,1.0,11.280544718880265
+[13:16:13] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved too quickly! -53.66284552371371,1.0,11.217797157554742
+[13:16:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14563ms or 291 ticks behind
+[13:19:26] [Server thread/INFO]: <HeloOimM> letss goo ls mentioned methane
+[13:20:23] [Server thread/INFO]: <HeloOimM> so that railway is useless
+[13:21:12] [Server thread/INFO]: <HeloOimM> whats the point of the railway thenw
+[13:21:35] [Server thread/INFO]: <HeloOimM> afk
+[13:22:40] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
+[13:22:40] [Server thread/INFO]: banggivealokbang left the game
+[13:22:43] [Server thread/INFO]: banggivealokbang[/127.0.0.1:52546] logged in with entity id 14683 at (3966.529879201678, 77.0, 8172.758510812642)
+[13:22:44] [Server thread/INFO]: banggivealokbang joined the game
+[13:32:48] [Server thread/INFO]: <HeloOimM> daidaidaidai
+[13:33:21] [Server thread/INFO]: <HeloOimM> also after i finish what do i do
+[13:33:30] [Server thread/INFO]: <HeloOimM> no like the server
+[13:33:49] [Server thread/INFO]: <HeloOimM> can u type it in discor
+[13:35:08] [Server thread/INFO]: <HeloOimM> i thought ur against it
+[13:35:24] [Server thread/INFO]: <HeloOimM> i thought ur against trapping villager
+[13:36:15] [Server thread/INFO]: <HeloOimM> sir ur act violates the human rights
+[13:36:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5146ms or 102 ticks behind
+[13:37:05] [Server thread/INFO]: <HeloOimM> why is my name oim
+[13:37:43] [Server thread/INFO]: <HeloOimM> what
+[13:37:58] [Server thread/INFO]: <HeloOimM> hello im hello im
+[13:38:06] [Server thread/INFO]: <HeloOimM> lets get sandstoe ig
+[13:38:26] [Server thread/INFO]: <HeloOimM> methane mentioneedddd
+[13:38:40] [Server thread/INFO]: <HeloOimM> the life science test had methane ...
+[13:38:45] [Server thread/INFO]: <HeloOimM> it had u
+[13:38:52] [Server thread/INFO]: <HeloOimM> ur so popular
+[13:39:06] [Server thread/INFO]: <HeloOimM> where do i get sandstone
+[13:40:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2403ms or 48 ticks behind
+[13:41:12] [Server thread/INFO]: <HeloOimM> umm i accidentally changed the language
+[13:41:16] [Server thread/INFO]: <HeloOimM> and i forgot the settings
+[13:41:22] [Server thread/INFO]: <HeloOimM> i dont know the settings
+[13:41:31] [Server thread/INFO]: <HeloOimM> im just messing
+[13:41:39] [Server thread/INFO]: <HeloOimM> im just messing aaround and it changed it
+[13:41:56] [Server thread/INFO]: <HeloOimM> so like what i do
+[13:42:02] [Server thread/INFO]: <HeloOimM> do i learn the language
+[13:42:10] [Server thread/INFO]: <HeloOimM> idk
+[13:42:20] [Server thread/INFO]: <HeloOimM> chinese i think
+[13:42:28] [Server thread/INFO]: <HeloOimM> so like what
+[13:42:49] [Server thread/INFO]: <HeloOimM> im doomed
+[13:43:04] [Server thread/INFO]: * FlimFlamSlammer a
+[13:43:12] [Server thread/INFO]: <HeloOimM> what
+[13:43:16] [Server thread/INFO]: Unknown or incomplete command, see below for error
+[13:43:16] [Server thread/INFO]: what<--[HERE]
+[13:43:25] [Server thread/INFO]: <HeloOimM> what
+[13:43:34] [Server thread/INFO]: <HeloOimM> bro i dont know chinese
+[13:43:36] [Server thread/INFO]: <HeloOimM> help me
+[13:43:49] [Server thread/INFO]: <HeloOimM> bang help me with chinese
+[13:44:59] [Server thread/INFO]: <HeloOimM> mass murder
+[13:45:28] [Server thread/INFO]: <HeloOimM> imma do flashcards really quick
+[13:45:51] [Server thread/INFO]: <HeloOimM> oh thats the easiest language they said
+[13:47:05] [Server thread/INFO]: <HeloOimM> sleep
+[13:47:47] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[13:47:47] [Server thread/INFO]: FlimFlamSlammer left the game
+[13:47:50] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:52705] logged in with entity id 30915 at (4001.7132487501162, 64.0, 8190.300000011921)
+[13:47:50] [Server thread/INFO]: FlimFlamSlammer joined the game
+[13:48:43] [Server thread/INFO]: <FlimFlamSlammer> a
+[13:52:45] [Server thread/INFO]: DarkeryTheWawa[/127.0.0.1:52746] logged in with entity id 34182 at (4002.6178076411525, 74.0, 8184.486492682122)
+[13:52:45] [Server thread/INFO]: DarkeryTheWawa joined the game
+[13:58:49] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[13:59:00] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[13:59:00] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[13:59:00] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[13:59:01] [Server thread/WARN]: FlimFlamSlammer moved wrongly!
+[14:00:18] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
+[14:00:18] [Server thread/INFO]: banggivealokbang left the game
+[14:00:21] [Server thread/INFO]: banggivealokbang[/127.0.0.1:52794] logged in with entity id 37717 at (3977.1348846549204, 66.0, 8197.699999988079)
+[14:00:21] [Server thread/INFO]: banggivealokbang joined the game
+[14:08:26] [Server thread/WARN]: DarkeryTheWawa moved wrongly!
+[14:09:05] [Server thread/INFO]: <HeloOimM> ban
+[14:12:00] [Server thread/INFO]: DarkeryTheWawa was slain by FlimFlamSlammer
+[14:13:04] [Server thread/INFO]: DarkeryTheWawa was slain by FlimFlamSlammer
+[14:13:04] [Server thread/INFO]: DarkeryTheWawa lost connection: Disconnected
+[14:13:04] [Server thread/INFO]: DarkeryTheWawa left the game
+[14:17:08] [Server thread/INFO]: <HeloOimM> ok i just finished the flashcards
+[14:17:17] [Server thread/INFO]: <HeloOimM> that took me 45 min
+[14:17:25] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
+[14:17:25] [Server thread/INFO]: banggivealokbang left the game
+[14:17:28] [Server thread/INFO]: banggivealokbang[/127.0.0.1:52881] logged in with entity id 40755 at (4002.699999988079, 64.0, 8187.599573012401)
+[14:17:28] [Server thread/INFO]: banggivealokbang joined the game
+[14:17:33] [Server thread/INFO]: <HeloOimM> hey help me change the language
+[14:17:55] [Server thread/INFO]: <HeloOimM> idk where the language is
+[14:18:15] [Server thread/INFO]: <HeloOimM> also what just happened
+[14:18:40] [Server thread/INFO]: <HeloOimM> why is that robert fault
+[14:19:19] [Server thread/INFO]: HeloOimM fell from a high place
+[14:19:28] [Server thread/INFO]: <HeloOimM> fell
+[14:19:55] [Server thread/INFO]: <HeloOimM> HeloOimM wa takai sho ka ra o chi ta it said
+[14:20:35] [Server thread/INFO]: <HeloOimM> i need sandstone
+[14:21:15] [Server thread/INFO]: <HeloOimM> tung
+[14:21:35] [Server thread/INFO]: <HeloOimM> expensive llama
+[14:21:51] [Server thread/INFO]: <HeloOimM> also i dont where the language setting is
+[14:22:07] [Server thread/INFO]: <HeloOimM> time to learn a language ig
+[14:22:24] [Server thread/INFO]: <HeloOimM> heeyyy
+[14:22:48] [Server thread/INFO]: <HeloOimM> bro how do i type chinese characters
+[14:23:14] [Server thread/INFO]: <HeloOimM> i cant change it because how to type chinese
+[14:23:55] [Server thread/INFO]: <HeloOimM> BRO I CANT TYPE CHINESE
+[14:24:04] [Server thread/INFO]: <FlimFlamSlammer> wong cai wong cai
+[14:24:06] [Server thread/INFO]: <HeloOimM> im screwedddd
+[14:24:11] [Server thread/INFO]: <HeloOimM> the characters
+[14:24:22] [Server thread/INFO]: <FlimFlamSlammer> king kong king kong
+[14:24:32] [Server thread/INFO]: <FlimFlamSlammer> ≠
+[14:24:52] [Server thread/INFO]: <FlimFlamSlammer> ≥
+[14:24:56] [Server thread/INFO]: <HeloOimM> what is thatt
+[14:24:59] [Server thread/INFO]: <FlimFlamSlammer> x ≥ y ≥ z
+[14:25:05] [Server thread/INFO]: <HeloOimM> ur racist
+[14:25:21] [Server thread/INFO]: <FlimFlamSlammer> ©
+[14:25:27] [Server thread/INFO]: <HeloOimM> copyright is not chinese
+[14:25:41] [Server thread/INFO]: <FlimFlamSlammer> göngöng
+[14:25:49] [Server thread/INFO]: <HeloOimM> barking is not chinese
+[14:25:55] [Server thread/INFO]: <FlimFlamSlammer> →←
+[14:26:01] [Server thread/INFO]: <FlimFlamSlammer> —
+[14:26:40] [Server thread/INFO]: <FlimFlamSlammer> —-—-—-—-—-—-—-—-—-—-—-—-—-—-—-
+[14:27:02] [Server thread/INFO]: <HeloOimM> thats not gonna happen after GTA 6
+[14:27:13] [Server thread/INFO]: <FlimFlamSlammer> ._.._..
+[14:27:23] [Server thread/INFO]: <HeloOimM> hey stop being racist
+[14:27:43] [Server thread/INFO]: <FlimFlamSlammer> Σ
+[14:27:44] [Server thread/INFO]: <FlimFlamSlammer> ΣΣΣΣΣΣΣΣΣΣΣΣΣΣ
+[14:27:46] [Server thread/INFO]: <FlimFlamSlammer> ΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣΣvv
+[14:27:51] [Server thread/INFO]: <HeloOimM> wait i just realize my language is not chinese
+[14:27:56] [Server thread/INFO]: <FlimFlamSlammer> ☠️☠️☠️☠️☠️☠️☠️☠️☠️☠️
+[14:28:02] [Server thread/INFO]: <HeloOimM> its the other one
+[14:28:14] [Server thread/INFO]: <FlimFlamSlammer> ☠☠☠
+[14:28:48] [Server thread/INFO]: <FlimFlamSlammer> 👦
+[14:28:53] [Server thread/INFO]: <HeloOimM> help meeee
+[14:28:55] [Server thread/INFO]: <FlimFlamSlammer> 👦👦👦👦👦👦👦👦👦👦👦👦👦
+[14:29:03] [Server thread/INFO]: <FlimFlamSlammer> ගගගග
+[14:29:04] [Server thread/INFO]: <HeloOimM> wwwwwww
+[14:29:23] [Server thread/INFO]: <FlimFlamSlammer> ⾥
+[14:29:52] [Server thread/INFO]: <FlimFlamSlammer> 왕
+[14:30:06] [Server thread/INFO]: <FlimFlamSlammer> 닍
+[14:30:50] [Server thread/INFO]: <FlimFlamSlammer> ᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵᰵ
+[14:34:11] [Server thread/INFO]: <HeloOimM> do not laught
+[14:34:15] [Server thread/INFO]: <HeloOimM> ur hating
+[14:35:32] [Server thread/INFO]: <HeloOimM> also the avoe thing is actually morse code
+[14:35:50] [Server thread/WARN]: banggivealokbang moved too quickly! -0.18810596756242148,7.003016261509046,7.154878845030453
+[14:35:50] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5024ms or 100 ticks behind
+[14:37:26] [Server thread/INFO]: FlimFlamSlammer lost connection: Timed out
+[14:37:26] [Server thread/INFO]: FlimFlamSlammer left the game
+[14:38:26] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:53007] logged in with entity id 50275 at (3973.4506882984515, 68.84375002384186, 8232.3017578125)
+[14:38:26] [Server thread/INFO]: FlimFlamSlammer joined the game
+[14:39:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3318ms or 66 ticks behind
+[14:39:41] [Server thread/WARN]: banggivealokbang moved too quickly! -9.493694950126951,2.823240724935758,-2.4988881564099756
+[14:39:41] [Server thread/WARN]: FlimFlamSlammer moved too quickly! -5.294482721408713,-0.47557591178630787,8.608890873139899
+[14:39:51] [Server thread/WARN]: banggivealokbang moved too quickly! -9.433915167398254,-2.73359645880916,2.453247991304579
+[14:39:51] [Server thread/WARN]: FlimFlamSlammer moved too quickly! 5.412719293363807,0.07544406518948676,-8.464678305937923
+[14:40:10] [Server thread/WARN]: banggivealokbang moved too quickly! -10.07340935582522,0.2356047497010394,0.13881811042074332
+[14:40:18] [Server thread/INFO]: HeloOimM lost connection: Disconnected
+[14:40:18] [Server thread/INFO]: HeloOimM left the game
+[14:40:19] [Server thread/WARN]: banggivealokbang moved too quickly! -8.64510541412534,1.2478510996325411,-5.2170502125341045
+[14:40:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 43331ms or 866 ticks behind
+[14:40:30] [Server thread/INFO]: HeloOimM[/127.0.0.1:53033] logged in with entity id 51319 at (3998.971293762889, 80.0, 8188.198052734398)
+[14:40:30] [Server thread/INFO]: HeloOimM joined the game
+[14:41:04] [Server thread/INFO]: FlimFlamSlammer lost connection: Timed out
+[14:41:04] [Server thread/INFO]: FlimFlamSlammer left the game
+[14:41:13] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:53057] logged in with entity id 51506 at (3962.609436551095, 78.0, 8180.720707776582)
+[14:41:13] [Server thread/INFO]: FlimFlamSlammer joined the game
+[14:43:28] [Server thread/INFO]: FlimFlamSlammer lost connection: Timed out
+[14:43:28] [Server thread/INFO]: FlimFlamSlammer left the game
+[14:43:37] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:53089] logged in with entity id 51826 at (3963.213685181335, 77.0, 8167.687537646873)
+[14:43:37] [Server thread/INFO]: FlimFlamSlammer joined the game
+[14:44:05] [Server thread/INFO]: <HeloOimM> u have smooth sandstone
+[14:44:10] [Server thread/INFO]: <HeloOimM> also why u keep rejoining
+[14:44:17] [Server thread/INFO]: <FlimFlamSlammer> wifi suck
+[14:45:11] [Server thread/INFO]: <HeloOimM> what u think about my house
+[14:49:38] [Server thread/INFO]: <HeloOimM> what
+[14:49:43] [Server thread/INFO]: <HeloOimM> i just renovating
+[14:51:29] [Server thread/INFO]: <HeloOimM> bro get karma
+[14:51:54] [Server thread/INFO]: <HeloOimM> he burn it
+[14:52:26] [Server thread/INFO]: HeloOimM burned to death
+[14:52:34] [Server thread/INFO]: <HeloOimM> oh rob
+[14:52:38] [Server thread/INFO]: <HeloOimM> pay the price
+[14:53:00] [Server thread/INFO]: <HeloOimM> for what
+[14:53:12] [Server thread/INFO]: <HeloOimM> also what u think of my house
+[14:53:23] [Server thread/INFO]: <HeloOimM> i added pillars
+[14:53:50] [Server thread/INFO]: <HeloOimM> i should add like a floating island on top
+[14:57:04] [Server thread/INFO]: FlimFlamSlammer was slain by HeloOimM
+[14:57:08] [Server thread/INFO]: <HeloOimM> oh no
+[14:57:20] [Server thread/INFO]: <HeloOimM> im 1 heart
+[14:57:48] [Server thread/INFO]: <HeloOimM> sunhat mike = ???
+[14:57:51] [Server thread/INFO]: <HeloOimM> ye
+[14:59:12] [Server thread/INFO]: <HeloOimM> when does it stop becoming ur property
+[14:59:24] [Server thread/INFO]: <HeloOimM> answer the question
+[15:00:01] [Server thread/INFO]: <HeloOimM> can i claim underground property
+[15:00:24] [Server thread/INFO]: <HeloOimM> idk
+[15:00:43] [Server thread/INFO]: <HeloOimM> also should i add another entrance?
+[15:01:55] [Server thread/INFO]: <HeloOimM> can u be good at parkour
+[15:03:01] [Server thread/INFO]: <HeloOimM> let me change the language
+[15:04:46] [Server thread/INFO]: <HeloOimM> slept
+[15:04:50] [Server thread/INFO]: FlimFlamSlammer lost connection: Disconnected
+[15:04:50] [Server thread/INFO]: FlimFlamSlammer left the game
+[15:04:55] [Server thread/INFO]: FlimFlamSlammer[/127.0.0.1:53231] logged in with entity id 60465 at (4018.4221622082714, 64.0, 8201.698734806812)
+[15:04:55] [Server thread/INFO]: FlimFlamSlammer joined the game
+[15:05:02] [Server thread/INFO]: <HeloOimM> also i add new sign
+[15:06:28] [Server thread/INFO]: banggivealokbang lost connection: Disconnected
+[15:06:28] [Server thread/INFO]: banggivealokbang left the game
+[15:06:54] [Server thread/INFO]: <HeloOimM> opies t base
+[15:07:08] [Server thread/INFO]: <HeloOimM> most op base
+[15:07:16] [Server thread/INFO]: <HeloOimM> u cannot find me
+[15:07:33] [Server thread/INFO]: <HeloOimM> haahahaha
+[15:08:32] [Server thread/INFO]: <HeloOimM> im up
+[15:09:35] [Server thread/INFO]: <HeloOimM> heyy
+[15:10:19] [Server thread/INFO]: <HeloOimM> i wanna get adventure time
+[15:10:28] [Server thread/INFO]: <HeloOimM> why not use nether
+[15:10:36] [Server thread/INFO]: <HeloOimM> or boats
+[15:11:00] [Server thread/INFO]: <HeloOimM> we should be riding happy ghasts right now
+[15:11:11] [Server thread/INFO]: <HeloOimM> if the update is out
+[15:11:33] [Server thread/INFO]: <HeloOimM> its literally elytra
+[15:11:43] [Server thread/INFO]: <HeloOimM> the what
+[15:11:48] [Server thread/INFO]: <HeloOimM> its not out
+[15:11:56] [Server thread/INFO]: <HeloOimM> u place it
+[15:12:00] [Server thread/INFO]: <HeloOimM> and give snowballs
+[15:12:41] [Server thread/INFO]: <HeloOimM> wher
+[15:12:49] [Server thread/INFO]: <HeloOimM> ok
+[15:13:09] [Server thread/INFO]: <HeloOimM> i think yes
+[15:14:11] [Server thread/INFO]: <HeloOimM> u break the railway?
+[15:14:16] [Server thread/INFO]: <HeloOimM> also i forgot compass
+[15:15:15] [Server thread/INFO]: <HeloOimM> shi hong shi hong shi hong shi hong
+[15:16:25] [Server thread/INFO]: <HeloOimM> wth is that
+[15:17:07] [Server thread/INFO]: <HeloOimM> human torture
+[15:17:34] [Server thread/INFO]: <HeloOimM> sleep
+[15:18:22] [Server thread/INFO]: <HeloOimM> what is tha t background
+[15:18:24] [Server thread/INFO]: <HeloOimM> noise
+[15:18:48] [Server thread/INFO]: <HeloOimM> where are we going
+[15:19:09] [Server thread/INFO]: <HeloOimM> kay kyuu is mad at u
+[15:19:28] [Server thread/INFO]: <HeloOimM> typing
+[15:19:49] [Server thread/INFO]: <HeloOimM> kay kyuu is nicho
+[15:20:01] [Server thread/INFO]: <HeloOimM> idk
+[15:20:11] [Server thread/INFO]: <HeloOimM> omg
+[15:20:16] [Server thread/INFO]: <HeloOimM> 1 move and im dead
+[15:20:31] [Server thread/INFO]: <HeloOimM> 1 sune and im dead
+[15:20:41] [Server thread/INFO]: <HeloOimM> zun\
+[15:20:49] [Server thread/INFO]: <HeloOimM> cuz im typing
+[15:21:04] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved too quickly! 5.9979256199444535,0.0,8.287070066605338
+[15:21:04] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved too quickly! 6.199538202106396,0.0,8.630695133381778
+[15:21:04] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved too quickly! 6.400169271479172,0.0,8.97505949762035
+[15:21:04] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved too quickly! 6.599893416903797,0.0,9.320102089260217
+[15:21:04] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved too quickly! 6.798781128547944,0.0,9.665766101227746
+[15:21:04] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved too quickly! 6.9968992096341935,0.0,10.011998563140878
+[15:21:04] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved too quickly! 7.194307777474478,0.0,10.3587517904798
+[15:23:33] [Server thread/INFO]: <HeloOimM> kanton
+[15:25:06] [Server thread/INFO]: <HeloOimM> to where
+[15:25:50] [Server thread/INFO]: <HeloOimM> i dont have lead
+[15:25:55] [Server thread/INFO]: <HeloOimM> no
+[15:26:23] [Server thread/INFO]: <HeloOimM> u see so far
+[15:29:19] [Server thread/INFO]: <HeloOimM> how to heal horse
+[15:29:40] [Server thread/INFO]: <HeloOimM> mes
+[15:29:52] [Server thread/INFO]: <HeloOimM> no
+[15:30:09] [Server thread/INFO]: <HeloOimM> wheres the lead
+[15:30:13] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved wrongly! 0.25429622988622214
+[15:30:13] [Server thread/WARN]: Spruce Boat (vehicle of FlimFlamSlammer) moved wrongly! 0.6221386145089127
+[15:30:15] [Server thread/INFO]: <HeloOimM> oh nvm
+[15:31:39] [Server thread/INFO]: <HeloOimM> ur vocal chords is broken
+[15:31:48] [Server thread/INFO]: <HeloOimM> Vocal
+[15:32:01] [Server thread/INFO]: <HeloOimM> oimm
+[15:33:16] [Server thread/INFO]: <HeloOimM> i have like explored the ocean
+[15:33:23] [Server thread/INFO]: <HeloOimM> not the land though
+[15:33:42] [Server thread/INFO]: <HeloOimM> u have the compas?
+[15:34:03] [Server thread/INFO]: <HeloOimM> mamamimemo
+[15:34:59] [Server thread/INFO]: <HeloOimM> so like how u deal with night
+[15:36:32] [Server thread/INFO]: <HeloOimM> why
+[15:37:17] [Server thread/INFO]: <HeloOimM> my shield broke
+[15:37:54] [Server thread/INFO]: <HeloOimM> bruh
+[15:38:05] [Server thread/INFO]: <HeloOimM> wwhy u need turtle
+[15:38:23] [Server thread/INFO]: <HeloOimM> also leads is going to be nerf
+[15:38:35] [Server thread/INFO]: <HeloOimM> for elytra
+[15:39:00] [Server thread/INFO]: <HeloOimM> is this different
+[15:39:41] [Server thread/INFO]: <HeloOimM> no bed
+[15:39:58] [Server thread/INFO]: <HeloOimM> but tt my respawn pointtt
+[15:41:16] [Server thread/INFO]: <HeloOimM> where ar u
+[15:44:32] [Server thread/INFO]: <HeloOimM> loveee
+[15:45:35] [Server thread/INFO]: <HeloOimM> saddle
+[15:45:47] [Server thread/INFO]: <HeloOimM> village
+[15:46:24] [Server thread/INFO]: <HeloOimM> so ur gonna leave that horse
+[15:46:46] [Server thread/INFO]: <HeloOimM> NOOOOOOOOOOOOOOOOOO
+[15:46:59] [Server thread/INFO]: <HeloOimM> ur horse felt betrayed
+[15:47:22] [Server thread/INFO]: <HeloOimM> he just gonna rot there
+[15:48:01] [Server thread/INFO]: <HeloOimM> also i found lectern
+[15:48:08] [Server thread/INFO]: <HeloOimM> good for speech
+[15:49:39] [Server thread/INFO]: <HeloOimM> im crying
+[15:49:46] [Server thread/INFO]: <HeloOimM> also big bamboooooo
+[15:50:04] [Server thread/INFO]: <HeloOimM> also why u need turtle
+[15:50:11] [Server thread/INFO]: <HeloOimM> thats useless
+[15:50:25] [Server thread/INFO]: <HeloOimM> just make potions bruh
+[15:51:06] [Server thread/INFO]: <HeloOimM> sleep
+[15:51:12] [Server thread/INFO]: <HeloOimM> no
+[15:51:16] [Server thread/INFO]: <HeloOimM> im near the turtle
+[15:51:56] [Server thread/INFO]: <HeloOimM> twhere are u
+[15:52:13] [Server thread/INFO]: <HeloOimM> ur betraying the baby
+[15:52:18] [Server thread/INFO]: <HeloOimM> ye
+[15:53:31] [Server thread/INFO]: <HeloOimM> stoppppp
+[15:53:46] [Server thread/INFO]: <HeloOimM> ur overpopulating horses
+[15:54:48] [Server thread/INFO]: <HeloOimM> theres no sugar cane her
+[15:55:25] [Server thread/INFO]: <HeloOimM> no
+[15:55:32] [Server thread/INFO]: <HeloOimM> i dont bring it
+[15:55:36] [Server thread/INFO]: <HeloOimM> its golden
+[15:56:00] [Server thread/INFO]: <HeloOimM> brown egg
+[15:56:41] [Server thread/INFO]: <HeloOimM> nocase tetris cooking smth
+[15:57:03] [Server thread/INFO]: <HeloOimM> sunhat
+[15:57:11] [Server thread/INFO]: <HeloOimM> what is a sunhat variation
+[15:57:21] [Server thread/INFO]: <HeloOimM> another one
+[15:57:42] [Server thread/INFO]: <HeloOimM> waterhat hatwater sunhate
+[15:58:00] [Server thread/INFO]: <HeloOimM> also im xraying the leaves
+[15:58:42] [Server thread/INFO]: <HeloOimM> no
+[15:59:25] [Server thread/INFO]: <HeloOimM> i have 1
+[15:59:32] [Server thread/INFO]: <HeloOimM> i got it
+[15:59:47] [Server thread/INFO]: <HeloOimM> do wolves tp
+[16:00:12] [Server thread/INFO]: <HeloOimM> where are uw
+[16:00:48] [Server thread/INFO]: <HeloOimM> im near the turtle
+[16:03:38] [Server thread/INFO]: <HeloOimM> what about the wolv
+[16:03:51] [Server thread/INFO]: <HeloOimM> u sure
+[16:04:03] [Server thread/INFO]: <HeloOimM> its not tp
+[16:04:34] [Server thread/INFO]: <HeloOimM> where we going
+[16:04:58] [Server thread/WARN]: Oak Boat (vehicle of FlimFlamSlammer) moved wrongly! 0.35811287252590773
+[16:04:58] [Server thread/WARN]: Oak Boat (vehicle of FlimFlamSlammer) moved wrongly! 0.4962809061576081
+[16:04:58] [Server thread/WARN]: Oak Boat (vehicle of FlimFlamSlammer) moved wrongly! 0.6567116696955964
+[16:04:58] [Server thread/WARN]: Oak Boat (vehicle of FlimFlamSlammer) moved wrongly! 0.25158878864704093
+[16:04:58] [Server thread/WARN]: Oak Boat (vehicle of FlimFlamSlammer) moved wrongly! 0.2665796524911457
+[16:05:20] [Server thread/INFO]: <HeloOimM> where the wolf
+[16:05:47] [Server thread/INFO]: <HeloOimM> turtle hurt
+[16:07:34] [Server thread/INFO]: <HeloOimM> runn
+[16:08:23] [Server thread/INFO]: <HeloOimM> wait
+[16:08:28] [Server thread/INFO]: HeloOimM lost connection: Disconnected
+[16:08:28] [Server thread/INFO]: HeloOimM left the game
+[16:09:02] [Server thread/INFO]: HeloOimM[/127.0.0.1:53666] logged in with entity id 90438 at (3020.888935293112, 80.84375002384186, 6169.0124063630055)
+[16:09:02] [Server thread/INFO]: HeloOimM joined the game
+[16:09:53] [Server thread/INFO]: <HeloOimM> the lead broke
+[16:10:32] [Server thread/INFO]: <HeloOimM> noooo
+[16:10:36] [Server thread/INFO]: <HeloOimM> u killed the horse
+[16:11:30] [Server thread/INFO]: <HeloOimM> hek
+[16:11:39] [Server thread/INFO]: <HeloOimM> where u
+[16:12:09] [Server thread/INFO]: <HeloOimM> i cant jumpw
+[16:12:43] [Server thread/INFO]: <HeloOimM> u betrayed the turtle
+[16:12:54] [Server thread/INFO]: <HeloOimM> but u killed the other one
+[16:13:39] [Server thread/INFO]: <HeloOimM> efficiency 4 shovel
+[16:14:21] [Server thread/INFO]: <HeloOimM> no
+[16:14:58] [Server thread/INFO]: <HeloOimM> COME ONE
+[16:15:08] [Server thread/INFO]: <HeloOimM> so i just betray this one
+[16:15:51] [Server thread/INFO]: <HeloOimM> ye
+[16:16:04] [Server thread/INFO]: <HeloOimM> ye
+[16:17:57] [Server thread/INFO]: <HeloOimM> bro tryna obby
+[16:20:05] [Server thread/INFO]: <HeloOimM> wheres thep hanton
+[16:20:44] [Server thread/INFO]: <HeloOimM> also wheres the wolf
+[16:23:02] [Server thread/INFO]: <HeloOimM> no it chasing skeleton
+[16:24:17] [Server thread/INFO]: <HeloOimM> WHEER
+[16:24:32] [Server thread/INFO]: <HeloOimM> come on
+[16:25:14] [Server thread/INFO]: <HeloOimM> sleepw
+[16:26:03] [Server thread/INFO]: <HeloOimM> let go
+[16:29:39] [Server thread/INFO]: <HeloOimM> here
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 2.34988511645588
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 1.8643043444963041
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 2.34988511645588
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 1.86323726626415
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 1.376060258857251
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 0.9016429691009762
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 0.5051712300955842
+[16:31:49] [Server thread/WARN]: Horse (vehicle of FlimFlamSlammer) moved wrongly! 0.25397244315536227
+[16:33:50] [Server thread/INFO]: <HeloOimM> i gtg
+[16:34:01] [Server thread/INFO]: <HeloOimM> so what to do with server
+[16:34:12] [Server thread/INFO]: <HeloOimM> ctrl+c
+[16:34:20] [Server thread/INFO]: Stopping the server
+[16:34:20] [Server thread/INFO]: Stopping server
+[16:34:20] [Server thread/INFO]: Saving players
+[16:34:20] [Server thread/INFO]: FlimFlamSlammer lost connection: Server closed
+[16:34:20] [Server thread/INFO]: FlimFlamSlammer left the game
+[16:34:20] [Server thread/INFO]: Saving worlds
+[16:34:20] [Server thread/INFO]: ServerLevel[world]/minecraft:overworld: waiting for 4651 chunks to unload
+[16:34:21] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[16:34:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[16:34:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[16:34:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:34:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:34:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:34:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:34:22] [C2ME Storage #3/INFO]: Storage thread Thread[#78,C2ME Storage #3,8,main] stopped
+[16:34:22] [C2ME Storage #2/INFO]: Storage thread Thread[#77,C2ME Storage #2,8,main] stopped
+[16:34:22] [C2ME Storage #1/INFO]: Storage thread Thread[#76,C2ME Storage #1,8,main] stopped
+[16:34:22] [C2ME Storage #5/INFO]: Storage thread Thread[#82,C2ME Storage #5,8,main] stopped
+[16:34:22] [C2ME Storage #4/INFO]: Storage thread Thread[#81,C2ME Storage #4,8,main] stopped
+[16:34:22] [C2ME Storage #6/INFO]: Storage thread Thread[#83,C2ME Storage #6,8,main] stopped
+[16:34:22] [C2ME Storage #9/INFO]: Storage thread Thread[#87,C2ME Storage #9,8,main] stopped
+[16:34:22] [C2ME Storage #8/INFO]: Storage thread Thread[#86,C2ME Storage #8,8,main] stopped
+[16:34:22] [C2ME Storage #7/INFO]: Storage thread Thread[#85,C2ME Storage #7,8,main] stopped

@@ -16,6 +16,7 @@
       "minecraft:deep_cold_ocean": "2025-02-18 17:03:00 +0700",
       "minecraft:ice_spikes": "2025-02-18 19:35:19 +0700",
       "minecraft:frozen_ocean": "2025-02-18 13:06:51 +0700",
+      "minecraft:eroded_badlands": "2025-05-08 16:17:13 +0700",
       "minecraft:desert": "2025-03-25 10:09:19 +0700",
       "minecraft:frozen_river": "2025-02-18 13:05:36 +0700",
       "minecraft:deep_frozen_ocean": "2025-02-18 17:00:46 +0700",
@@ -32,6 +33,7 @@
       "minecraft:warm_ocean": "2025-03-25 10:01:47 +0700",
       "minecraft:badlands": "2025-05-06 17:32:45 +0700",
       "minecraft:flower_forest": "2025-03-05 09:25:02 +0700",
+      "minecraft:savanna_plateau": "2025-05-08 16:12:50 +0700",
       "minecraft:beach": "2025-02-18 13:07:37 +0700",
       "minecraft:dark_forest": "2025-03-20 11:31:08 +0700",
       "minecraft:mangrove_swamp": "2025-03-25 10:11:55 +0700",
@@ -2111,6 +2113,7 @@
       "minecraft:chicken": "2025-02-21 19:04:55 +0700",
       "minecraft:pig": "2025-03-04 14:17:12 +0700",
       "minecraft:wolf": "2025-02-18 20:31:33 +0700",
+      "minecraft:horse": "2025-05-08 15:45:11 +0700",
       "minecraft:turtle": "2025-02-19 17:23:52 +0700",
       "minecraft:sheep": "2025-02-21 12:42:12 +0700",
       "minecraft:bee": "2025-02-19 22:13:50 +0700",
@@ -5791,6 +5794,24 @@
   "minecraft:recipes/misc/slime_ball": {
     "criteria": {
       "has_slime_block": "2025-05-06 19:32:42 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-05-08 16:06:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-05-08 16:06:49 +0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-05-08 16:06:49 +0700"
     },
     "done": true
   },
